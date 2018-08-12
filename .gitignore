@@ -1,11 +1,14 @@
 # Add any directories, files, or patterns you don't want to be tracked by version control
 
-# database dump files
+# Do not add database dump files
 **.dmp
 
-# Vagrant
+# Do not add Vagrant config files
 **.vagrant
 
+# Do not add source files
+sources/*
+!sources/README.md
 
 # Do not add .idea directory.
 .idea
