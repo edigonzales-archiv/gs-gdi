@@ -17,6 +17,8 @@ Der Datenbankdump (`pub.dmp`) muss im Verzeichnis liegen.
 * username: ddluser
 * password: ddluser
 
+Ein neuer Dump kann bei Bedarf jederzeit restored werden (siehe Befehl im Vagrantfile).
+
 ### Geoserver-Config-DB
 Für die Config-DB von Geoserver wird mit Vagrant eine PostgreSQL-Datenbank bereitgestellt. Im Verzeichnis `gsconfig-db`:
 
@@ -36,13 +38,33 @@ Sämtliche Tabellen werden von Geoserver (später) im `public`-Schema angelegt.
 
 ### Backup/Restore Config-DB
 
-### aaaa
+### Geoserver Docker Image
+Es wird ein Docker Image mit Geoserver und den dazugehörigen (Community) Modulen gebildet. Wegen eines Bugs, der nur im Master gefixed ist (web-resource module), wird der Master-Branch (zukünftig 2.14) verwendet. Das `sources`-Verzeichnis ist bis auf das `README.md` nicht in Github eingecheckt.
+
+```
+git clone https://github.com/geoserver/geoserver.git geoserver
+```
+
+```
+cd geoserver/src
+```
+
+```
+mvn clean install -DskipTests -Pweb-resource -Pjdbcstore
+```
+
+Im Dockerfile werde sowohl Geoserver wie die beiden Module in das Image kopiert.
 
 ```
 docker build -t edigonzales/geoserver .
 ```
-mvn clean install -DskipTests -Pweb-resource -Pjdbcstore
-mvn install -DskipTests -Pweb-resource
+
+TODO: sinnvolles leeres data_dir?
+```
+docker run -it --rm -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
+```
+
+TODO: Ablauf erstmalig?
 
 
 https://build.geoserver.org/geoserver/2.13.x/community-latest/geoserver-2.13-SNAPSHOT-jdbcstore-plugin.zip
