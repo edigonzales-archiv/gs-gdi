@@ -1,6 +1,6 @@
 FROM tomcat:8-jre8
 
-MAINTAINER Oscar Fonts <oscar.fonts@geomati.co>
+MAINTAINER Stefan Ziegler <stefan.ziegler.de@gmail.com>
 
 ENV GEOSERVER_VERSION 2.13.2
 ENV GEOSERVER_DATA_DIR /var/local/geoserver
@@ -16,6 +16,10 @@ RUN set -x \
 	&& apt-get install -yq ttf-mscorefonts-installer \
 	&& rm -rf /var/lib/apt/lists/*
 
+# SOGIS fonts
+ADD fonts/* /usr/share/fonts/truetype/
+RUN fc-cache -f && fc-list | sort
+
 # Native JAI & ImageIO
 RUN cd /usr/lib/jvm/java-8-openjdk-amd64 \
 	&& wget http://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64-jdk.bin \
@@ -30,23 +34,17 @@ RUN cd /usr/lib/jvm/java-8-openjdk-amd64 \
 	&& rm jai_imageio-1_1-lib-linux-amd64-jdk.bin INSTALL-jai_imageio *.txt
 
 # GeoServer
+RUN mkdir ${GEOSERVER_INSTALL_DIR}
+COPY geoserver.war ${GEOSERVER_INSTALL_DIR}
+
 ADD conf/geoserver.xml /usr/local/tomcat/conf/Catalina/localhost/geoserver.xml
 RUN mkdir ${GEOSERVER_DATA_DIR} \
-	&& mkdir ${GEOSERVER_INSTALL_DIR} \
 	&& cd ${GEOSERVER_INSTALL_DIR} \
-	#&& wget http://sourceforge.net/projects/geoserver/files/GeoServer/${GEOSERVER_VERSION}/geoserver-${GEOSERVER_VERSION}-war.zip \
-	&& wget https://build.geoserver.org/geoserver/2.13.x/geoserver-2.13.x-latest-war.zip \
-    && unzip geoserver-2.13.x-latest-war.zip \
 	&& unzip geoserver.war \
 	&& mv data/* ${GEOSERVER_DATA_DIR} \
 	&& rm -rf geoserver-${GEOSERVER_VERSION}-war.zip geoserver.war target *.txt
 
-# JDBCStore module
-RUN cd ${GEOSERVER_INSTALL_DIR}/WEB-INF/lib \
-    && wget https://build.geoserver.org/geoserver/2.13.x/community-latest/geoserver-2.13-SNAPSHOT-jdbcstore-plugin.zip  \
-    && unzip geoserver-2.13-SNAPSHOT-jdbcstore-plugin.zip \
-    && rm -rf geoserver-2.13-SNAPSHOT-jdbcstore-plugin.zip
-
+# Web resource module    
 COPY gs-web-resource-2.13-SNAPSHOT.jar ${GEOSERVER_INSTALL_DIR}/WEB-INF/lib
 
 # Enable CORS

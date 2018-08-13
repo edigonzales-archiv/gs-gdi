@@ -20,6 +20,7 @@ Der Datenbankdump (`pub.dmp`) muss im Verzeichnis liegen.
 Ein neuer Dump kann bei Bedarf jederzeit restored werden (siehe Befehl im Vagrantfile).
 
 ### Geoserver-Config-DB
+**NOT NEEDED AT THE MOMENT**
 Für die Config-DB von Geoserver wird mit Vagrant eine PostgreSQL-Datenbank bereitgestellt. Im Verzeichnis `gsconfig-db`:
 
 ```
@@ -39,21 +40,25 @@ Sämtliche Tabellen werden von Geoserver (später) im `public`-Schema angelegt.
 ### Backup/Restore Config-DB
 
 ### Geoserver Docker Image
-Es wird ein Docker Image mit Geoserver und den dazugehörigen (Community) Modulen gebildet. Wegen eines Bugs, der nur im Master gefixed ist (web-resource module), wird der Master-Branch (zukünftig 2.14) verwendet. Das `sources`-Verzeichnis ist bis auf das `README.md` nicht in Github eingecheckt.
+Es wird ein Docker Image mit Geoserver und den dazugehörigen (Community) Modulen gebildet. Das web-resource-Modul muss selber kompiliert werden (warum auch immer). Wegen eines Bugs, der nur im Master gefixed ist (web-resource module), wird der Master-Branch (zukünftig 2.14) verwendet. Das `sources`-Verzeichnis ist bis auf das `README.md` nicht in Github eingecheckt.
 
 ```
 git clone https://github.com/geoserver/geoserver.git geoserver
-```
-
-```
-cd geoserver/src
-```
-
-```
+cd geoserver
+git fetch origin
+git checkout -b 2.13.x remotes/origin/2.13.x
+cd src
 mvn clean install -DskipTests -Pweb-resource -Pjdbcstore
 ```
+(jdbcstore wird zur Zeit nicht verwendet)
 
-Im Dockerfile werde sowohl Geoserver wie die beiden Module in das Image kopiert.
+War und Jar müssen in das Dockerfile-Verzeichnis kopiert werden.
+```
+cp community/web-resource/target/gs-web-resource-2.13-SNAPSHOT.jar ../../../docker/geoserver/
+cp web/app/target/geoserver.war ../../../docker/geoserver/
+```
+
+Im Dockerfile werde sowohl Geoserver wie das web-resource-Modul in das Image kopiert.
 
 ```
 docker build -t edigonzales/geoserver .
@@ -61,10 +66,14 @@ docker build -t edigonzales/geoserver .
 
 TODO: sinnvolles leeres data_dir?
 ```
-docker run -it --rm -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
+docker run -it --rm --name geoserver -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
 ```
 
 TODO: Ablauf erstmalig?
+
+
+
+
 
 
 https://build.geoserver.org/geoserver/2.13.x/community-latest/geoserver-2.13-SNAPSHOT-jdbcstore-plugin.zip
@@ -91,3 +100,5 @@ sudo -u postgres psql -d postgres -c "ALTER DATABASE pub OWNER TO admin;"
 
 
 bash -c "clear && docker exec -it pub-db /bin/bash"
+
+mvn clean install -DskipTests -Pweb-resource
