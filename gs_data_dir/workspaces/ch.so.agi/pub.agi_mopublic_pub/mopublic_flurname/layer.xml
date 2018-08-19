@@ -1,0 +1,15 @@
+<layer>
+  <name>mopublic_flurname</name>
+  <id>LayerInfoImpl-7f7f08b6:165349cc6ba:-7fdf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4f6973ee:16552eb6f64:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7f7f08b6:165349cc6ba:-7fe0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

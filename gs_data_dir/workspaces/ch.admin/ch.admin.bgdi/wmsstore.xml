@@ -1,0 +1,20 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl-4f6973ee:16552eb6f64:-7fef</id>
+  <name>ch.admin.bgdi</name>
+  <description>ch.admin.bgdi</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-4f6973ee:16552eb6f64:-7fee</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <capabilitiesURL>http://wms.geo.admin.ch/?</capabilitiesURL>
+  <user>admin</user>
+  <password>crypt1:OMLElbW4xAbySPddgQ1eTQMGVzsRGv4D</password>
+  <maxConnections>6</maxConnections>
+  <readTimeout>20</readTimeout>
+  <connectTimeout>10</connectTimeout>
+</wmsStore>

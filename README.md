@@ -1,43 +1,34 @@
 # gs-gdi
 
-## Entwicklungsumgebung
+## Entwicklungsumgebung (Vagrant)
+Vagrant-Maschine mit:
 
-### Geodaten / Testdaten
-Eine PostgreSQL/PostGIS-Datenbank mit Daten, z.B. Pub-DB mit Vagrant bereitstellen. Im Verzeichnis `pub-db/`:
-
-```
-vagrant up
-```
-
-Der Datenbankdump (`pub.dmp`) muss im Verzeichnis liegen.
+- Pub-DB (Geodaten)
+- Config-DB ("AGDI" / Know your GDI)
+- QGIS 2.18 (qml -> sld)
 
 * hostname: 192.168.50.8
-* port: 5432
-* database: pub
+* db-port: 5432
+* ssh-port: 2028
+* database: pub / soconfig
 * username: ddluser
 * password: ddluser
 
-Ein neuer Dump kann bei Bedarf jederzeit restored werden (siehe Befehl im Vagrantfile).
-
-### Geoserver-Config-DB
-**NOT NEEDED AT THE MOMENT**
-Für die Config-DB von Geoserver wird mit Vagrant eine PostgreSQL-Datenbank bereitgestellt. Im Verzeichnis `gsconfig-db`:
+### Restore Pub-DB
 
 ```
-vagrant up
+sudo -u postgres pg_restore --role=postgres --exit-on-error -d pub /path/to/pub_geodb.rootso.org.dmp
 ```
 
-Im Gegensatz zur Geodaten-Test-DB sind ist die Rechteverwaltung in der Config-DB sehr einfach gehalten. Der `ddluser` darf alles mit den Daten machen.
+Restore berücksichtig im Gegensatz zur soconfig-DB die Rollen, dh. sämtliche Rollen müssen in der DB existieren. Diese wurde beim Provisionieren der Vagrant-Maschine bereits gemacht (`create_roles.sql`). Wenn neue Rollen dazukommen, müssen diese ebenfalls in der `create_roles.sql`-Datei vorhanden sein.
 
-Sämtliche Tabellen werden von Geoserver (später) im `public`-Schema angelegt.
+### Restore Config-DB
 
-* hostname: 192.168.50.7
-* port: 5432
-* database: gsconfig
-* username: ddluser
-* password: ddluser
+```
+sudo -u postgres pg_restore --no-owner --no-privileges --role=ddluser --exit-on-error -C -d postgres /path/to/soconfig_geodb.rootso.org.dmp
+```
 
-### Backup/Restore Config-DB
+Es wird nur ein `ddluser` benötigt (dem alles gehört). Die Datenbank wird beim Restoren angelegt.
 
 ### Geoserver Docker Image
 Es wird ein Docker Image mit Geoserver und den dazugehörigen (Community) Modulen gebildet. Das web-resource-Modul muss selber kompiliert werden (warum auch immer). Wegen eines Bugs, der nur im Master gefixed ist (web-resource module), wird der Master-Branch (zukünftig 2.14) verwendet. Das `sources`-Verzeichnis ist bis auf das `README.md` nicht in Github eingecheckt.
@@ -58,7 +49,7 @@ cp community/web-resource/target/gs-web-resource-2.13-SNAPSHOT.jar ../../../dock
 cp web/app/target/geoserver.war ../../../docker/geoserver/
 ```
 
-Im Dockerfile werde sowohl Geoserver wie das web-resource-Modul in das Image kopiert.
+Im Dockerfile werden sowohl Geoserver wie das web-resource-Modul in das Image kopiert.
 
 ```
 docker build -t edigonzales/geoserver .
@@ -71,34 +62,21 @@ docker run -it --rm --name geoserver -p 8080:8080 -v /Users/stefan/tmp/gs_data_d
 
 TODO: Ablauf erstmalig?
 
+## Offene Fragen
 
-
-
-
-
-https://build.geoserver.org/geoserver/2.13.x/community-latest/geoserver-2.13-SNAPSHOT-jdbcstore-plugin.zip
--v /path/to/local/data_dir:/var/local/geoserver
-docker run -it --rm -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
-
-docker run --rm --name gsconfig-db --rm -v /Users/stefan/tmp/gsconfig-db-data:/var/lib/postgresql/data -e POSTGRES_USER=ddluser -e POSTGRES_PASSWORD=ddluser -e POSTGRES_DB=gsconfig -p 5433:5432 -d mdillon/postgis
+### PropertyIsEqualTo-Problem
+```
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>typ</ogc:PropertyName>
+              <ogc:Literal>Sauerbrut</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+```
+versus
+```
+            <ogc:PropertyIsLike wildCard="%" singleChar="#" escape="!">
+              <ogc:PropertyName>typ</ogc:PropertyName>
+              <ogc:Literal>Sauerbrut%</ogc:Literal>
+            </ogc:PropertyIsLike>
 ```
 
-
-docker run -it --rm --name gsconfig-db --rm  -e POSTGRES_USER=ddluser -e POSTGRES_PASSWORD=ddluser -e POSTGRES_DB=gsconfig -p 5433:5432 -d mdillon/postgis
-
-
-docker run --rm --name gsconfig-db --rm -v /Users/stefan/tmp/gsconfig-db-data:/var/lib/postgresql/data -e POSTGRES_USER=ddluser -e POSTGRES_PASSWORD=ddluser -e POSTGRES_DB=gsconfig -p 5433:5432 -d mdillon/postgis
-
-
-docker run --rm --name pub-db --rm -v /Users/stefan/tmp/pub-db-data:/var/lib/postgresql/data -v /Users/stefan/tmp:/tmp:cached -e POSTGRES_USER=ddluser -e POSTGRES_PASSWORD=ddluser -e POSTGRES_DB=pub -p 5434:5432 -d mdillon/postgis
-docker exec -it --user postgres pub-db psql -d postgres -f /tmp/create_roles.sql
-docker exec -it --user postgres pub-db pg_restore --role=postgres --exit-on-error -d /tmp/pub.dmp 
-
-pg_restore --role=postgres --exit-on-error -d pub pub.dmp 
-sudo -u postgres psql -d postgres -c "ALTER DATABASE pub OWNER TO admin;"
-
-
-
-bash -c "clear && docker exec -it pub-db /bin/bash"
-
-mvn clean install -DskipTests -Pweb-resource
+Ersteres funktioniert nicht. Jedoch funktioniert es mit dem gleichen Layer mit einem anderen Attribut (`Jahr`). Mit anderen Layern und Strings scheint es auch zu funktionieren. Zudem wird ein Geometry-Cast-Error geworfen mit `typ`. Sieht aber soweit in der DB nicht schlecht aus (`ST_AsEWKT`). Speziell ist eher noch, dass es nur ein Feature gibt.

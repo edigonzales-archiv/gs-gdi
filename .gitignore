@@ -1,5 +1,9 @@
 # Add any directories, files, or patterns you don't want to be tracked by version control
 
+# Do not add sld/qml in specific folder
+qml2sld/*.sld
+qml2sld/*.qml
+
 # Do not add database dump files
 **.dmp
 

@@ -1,0 +1,15 @@
+<layer>
+  <name>ch.astra.ivs-nat-verlaeufe</name>
+  <id>LayerInfoImpl-4f6973ee:16552eb6f64:-7feb</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7f7f08b6:165349cc6ba:-7ffd</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl-4f6973ee:16552eb6f64:-7fec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
