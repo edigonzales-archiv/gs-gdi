@@ -39,13 +39,23 @@ cd geoserver
 git fetch origin
 git checkout -b 2.13.x remotes/origin/2.13.x
 cd src
-mvn clean install -DskipTests -Pweb-resource -Pjdbcstore
+mvn clean install -DskipTests -Pweb-resource -Pjdbcstore -Pimporter
 ```
 (jdbcstore wird zur Zeit nicht verwendet)
 
 War und Jar müssen in das Dockerfile-Verzeichnis kopiert werden.
 ```
 cp community/web-resource/target/gs-web-resource-2.13-SNAPSHOT.jar ../../../docker/geoserver/
+cp extension/importer/core/target/gs-importer-core-2.13-SNAPSHOT.jar ../../../docker/geoserver
+cp extension/importer/web/target/gs-importer-web-2.13-SNAPSHOT.jar ../../../docker/geoserver/
+cp extension/importer/rest/target/gs-importer-rest-2.13-SNAPSHOT.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/prettytime-1.0.8.Final.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/org.restlet.ext.fileupload-1.0.8.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/javacsv-2.0.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/gt-xsd-kml-19-SNAPSHOT.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/gt-csv-19-SNAPSHOT.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/commons-fileupload-1.3.3.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/commons-exec-1.3.jar ../../../docker/geoserver/
 cp web/app/target/geoserver.war ../../../docker/geoserver/
 ```
 

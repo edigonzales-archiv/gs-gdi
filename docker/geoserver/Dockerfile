@@ -44,8 +44,8 @@ RUN mkdir ${GEOSERVER_DATA_DIR} \
 	&& mv data/* ${GEOSERVER_DATA_DIR} \
 	&& rm -rf geoserver-${GEOSERVER_VERSION}-war.zip geoserver.war target *.txt
 
-# Web resource module    
-COPY gs-web-resource-2.13-SNAPSHOT.jar ${GEOSERVER_INSTALL_DIR}/WEB-INF/lib
+# GeoServer modules    
+COPY *.jar ${GEOSERVER_INSTALL_DIR}/WEB-INF/lib/
 
 # Enable CORS
 RUN sed -i '\:</web-app>:i\
