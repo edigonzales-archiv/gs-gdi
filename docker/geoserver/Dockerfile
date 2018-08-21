@@ -34,18 +34,26 @@ RUN cd /usr/lib/jvm/java-8-openjdk-amd64 \
 	&& rm jai_imageio-1_1-lib-linux-amd64-jdk.bin INSTALL-jai_imageio *.txt
 
 # GeoServer
-RUN mkdir ${GEOSERVER_INSTALL_DIR}
-COPY geoserver.war ${GEOSERVER_INSTALL_DIR}
-
 ADD conf/geoserver.xml /usr/local/tomcat/conf/Catalina/localhost/geoserver.xml
 RUN mkdir ${GEOSERVER_DATA_DIR} \
+	&& mkdir ${GEOSERVER_INSTALL_DIR} \
 	&& cd ${GEOSERVER_INSTALL_DIR} \
+	&& wget http://sourceforge.net/projects/geoserver/files/GeoServer/${GEOSERVER_VERSION}/geoserver-${GEOSERVER_VERSION}-war.zip \
+	&& unzip geoserver-${GEOSERVER_VERSION}-war.zip \
+    #&& wget https://build.geoserver.org/geoserver/2.13.x/geoserver-2.13.x-latest-war.zip \
+	#&& unzip geoserver-2.13.x-latest-war.zip \
 	&& unzip geoserver.war \
 	&& mv data/* ${GEOSERVER_DATA_DIR} \
 	&& rm -rf geoserver-${GEOSERVER_VERSION}-war.zip geoserver.war target *.txt
 
 # GeoServer modules    
-COPY *.jar ${GEOSERVER_INSTALL_DIR}/WEB-INF/lib/
+RUN cd ${GEOSERVER_INSTALL_DIR}/WEB-INF/lib \
+    && wget http://sourceforge.net/projects/geoserver/files/GeoServer/${GEOSERVER_VERSION}/extensions/geoserver-${GEOSERVER_VERSION}-importer-plugin.zip \
+    && unzip -o geoserver-${GEOSERVER_VERSION}-importer-plugin.zip \
+    && rm -rf geoserver-${GEOSERVER_VERSION}-importer-plugin.zip \
+    && wget http://sourceforge.net/projects/geoserver/files/GeoServer/${GEOSERVER_VERSION}/extensions/geoserver-${GEOSERVER_VERSION}-monitor-plugin.zip \
+    && unzip -o geoserver-${GEOSERVER_VERSION}-monitor-plugin.zip \
+    && rm -rf geoserver-${GEOSERVER_VERSION}-monitor-plugin.zip 
 
 # Enable CORS
 RUN sed -i '\:</web-app>:i\

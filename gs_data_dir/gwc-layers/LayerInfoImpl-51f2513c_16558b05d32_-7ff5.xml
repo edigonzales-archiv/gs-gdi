@@ -2,17 +2,17 @@
   <id>LayerInfoImpl-51f2513c:16558b05d32:-7ff5</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>ch.so.afu:avt_oev_netz_kb</name>
+  <name>ch.so.afu:gefahrenhinweiskarte_stfv.konsultationsbereich_eisenbahn</name>
   <mimeFormats>
-    <string>image/jpeg</string>
     <string>image/png</string>
+    <string>image/jpeg</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
-      <gridSetName>EPSG:4326</gridSetName>
+      <gridSetName>EPSG:900913</gridSetName>
     </gridSubset>
     <gridSubset>
-      <gridSetName>EPSG:900913</gridSetName>
+      <gridSetName>EPSG:4326</gridSetName>
     </gridSubset>
   </gridSubsets>
   <metaWidthHeight>
@@ -26,7 +26,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>ch.so.afu_avt_oev_netz_kb</defaultStyle>
+      <defaultStyle>ch.so.afu:ch.so.afu.gefahrenhinweiskarte_stfv.konsultationsbereich_eisenbahn</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>

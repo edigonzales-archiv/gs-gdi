@@ -9,6 +9,7 @@
   <abstract>Bienenstandorte. Ich bin der Layer-Abstract.</abstract>
   <keywords>
     <string>Bienenstandorte</string>
+    <string>bstnr\@vocabulary=search\;</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;CH1903+ / LV95&quot;, 
   GEOGCS[&quot;CH1903+&quot;, 

@@ -1,0 +1,15 @@
+<layer>
+  <name>gefahrenhinweiskarte_stfv.gasleitungen</name>
+  <id>LayerInfoImpl-51f2513c:16558b05d32:-7fe6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16d4201a:1655d8e959c:-7ff0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-51f2513c:16558b05d32:-7fe8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

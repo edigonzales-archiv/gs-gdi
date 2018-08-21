@@ -19,7 +19,7 @@
     <entry key="preparedStatements">true</entry>
     <entry key="database">pub</entry>
     <entry key="port">5432</entry>
-    <entry key="passwd">crypt1:TCXsjCi7GrXnytCds3RDLw==</entry>
+    <entry key="passwd">crypt1:lnKkY/NObYaaIT9Hc/PzPg==</entry>
     <entry key="min connections">1</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="host">192.168.50.8</entry>

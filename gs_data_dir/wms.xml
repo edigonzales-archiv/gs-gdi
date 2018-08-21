@@ -43,6 +43,7 @@
   <getFeatureInfoMimeTypeCheckingEnabled>false</getFeatureInfoMimeTypeCheckingEnabled>
   <getMapMimeTypeCheckingEnabled>true</getMapMimeTypeCheckingEnabled>
   <getMapMimeTypes>
+    <string>text/html; subtype=openlayers</string>
     <string>image/png; mode=8bit</string>
     <string>image/png</string>
     <string>image/jpeg</string>
