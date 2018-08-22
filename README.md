@@ -30,7 +30,7 @@ sudo -u postgres pg_restore --no-owner --no-privileges --role=ddluser --exit-on-
 
 Es wird nur ein `ddluser` benötigt (dem alles gehört). Die Datenbank wird beim Restoren angelegt.
 
-### Geoserver Docker Image
+### Geoserver Docker Image (Compile)
 Es wird ein Docker Image mit Geoserver und den dazugehörigen (Community) Modulen gebildet. Das web-resource-Modul muss selber kompiliert werden (warum auch immer). Wegen eines Bugs, der nur im Master gefixed ist (web-resource module), wird der Master-Branch (zukünftig 2.14) verwendet. Das `sources`-Verzeichnis ist bis auf das `README.md` nicht in Github eingecheckt.
 
 ```
@@ -52,8 +52,8 @@ cp extension/importer/rest/target/gs-importer-rest-2.13-SNAPSHOT.jar ../../../do
 cp web/app/target/geoserver/WEB-INF/lib/prettytime-1.0.8.Final.jar ../../../docker/geoserver/
 cp web/app/target/geoserver/WEB-INF/lib/org.restlet.ext.fileupload-1.0.8.jar ../../../docker/geoserver/
 cp web/app/target/geoserver/WEB-INF/lib/javacsv-2.0.jar ../../../docker/geoserver/
-cp web/app/target/geoserver/WEB-INF/lib/gt-xsd-kml-19-SNAPSHOT.jar ../../../docker/geoserver/
-cp web/app/target/geoserver/WEB-INF/lib/gt-csv-19-SNAPSHOT.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/gt-xsd-kml-19-*.jar ../../../docker/geoserver/
+cp web/app/target/geoserver/WEB-INF/lib/gt-csv-19-*.jar ../../../docker/geoserver/
 cp web/app/target/geoserver/WEB-INF/lib/commons-fileupload-1.3.3.jar ../../../docker/geoserver/
 cp web/app/target/geoserver/WEB-INF/lib/commons-exec-1.3.jar ../../../docker/geoserver/
 cp web/app/target/geoserver.war ../../../docker/geoserver/
@@ -68,9 +68,14 @@ docker build -t edigonzales/geoserver .
 TODO: sinnvolles leeres data_dir?
 ```
 docker run -it --rm --name geoserver -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
+docker run -it --rm --name geoserver -p 8080:8080 edigonzales/geoserver
 ```
 
 TODO: Ablauf erstmalig?
+
+### Geoserver Docker Image (Binary)
+
+
 
 ## Offene Fragen
 
