@@ -14,10 +14,19 @@ Vagrant-Maschine mit:
 * username: ddluser
 * password: ddluser
 
+### Copy Dumps
+```
+scp -v bjsvwzie@geoapp.verw.rootso.org:/opt/workspace/dbdump/soconfig_geodb.rootso.org.dmp .
+scp -v bjsvwzie@geoapp.verw.rootso.org:/opt/workspace/dbdump/pub_geodb.rootso.org.dmp .
+```
+
+
+
 ### Restore Pub-DB
 
 ```
 sudo -u postgres pg_restore --role=postgres --exit-on-error -d pub /path/to/pub_geodb.rootso.org.dmp
+sudo -u postgres pg_restore --role=postgres --exit-on-error --clean -C -d pub /path/to/pub_geodb.rootso.org.dmp
 ```
 
 Restore berücksichtig im Gegensatz zur soconfig-DB die Rollen, dh. sämtliche Rollen müssen in der DB existieren. Diese wurde beim Provisionieren der Vagrant-Maschine bereits gemacht (`create_roles.sql`). Wenn neue Rollen dazukommen, müssen diese ebenfalls in der `create_roles.sql`-Datei vorhanden sein.
