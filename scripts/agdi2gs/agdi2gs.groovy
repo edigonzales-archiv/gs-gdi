@@ -19,6 +19,7 @@ def stmt = null;
 
 
 // Namespace
+/*
 stmt = """
 SELECT DISTINCT
   CASE
@@ -41,28 +42,83 @@ sql.eachRow(stmt) { row ->
     def uri = row["uri"]
 
     def writer = new StringWriter()
-    def builder = new MarkupBuilder(writer)
-    builder.mkp.xmlDeclaration(version: "1.0", encoding: "utf-8")
-    builder.namespace {
-        firstName('John')
-        lastName('Doe')
-        age(25)
-    }
-    def xml = writer.toString()
-    println xml
+    def builder = new groovy.xml.MarkupBuilder(writer)
 
-    /*
+    builder.namespace {
+    builder.'prefix'(prefix) {}
+    builder.'uri'(uri) {}
+    }
+
     def result = HttpBuilder.configure {
         request.uri = 'http://localhost:8080'
         request.contentType = "application/xml"
         request.auth.basic 'admin', 'geoserver'
     }.post {
         request.uri.path = '/geoserver/rest/namespaces'
-        request.body = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><namespace><prefix>"+prefix+"</prefix><uri>"+uri+"</uri></namespace>"
+        //request.body = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><namespace><prefix>"+prefix+"</prefix><uri>"+uri+"</uri></namespace>"
+        request.body = writer.toString()
     }
-    */
 }
 sql.close()
+*/
+
+
+def writer = new StringWriter()
+def builder = new groovy.xml.MarkupBuilder(writer)
+
+builder.dataStore {
+    builder.'name'("pgstore")
+    builder.'type'("PostGIS") 
+    builder.'enabled'("true")
+    builder.'workspace'() {
+        builder.'name'("opengeo")
+    }
+    builder.'connectionParameters'() {
+        builder.'entry'(key: "port", 5432)
+        builder.'entry'(key: "user", "ddluser")
+        builder.'entry'(key: "passwd", "ddluser")
+        builder.'entry'(key: "dbtype", "postgis")
+        builder.'entry'(key: "host", "192.168.50.8")
+        builder.'entry'(key: "database", "pub")
+        builder.'entry'(key: "schema", "agi_mopublic_pub")
+        builder.'entry'(key: "namespace", "http://agi.so.ch")
+
+        builder.'entry'(key: "Evictor run periodicity", 300)
+        builder.'entry'(key: "Max open prepared statements", 50)
+        builder.'entry'(key: "encode functions", "false")
+        builder.'entry'(key: "Batch insert size", 1)
+        builder.'entry'(key: "preparedStatements", "true")
+        builder.'entry'(key: "Loose bbox", "true")
+        builder.'entry'(key: "Estimated extends", "true")
+        builder.'entry'(key: "fetch size", 1000)
+        builder.'entry'(key: "Expose primary keys", "flase")
+        builder.'entry'(key: "validate connections", "true")
+        builder.'entry'(key: "Support on the fly geometry simplification", "true")
+        builder.'entry'(key: "Connection timeout", 20)
+        builder.'entry'(key: "create database", "false")
+        builder.'entry'(key: "min connections", 1)
+        builder.'entry'(key: "max connections", 10)
+        builder.'entry'(key: "Evictor tests per run", 3)
+        builder.'entry'(key: "Test while idle", "true")
+        builder.'entry'(key: "Max connection idle time", 300)
+    }
+    builder.'__default'("false")
+}
+
+println writer
+
+def result = HttpBuilder.configure {
+    request.uri = 'http://localhost:8080'
+    request.contentType = "application/xml"
+    request.auth.basic 'admin', 'geoserver'
+}.post {
+    request.uri.path = '/geoserver/rest/workspaces/ch.so.agi/datastores'
+    request.body = writer.toString()
+}
+
+
+
+
 
 
 /*
