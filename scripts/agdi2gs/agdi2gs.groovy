@@ -62,7 +62,204 @@ sql.eachRow(stmt) { row ->
 sql.close()
 */
 
+// Datastore
+/*
+stmt = """
+SELECT DISTINCT ON (db_schema)
+  data_source.connection_type,
+  data_set.data_set_name,
+  split_part(data_set.data_set_name,'.', 1) AS db_schema,
+  split_part(data_set.data_set_name,'.', 2) AS db_table,
+  data_set_view."name", 
+  CASE
+    WHEN split_part(data_set_view."name",'.', 2) = 'swisstopo' THEN split_part(data_set_view."name",'.', 1) || '.' || split_part(data_set_view."name",'.', 2)
+    ELSE split_part(data_set_view."name",'.', 1) || '.' || split_part(data_set_view."name",'.', 2) || '.' || split_part(data_set_view."name",'.', 3)
+  END AS prefix,
+  CASE
+    WHEN split_part(data_set_view."name",'.', 2) = 'swisstopo' THEN 'http://' || split_part(data_set_view."name",'.', 2) || '.' || split_part(data_set_view."name",'.', 1)
+    ELSE 'http://' || split_part(data_set_view."name",'.', 3) || '.' || split_part(data_set_view."name",'.', 2) || '.' || split_part(data_set_view."name",'.', 1)
+  END AS uri,
+  data_set_view.description, 
+  ows_layer.title
+FROM
+  gdi_knoten.data_set AS data_set
+  LEFT JOIN gdi_knoten.data_set_view AS data_set_view
+  ON data_set.gdi_oid = data_set_view.gdi_oid_data_set
+  LEFT JOIN gdi_knoten.ows_layer_data AS ows_layer_data
+  ON data_set_view.gdi_oid = ows_layer_data.gdi_oid_data_set_view
+  LEFT JOIN gdi_knoten.ows_layer AS ows_layer
+  ON ows_layer_data.gdi_oid = ows_layer.gdi_oid
+  LEFT JOIN gdi_knoten.data_source AS data_source
+  ON data_source.gdi_oid = data_set.gdi_oid_data_source
+WHERE
+  data_source.connection_type = 'database'
+AND
+  data_set_view."name" IS NOT NULL
+;
+"""
 
+sql.eachRow(stmt) { row ->
+    println row["data_set_name"]
+    def workspace = row["prefix"]
+    def namespace = row["uri"]
+    def name = "pub."+row["db_schema"]
+    def dbschema = row["db_schema"]
+    
+    def writer = new StringWriter()
+    def builder = new groovy.xml.MarkupBuilder(writer)
+
+    builder.dataStore {
+        builder.'name'(name)
+        builder.'type'("PostGIS") 
+        builder.'enabled'("true")
+        builder.'workspace'() {
+            builder.'name'(workspace)
+        }
+        builder.'connectionParameters'() {
+            builder.'entry'(key: "port", 5432)
+            builder.'entry'(key: "user", "ddluser")
+            builder.'entry'(key: "passwd", "ddluser")
+            builder.'entry'(key: "dbtype", "postgis")
+            builder.'entry'(key: "host", "192.168.50.8")
+            builder.'entry'(key: "database", "pub")
+            builder.'entry'(key: "schema", dbschema)
+            builder.'entry'(key: "namespace", namespace)
+
+            builder.'entry'(key: "Evictor run periodicity", 300)
+            builder.'entry'(key: "Max open prepared statements", 50)
+            builder.'entry'(key: "encode functions", "false")
+            builder.'entry'(key: "Batch insert size", 1)
+            builder.'entry'(key: "preparedStatements", "true")
+            builder.'entry'(key: "Loose bbox", "true")
+            builder.'entry'(key: "Estimated extends", "true")
+            builder.'entry'(key: "fetch size", 1000)
+            builder.'entry'(key: "Expose primary keys", "flase")
+            builder.'entry'(key: "validate connections", "true")
+            builder.'entry'(key: "Support on the fly geometry simplification", "true")
+            builder.'entry'(key: "Connection timeout", 20)
+            builder.'entry'(key: "create database", "false")
+            builder.'entry'(key: "min connections", 1)
+            builder.'entry'(key: "max connections", 10)
+            builder.'entry'(key: "Evictor tests per run", 3)
+            builder.'entry'(key: "Test while idle", "true")
+            builder.'entry'(key: "Max connection idle time", 300)
+        }
+        builder.'__default'("false")
+    }
+    println writer
+
+    def result = HttpBuilder.configure {
+        request.uri = 'http://localhost:8080'
+        request.contentType = "application/xml"
+        request.auth.basic 'admin', 'geoserver'
+    }.post {
+        request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/datastores'
+        request.body = writer.toString()
+    }
+}
+sql.close()
+*/
+
+// Layer / Featuretype
+// Wenn soconfig-DB und pub-DB nicht perfekt zueinander passen,
+// kann es vorkommen, dass z.B. die Tabelle gar nicht vorhanden
+// ist.
+/*
+stmt = """
+SELECT
+  data_source.connection_type,
+  data_set.data_set_name,
+  split_part(data_set.data_set_name,'.', 1) AS db_schema,
+  split_part(data_set.data_set_name,'.', 2) AS db_table,
+  data_set_view."name", 
+  CASE
+    WHEN split_part(data_set_view."name",'.', 2) = 'swisstopo' THEN split_part(data_set_view."name",'.', 1) || '.' || split_part(data_set_view."name",'.', 2)
+    ELSE split_part(data_set_view."name",'.', 1) || '.' || split_part(data_set_view."name",'.', 2) || '.' || split_part(data_set_view."name",'.', 3)
+  END AS prefix,
+  CASE
+    WHEN split_part(data_set_view."name",'.', 2) = 'swisstopo' THEN 'http://' || split_part(data_set_view."name",'.', 2) || '.' || split_part(data_set_view."name",'.', 1)
+    ELSE 'http://' || split_part(data_set_view."name",'.', 3) || '.' || split_part(data_set_view."name",'.', 2) || '.' || split_part(data_set_view."name",'.', 1)
+  END AS uri,
+  data_set_view.description, 
+  ows_layer.title
+FROM
+  gdi_knoten.data_set AS data_set
+  LEFT JOIN gdi_knoten.data_set_view AS data_set_view
+  ON data_set.gdi_oid = data_set_view.gdi_oid_data_set
+  LEFT JOIN gdi_knoten.ows_layer_data AS ows_layer_data
+  ON data_set_view.gdi_oid = ows_layer_data.gdi_oid_data_set_view
+  LEFT JOIN gdi_knoten.ows_layer AS ows_layer
+  ON ows_layer_data.gdi_oid = ows_layer.gdi_oid
+  LEFT JOIN gdi_knoten.data_source AS data_source
+  ON data_source.gdi_oid = data_set.gdi_oid_data_source
+WHERE
+  data_source.connection_type = 'database'
+AND
+  data_set_view."name" IS NOT NULL
+;
+"""
+
+sql.eachRow(stmt) { row ->
+    println row["data_set_name"]
+    def workspace = row["prefix"]
+    def namespace = row["uri"]
+    def datastore = "pub."+row["db_schema"]
+    def nativeName = row["db_table"]
+    def name = row["name"].drop(workspace.length()+1)
+    def dbschema = row["db_schema"]
+    def dbtable = row["db_table"]
+    def title = row["title"]
+    def description = row["description"]
+
+    def enabled = true
+    if (description.contains("Bearbeitung")) {
+        enabled = false
+    }
+
+    def writer = new StringWriter()
+    def builder = new groovy.xml.MarkupBuilder(writer)
+
+    builder.featureType {
+        builder.'name'(name)
+        builder.'nativeName'(nativeName)
+        builder.'title'(title) 
+        builder.'abstract'(description)
+        //builder.'nativeCRS'("EPSG:2056")
+        builder.'enabled'(enabled) 
+    }
+    println writer
+
+    try {
+        def result = HttpBuilder.configure {
+            request.uri = 'http://localhost:8080'
+            request.contentType = "application/xml"
+            request.auth.basic 'admin', 'geoserver'
+        }.post {
+            request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/datastores/'+datastore+'/featuretypes'
+            //println request.uri.path
+            request.body = writer.toString()
+        }
+    } catch (groovyx.net.http.HttpException e) {
+        e.printStackTrace()
+        println e.getMessage()
+    } 
+}
+sql.close()
+*/
+
+
+/*
+curl -v -u admin:geoserver -X POST "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes" -H "Content-type: text/xml" -d  "<featureType><name>FUBARhoheitsgrenzen_gemeindegrenze</name><nativeName>hoheitsgrenzen_gemeindegrenze</nativeName></featureType>" 
+
+curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes/hoheitsgrenzen_gemeindegrenze" -H "Content-type: text/xml" 
+
+curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgruretypes/hoheitsgrenzen_kantonsgrenze.xml"
+*/
+
+
+
+
+/*
 def writer = new StringWriter()
 def builder = new groovy.xml.MarkupBuilder(writer)
 
@@ -107,6 +304,7 @@ builder.dataStore {
 
 println writer
 
+
 def result = HttpBuilder.configure {
     request.uri = 'http://localhost:8080'
     request.contentType = "application/xml"
@@ -115,6 +313,7 @@ def result = HttpBuilder.configure {
     request.uri.path = '/geoserver/rest/workspaces/ch.so.agi/datastores'
     request.body = writer.toString()
 }
+*/
 
 
 
