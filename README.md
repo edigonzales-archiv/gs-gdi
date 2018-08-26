@@ -39,6 +39,7 @@ sudo -u postgres pg_restore --no-owner --no-privileges --role=ddluser --exit-on-
 
 Es wird nur ein `ddluser` benötigt (dem alles gehört). Die Datenbank wird beim Restoren angelegt.
 
+## Docker-Images
 ### Geoserver Docker Image (Compile)
 Es wird ein Docker Image mit Geoserver und den dazugehörigen (Community) Modulen gebildet. Das web-resource-Modul muss selber kompiliert werden (warum auch immer). Wegen eines Bugs, der nur im Master gefixed ist (web-resource module), wird der Master-Branch (zukünftig 2.14) verwendet. Das `sources`-Verzeichnis ist bis auf das `README.md` nicht in Github eingecheckt.
 
@@ -83,6 +84,16 @@ docker run -it --rm --name geoserver -p 8080:8080 edigonzales/geoserver
 TODO: Ablauf erstmalig?
 
 ### Geoserver Docker Image (Binary)
+Fubar
+
+### Solr
+```
+docker build -t edigonzales/solr .
+```
+
+
+docker run --rm --name my_solr -d -p 8983:8983 -t edigonzales/docker-solr -cloud
+docker exec -it my_solr bash
 
 
 

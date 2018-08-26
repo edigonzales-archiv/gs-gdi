@@ -7,6 +7,8 @@ import groovy.json.JsonSlurper
 import groovy.json.JsonOutput 
 import groovyx.net.http.HttpBuilder
 import static groovyx.net.http.ContentTypes.JSON
+import static groovyx.net.http.ContentTypes.XML
+import groovyx.net.http.NativeHandlers
 import groovy.xml.*
 
 def dbUrl = "jdbc:postgresql://192.168.50.8/soconfig"
@@ -164,7 +166,7 @@ sql.close()
 // Wenn soconfig-DB und pub-DB nicht perfekt zueinander passen,
 // kann es vorkommen, dass z.B. die Tabelle gar nicht vorhanden
 // ist.
-/*
+
 stmt = """
 SELECT
   data_source.connection_type,
@@ -196,9 +198,10 @@ WHERE
   data_source.connection_type = 'database'
 AND
   data_set_view."name" IS NOT NULL
+limit 1
 ;
 """
-
+/*
 sql.eachRow(stmt) { row ->
     println row["data_set_name"]
     def workspace = row["prefix"]
@@ -248,75 +251,108 @@ sql.close()
 */
 
 
+sql.eachRow(stmt) { row ->
+    println row["name"]
+    def workspace = row["prefix"]
+    //def namespace = row["uri"]
+    //def datastore = "pub."+row["db_schema"]
+    //def nativeName = row["db_table"]
+    def name = row["name"]
+    //def dbschema = row["db_schema"]
+    //def dbtable = row["db_table"]
+    //def title = row["title"]
+    //def description = row["description"]
+
+
+
+    def writer = new StringWriter()
+    def builder = new groovy.xml.MarkupBuilder(writer)
+
+    println name.replaceAll("\\.", "-")
+
+    builder.style {
+        builder.'name'(name.replaceAll("\\.", "-"))
+        builder.'filename'(name+".sld")
+        builder.'languageVersion'() {
+            builder.'version'("1.1.0")
+        }
+    }
+    println writer
+
+    def result = null;
+    try {
+
+        result = HttpBuilder.configure {
+            request.uri = 'http://localhost:8080'
+            request.contentType = "text/xml"
+            request.auth.basic 'admin', 'geoserver'
+        }.post {
+            request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/styles'
+            //request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
+            request.body = writer.toString()
+        }
+
+        /*
+
+curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<style><name>gemeindegrenzen</name><filename>gemeindegrenzen.sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>" http://localhost:8080/geoserver/rest/styles
+curl -v -u admin:geoserver -XPUT -H "Content-type: application/vnd.ogc.se+xml" -d @gemeindegrenzen.sld http://localhost:8080/geoserver/rest/styles/gemeindegrenzen?raw=true
+
+
+curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<style><name>ch-so-agi-fubar</name><filename>gemeindegrenzen.sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>" http://localhost:8080/geoserver/rest/styles
+curl -v -u admin:geoserver -XPUT -H "Content-type: application/vnd.ogc.se+xml" -d @gemeindegrenzen.sld http://localhost:8080/geoserver/rest/styles/ch-so-agi-fubar?raw=true
+
+        //String fileContents = new File('../qml2sld/'+name+'.sld').text
+        String fileContents = new File('gemeindegrenzen.sld').text
+        //fileContents = fileContents.replaceAll("se:", "")
+        //fileContents = fileContents.replaceAll("SvgParameter", "CssParameter")
+        //fileContents = fileContents.replaceAll("1.1.0", "1.0.0")
+        print fileContents
+
+        result =  HttpBuilder.configure {
+            request.uri = 'http://localhost:8080'
+            request.contentType = "application/vnd.ogc.se+xml"
+            request.auth.basic 'admin', 'geoserver'
+        }.put {
+            request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/styles/'+name.replaceAll("\\.", "-")+'.sld?raw=true'
+            println request.uri.path
+            request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
+            request.body = fileContents
+            println request.body
+        }
+        */
+
+ 
+
+    } catch (groovyx.net.http.HttpException e) {
+        e.printStackTrace()
+        println e.getMessage()
+    } 
+
+
+}
+sql.close()
+
+
+
+
+
 /*
 curl -v -u admin:geoserver -X POST "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes" -H "Content-type: text/xml" -d  "<featureType><name>FUBARhoheitsgrenzen_gemeindegrenze</name><nativeName>hoheitsgrenzen_gemeindegrenze</nativeName></featureType>" 
 
 curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes/hoheitsgrenzen_gemeindegrenze" -H "Content-type: text/xml" 
 
 curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgruretypes/hoheitsgrenzen_kantonsgrenze.xml"
+
+
+curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/styles.xml"
+curl -v -u admin:geoserver -X POST "http://localhost:8080/geoserver/rest/styles.xml"
 */
 
 
 
 
 /*
-def writer = new StringWriter()
-def builder = new groovy.xml.MarkupBuilder(writer)
-
-builder.dataStore {
-    builder.'name'("pgstore")
-    builder.'type'("PostGIS") 
-    builder.'enabled'("true")
-    builder.'workspace'() {
-        builder.'name'("opengeo")
-    }
-    builder.'connectionParameters'() {
-        builder.'entry'(key: "port", 5432)
-        builder.'entry'(key: "user", "ddluser")
-        builder.'entry'(key: "passwd", "ddluser")
-        builder.'entry'(key: "dbtype", "postgis")
-        builder.'entry'(key: "host", "192.168.50.8")
-        builder.'entry'(key: "database", "pub")
-        builder.'entry'(key: "schema", "agi_mopublic_pub")
-        builder.'entry'(key: "namespace", "http://agi.so.ch")
-
-        builder.'entry'(key: "Evictor run periodicity", 300)
-        builder.'entry'(key: "Max open prepared statements", 50)
-        builder.'entry'(key: "encode functions", "false")
-        builder.'entry'(key: "Batch insert size", 1)
-        builder.'entry'(key: "preparedStatements", "true")
-        builder.'entry'(key: "Loose bbox", "true")
-        builder.'entry'(key: "Estimated extends", "true")
-        builder.'entry'(key: "fetch size", 1000)
-        builder.'entry'(key: "Expose primary keys", "flase")
-        builder.'entry'(key: "validate connections", "true")
-        builder.'entry'(key: "Support on the fly geometry simplification", "true")
-        builder.'entry'(key: "Connection timeout", 20)
-        builder.'entry'(key: "create database", "false")
-        builder.'entry'(key: "min connections", 1)
-        builder.'entry'(key: "max connections", 10)
-        builder.'entry'(key: "Evictor tests per run", 3)
-        builder.'entry'(key: "Test while idle", "true")
-        builder.'entry'(key: "Max connection idle time", 300)
-    }
-    builder.'__default'("false")
-}
-
-println writer
-
-
-def result = HttpBuilder.configure {
-    request.uri = 'http://localhost:8080'
-    request.contentType = "application/xml"
-    request.auth.basic 'admin', 'geoserver'
-}.post {
-    request.uri.path = '/geoserver/rest/workspaces/ch.so.agi/datastores'
-    request.body = writer.toString()
-}
 */
-
-
-
 
 
 
@@ -333,41 +369,6 @@ def result = HttpBuilder.configure {
 
 
 curl -u admin:geoserver -X POST http://localhost:8080/geoserver/rest/workspaces/sde/datastores -H  "accept: application/xml" -H  "content-type: application/xml" -d "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <dataStore> <name>gagaa</name> <connectionParameters> <entry key=\"schema\">agi_mopublic_pub</entry> <entry key=\"Evictor run periodicity\">300</entry> <entry key=\"Max open prepared statements\">50</entry> <entry key=\"encode functions\">false</entry> <entry key=\"Batch insert size\">1</entry> <entry key=\"preparedStatements\">true</entry> <entry key=\"database\">pub</entry> <entry key=\"host\">192.168.50.8</entry> <entry key=\"Loose bbox\">true</entry> <entry key=\"Estimated extends\">true</entry> <entry key=\"fetch size\">1000</entry> <entry key=\"Expose primary keys\">false</entry> <entry key=\"validate connections\">true</entry> <entry key=\"Support on the fly geometry simplification\">true</entry> <entry key=\"Connection timeout\">20</entry> <entry key=\"create database\">false</entry> <entry key=\"port\">5432</entry> <entry key=\"passwd\">crypt1:c9Hk8qeZFltyCUXa11cXhA==</entry> <entry key=\"min connections\">1</entry> <entry key=\"dbtype\">postgis</entry> <entry key=\"namespace\">http://arp.so.ch</entry> <entry key=\"max connections\">10</entry> <entry key=\"Evictor tests per run\">3</entry> <entry key=\"Test while idle\">true</entry> <entry key=\"user\">ddluser</entry> <entry key=\"Max connection idle time\">300</entry> </connectionParameters> </dataStore>"
-
-
-"<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<dataStore>
- <name>gagaa</name>
- <connectionParameters>
-    <entry key=\"schema\">agi_mopublic_pub</entry>
-    <entry key=\"Evictor run periodicity\">300</entry>
-    <entry key=\"Max open prepared statements\">50</entry>
-    <entry key=\"encode functions\">false</entry>
-    <entry key=\"Batch insert size\">1</entry>
-    <entry key=\"preparedStatements\">true</entry>
-    <entry key=\"database\">pub</entry>
-    <entry key=\"host\">192.168.50.8</entry>
-    <entry key=\"Loose bbox\">true</entry>
-    <entry key=\"Estimated extends\">true</entry>
-    <entry key=\"fetch size\">1000</entry>
-    <entry key=\"Expose primary keys\">false</entry>
-    <entry key=\"validate connections\">true</entry>
-    <entry key=\"Support on the fly geometry simplification\">true</entry>
-    <entry key=\"Connection timeout\">20</entry>
-    <entry key=\"create database\">false</entry>
-    <entry key=\"port\">5432</entry>
-    <entry key=\"passwd\">crypt1:c9Hk8qeZFltyCUXa11cXhA==</entry>
-    <entry key=\"min connections\">1</entry>
-    <entry key=\"dbtype\">postgis</entry>
-    <entry key=\"namespace\">http://arp.so.ch</entry>
-    <entry key=\"max connections\">10</entry>
-    <entry key=\"Evictor tests per run\">3</entry>
-    <entry key=\"Test while idle\">true</entry>
-    <entry key=\"user\">ddluser</entry>
-    <entry key=\"Max connection idle time\">300</entry>
- </connectionParameters>
-</dataStore>"
-
 
 */
 

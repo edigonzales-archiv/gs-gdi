@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se">
+  <NamedLayer>
+    <se:Name>ch.so.afu.gewisso.mittlere_abfluesse</se:Name>
+    <UserStyle>
+      <se:Name>ch.so.afu.gewisso.mittlere_abfluesse</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>Strecken mit modellierten mittleren Abflüssen</se:Name>
+          <se:Description>
+            <se:Title>Strecken mit modellierten mittleren Abflüssen</se:Title>
+          </se:Description>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#9933cc</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">5</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
