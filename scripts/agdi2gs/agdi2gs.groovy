@@ -281,7 +281,28 @@ sql.eachRow(stmt) { row ->
 
     def result = null;
     try {
+        def styleName = name.replaceAll('\\.', '-')
 
+        // Probleme:
+        // - Punkte in Stylenamen funktionieren nicht
+        // - Mit dem 'identischen' Befehl mit der Library funktioniert es nicht.
+        //   Unterschied ist aber eben, dass die Datei nicht hochgeladen wird, sondern der Text der Datei.
+        //   Dateiupload geht aber nur (?) via Multipart.
+        process = [ 'bash', '-c', "curl -v -u admin:geoserver -X POST -H \"Content-Type: text/xml\" -d \"<style><name>${styleName}</name><filename>gemeindegrenzen.sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>\" http://localhost:8080/geoserver/rest/styles" ].execute()
+        process.waitFor()
+        println process.err.text
+        println process.text
+
+        def sldFile = new File("../qml2sld/"+name+".sld")
+        def sldFileName = sldFile.getCanonicalPath()
+        //def sldFileName = name+".sld"
+        print sldFileName
+        process = [ 'bash', '-c', "curl -v -u admin:geoserver -X PUT -H \"Content-Type: application/vnd.ogc.se+xml\" -d @${sldFileName} http://localhost:8080/geoserver/rest/styles/${styleName}?raw=true" ].execute()
+        process.waitFor()
+        println process.err.text
+        println process.text
+
+        /*
         result = HttpBuilder.configure {
             request.uri = 'http://localhost:8080'
             request.contentType = "text/xml"
@@ -291,39 +312,19 @@ sql.eachRow(stmt) { row ->
             //request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
             request.body = writer.toString()
         }
-
-        /*
-
-curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<style><name>gemeindegrenzen</name><filename>gemeindegrenzen.sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>" http://localhost:8080/geoserver/rest/styles
-curl -v -u admin:geoserver -XPUT -H "Content-type: application/vnd.ogc.se+xml" -d @gemeindegrenzen.sld http://localhost:8080/geoserver/rest/styles/gemeindegrenzen?raw=true
-
-
-curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<style><name>ch-so-agi-fubar</name><filename>gemeindegrenzen.sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>" http://localhost:8080/geoserver/rest/styles
-curl -v -u admin:geoserver -XPUT -H "Content-type: application/vnd.ogc.se+xml" -d @gemeindegrenzen.sld http://localhost:8080/geoserver/rest/styles/ch-so-agi-fubar?raw=true
-
-        //String fileContents = new File('../qml2sld/'+name+'.sld').text
-        String fileContents = new File('gemeindegrenzen.sld').text
-        //fileContents = fileContents.replaceAll("se:", "")
-        //fileContents = fileContents.replaceAll("SvgParameter", "CssParameter")
-        //fileContents = fileContents.replaceAll("1.1.0", "1.0.0")
-        print fileContents
-
+ 
+        String fileContents = new File('../qml2sld/'+name+'.sld').text
         result =  HttpBuilder.configure {
             request.uri = 'http://localhost:8080'
             request.contentType = "application/vnd.ogc.se+xml"
             request.auth.basic 'admin', 'geoserver'
         }.put {
-            request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/styles/'+name.replaceAll("\\.", "-")+'.sld?raw=true'
-            println request.uri.path
+            request.uri.path = '/geoserver/rest/styles/'+styleName+'?raw=true'
             request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
             request.body = fileContents
-            println request.body
         }
-        */
-
- 
-
-    } catch (groovyx.net.http.HttpException e) {
+       */
+    } catch (Exception e) {
         e.printStackTrace()
         println e.getMessage()
     } 
