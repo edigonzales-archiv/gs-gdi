@@ -1,0 +1,15 @@
+<layer>
+  <name>fliessgewaesser_oekomorphologie.sohlenbreite</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7ec1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7fff</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ec2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

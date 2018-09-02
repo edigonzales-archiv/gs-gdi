@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7da2</id>
+  <name>mocheckso_pruefergebnis</name>
+  <nativeName>mocheckso</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Prüfergebnis MOCHECKSO</title>
+  <abstract>Prüfergebnis MOCHECKSO</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mocheckso</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>0.0</minx>
+    <maxx>2644721.435</maxx>
+    <miny>0.0</miny>
+    <maxy>1261330.177</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-25.118687255340536</minx>
+    <maxx>8.032175968094736</maxx>
+    <miny>32.124486118405464</miny>
+    <maxy>47.501205280749204</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

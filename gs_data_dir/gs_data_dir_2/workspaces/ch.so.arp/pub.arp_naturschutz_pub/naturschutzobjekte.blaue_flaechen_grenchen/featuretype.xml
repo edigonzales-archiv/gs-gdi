@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d70</id>
+  <name>naturschutzobjekte.blaue_flaechen_grenchen</name>
+  <nativeName>blaue_flaechen_grenchen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Blaue Flächen Grenchen</title>
+  <abstract>Blaue Flächen Grenchen
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>blaue_flaechen_grenchen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596108.45901835</minx>
+    <maxx>2598934.34613049</maxx>
+    <miny>1223927.00689884</miny>
+    <maxy>1225717.04110247</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.387286623434066</minx>
+    <maxx>7.424572971153303</maxx>
+    <miny>47.166293634911405</miny>
+    <maxy>47.182405457468334</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

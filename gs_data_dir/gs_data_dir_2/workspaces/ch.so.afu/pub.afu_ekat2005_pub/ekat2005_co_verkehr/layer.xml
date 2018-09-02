@@ -1,0 +1,15 @@
+<layer>
+  <name>ekat2005_co_verkehr</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7c9f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ca0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

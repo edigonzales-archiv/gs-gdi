@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ed8</id>
+  <name>grundwasser.hoechststand.isohypsen</name>
+  <nativeName>aww_gshiso</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>GW-Isohypsen (HGW - Höchststand)</title>
+  <abstract>GW-Isohypsen (HGW - Höchststand)
+Bearbeitung</abstract>
+  <keywords>
+    <string>aww_gshiso</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595898.279427</minx>
+    <maxx>2644419.37071214</maxx>
+    <miny>1222179.74312305</miny>
+    <maxy>1259163.80348529</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.384201990985797</minx>
+    <maxx>8.027951274313757</maxx>
+    <miny>47.14910185667738</miny>
+    <maxy>47.48322705490855</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

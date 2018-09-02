@@ -1,0 +1,15 @@
+<layer>
+  <name>ekat2005_betriebe_industrie_gewerbe</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7c17</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c18</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ef8</id>
+  <name>gefahrenhinweiskarte_stfv.konsultationsbereich_betriebsaeral</name>
+  <nativeName>betriebe_kb</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Konsultationsbereich Betriebsareal (gemäss StFV)</title>
+  <abstract>Konsultationsbereich Betriebsareal (gemäss StFV) (Gefahrenhinweiskarte Störfälle)&#xd;
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>betriebe_kb</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596076.01690333</minx>
+    <maxx>2641333.21546711</maxx>
+    <miny>1224367.96187867</miny>
+    <maxy>1259165.02704583</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.386560135669564</minx>
+    <maxx>7.987007546706651</maxx>
+    <miny>47.168983754585035</miny>
+    <maxy>47.48324013816408</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

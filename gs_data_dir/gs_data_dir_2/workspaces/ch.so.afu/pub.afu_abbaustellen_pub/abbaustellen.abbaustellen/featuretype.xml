@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7cda</id>
+  <name>abbaustellen.abbaustellen</name>
+  <nativeName>abbaustelle</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Abbaustellen (geschützt)</title>
+  <abstract>Abbaustellen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>abbaustelle</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593568.06399022</minx>
+    <maxx>2642900.97634167</maxx>
+    <miny>1215050.1616762</miny>
+    <maxy>1257337.20282502</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.353312228742199</minx>
+    <maxx>8.007631281099387</maxx>
+    <miny>47.085073955736185</miny>
+    <maxy>47.466808063130124</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fd0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

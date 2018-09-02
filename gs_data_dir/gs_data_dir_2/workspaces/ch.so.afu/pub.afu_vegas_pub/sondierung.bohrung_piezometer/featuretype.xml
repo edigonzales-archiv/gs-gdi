@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ea0</id>
+  <name>sondierung.bohrung_piezometer</name>
+  <nativeName>objekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Bohrung mit Piezometer (Sondierung)</title>
+  <abstract>Bohrung mit Piezometer (Sondierung)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>objekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2579580.32997924</minx>
+    <maxx>2648400.74153804</maxx>
+    <miny>1210850.04719469</miny>
+    <maxy>1272620.55407323</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.167081813746188</minx>
+    <maxx>8.082234829984547</maxx>
+    <miny>47.04691656613486</miny>
+    <maxy>47.6042608836168</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbd</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

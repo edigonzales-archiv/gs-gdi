@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b6a</id>
+  <name>geotope_punktobjekte_geschuetzt</name>
+  <nativeName>punktobjekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Geotope - Punktobjekte (geschützt)</title>
+  <abstract>Geotope - Punktobjekte (geschützt)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>punktobjekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592770.33713556</minx>
+    <maxx>2641877.97784885</maxx>
+    <miny>1217500.36047473</miny>
+    <maxy>1258776.38164243</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.342707972192627</minx>
+    <maxx>7.994198425861297</maxx>
+    <miny>47.107178144574966</miny>
+    <maxy>47.479753655913306</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

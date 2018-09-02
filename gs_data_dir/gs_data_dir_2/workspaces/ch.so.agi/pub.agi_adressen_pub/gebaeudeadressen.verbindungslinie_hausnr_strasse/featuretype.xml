@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f7e</id>
+  <name>gebaeudeadressen.verbindungslinie_hausnr_strasse</name>
+  <nativeName>verbindungslinie_strasse_hausnummer</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Verbindungslinie Strasse-Hausnummer</title>
+  <abstract>Verbindungslinie Strasse Hausnummer
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>verbindungslinie_strasse_hausnummer</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594323.922</minx>
+    <maxx>2644749.63792779</maxx>
+    <miny>1214650.439</miny>
+    <maxy>1261327.0843626</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.363286063249544</minx>
+    <maxx>8.032549959717098</maxx>
+    <miny>47.081356373882265</miny>
+    <maxy>47.5026897046068</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbb</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

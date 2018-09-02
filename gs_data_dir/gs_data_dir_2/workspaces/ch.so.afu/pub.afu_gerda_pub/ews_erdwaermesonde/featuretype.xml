@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7cac</id>
+  <name>ews_erdwaermesonde</name>
+  <nativeName>erdsonde</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Erdwärmesonde</title>
+  <abstract>Erdwärmesonde</abstract>
+  <keywords>
+    <string>features</string>
+    <string>erdsonde</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>594750.0</minx>
+    <maxx>2644256.0</maxx>
+    <miny>214827.0</miny>
+    <maxy>1259973.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-18.226968274183243</minx>
+    <maxx>8.025864133534293</maxx>
+    <miny>35.57795492371372</miny>
+    <maxy>47.48903077002244</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

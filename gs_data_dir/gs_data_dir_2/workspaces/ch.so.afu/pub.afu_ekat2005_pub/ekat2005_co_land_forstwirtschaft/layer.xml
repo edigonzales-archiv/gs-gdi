@@ -1,0 +1,15 @@
+<layer>
+  <name>ekat2005_co_land_forstwirtschaft</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7beb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7bec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

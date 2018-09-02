@@ -21,7 +21,6 @@ def stmt = null;
 
 
 // Namespace
-/*
 stmt = """
 SELECT DISTINCT
   CASE
@@ -36,6 +35,7 @@ FROM
   gdi_knoten.data_set_view
 ;
 """
+
 sql.eachRow(stmt) { row ->
     println row["uri"]
     //def qmlFile = new File(row["aname"] + ".qml")
@@ -61,11 +61,10 @@ sql.eachRow(stmt) { row ->
         request.body = writer.toString()
     }
 }
-sql.close()
-*/
+//sql.close()
+
 
 // Datastore
-/*
 stmt = """
 SELECT DISTINCT ON (db_schema)
   data_source.connection_type,
@@ -159,8 +158,8 @@ sql.eachRow(stmt) { row ->
         request.body = writer.toString()
     }
 }
-sql.close()
-*/
+//sql.close()
+
 
 // Layer / Featuretype
 // Wenn soconfig-DB und pub-DB nicht perfekt zueinander passen,
@@ -198,10 +197,9 @@ WHERE
   data_source.connection_type = 'database'
 AND
   data_set_view."name" IS NOT NULL
-limit 1
 ;
 """
-/*
+
 sql.eachRow(stmt) { row ->
     println row["data_set_name"]
     def workspace = row["prefix"]
@@ -214,7 +212,8 @@ sql.eachRow(stmt) { row ->
     def title = row["title"]
     def description = row["description"]
 
-    def enabled = true
+    //def enabled = true
+    def enabled = false
     if (description.contains("Bearbeitung")) {
         enabled = false
     }
@@ -247,9 +246,7 @@ sql.eachRow(stmt) { row ->
         println e.getMessage()
     } 
 }
-sql.close()
-*/
-
+//sql.close()
 
 sql.eachRow(stmt) { row ->
     println row["name"]
@@ -262,8 +259,6 @@ sql.eachRow(stmt) { row ->
     //def dbtable = row["db_table"]
     //def title = row["title"]
     //def description = row["description"]
-
-
 
     def writer = new StringWriter()
     def builder = new groovy.xml.MarkupBuilder(writer)

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ee6</id>
+  <name>grundbuchplan_sw.objektnamen_bodenbedeckung</name>
+  <nativeName>mopublic_objektname_pos</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Objektnamen Bodenbedeckung (Grundbuchplan schwarz-weiss)</title>
+  <abstract>Objektnamen Bodenbedeckung (Grundbuchplan schwarz-weiss)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_objektname_pos</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594702.9</minx>
+    <maxx>2644673.546</maxx>
+    <miny>1213768.738</miny>
+    <maxy>1261318.49</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.368316147474886</minx>
+    <maxx>8.03153922631797</maxx>
+    <miny>47.07343087052135</miny>
+    <maxy>47.50261111249725</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

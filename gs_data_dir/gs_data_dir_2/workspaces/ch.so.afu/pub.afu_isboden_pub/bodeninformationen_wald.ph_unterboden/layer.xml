@@ -1,0 +1,15 @@
+<layer>
+  <name>bodeninformationen_wald.ph_unterboden</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7f6d</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f6e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

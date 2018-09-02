@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e7c</id>
+  <name>hoheitsgrenzpunkte.kantonsgrenzsteine</name>
+  <nativeName>kantonsgrenzstein</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Kantonsgrenzsteine</title>
+  <abstract>Kantonsgrenzsteine</abstract>
+  <keywords>
+    <string>features</string>
+    <string>kantonsgrenzstein</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595275.93147246</minx>
+    <maxx>2644759.74573054</maxx>
+    <miny>1239015.946</miny>
+    <maxy>1261107.58860857</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3759239634586224</minx>
+    <maxx>8.032662070883564</maxx>
+    <miny>47.300510151951954</miny>
+    <maxy>47.500711888958094</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

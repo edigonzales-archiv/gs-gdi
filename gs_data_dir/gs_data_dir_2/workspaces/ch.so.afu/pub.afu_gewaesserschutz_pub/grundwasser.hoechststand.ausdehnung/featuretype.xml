@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ed0</id>
+  <name>grundwasser.hoechststand.ausdehnung</name>
+  <nativeName>aww_gshora</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>GW-Ausdehnung (HGW - Höchststand)</title>
+  <abstract>Grundwasser (Ausdehnung)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_gshora</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595664.91528293</minx>
+    <maxx>2644744.21740342</maxx>
+    <miny>1220231.61782106</miny>
+    <maxy>1259789.52419329</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.381099607302441</minx>
+    <maxx>8.032323740157928</maxx>
+    <miny>47.13155743532312</miny>
+    <maxy>47.488855568033266</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

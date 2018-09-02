@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e1a</id>
+  <name>oev.haltestellen</name>
+  <nativeName>haltestellen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>ÖV-Haltestellen</title>
+  <abstract>ÖV-Haltestellen Kanton Solothurn</abstract>
+  <keywords>
+    <string>features</string>
+    <string>haltestellen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594237.67819776</minx>
+    <maxx>2644341.51521811</maxx>
+    <miny>1215146.97982253</miny>
+    <maxy>1263571.26630163</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.362111956409263</minx>
+    <maxx>8.027356755878825</maxx>
+    <miny>47.08585002512186</miny>
+    <maxy>47.52287410387443</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f9d</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

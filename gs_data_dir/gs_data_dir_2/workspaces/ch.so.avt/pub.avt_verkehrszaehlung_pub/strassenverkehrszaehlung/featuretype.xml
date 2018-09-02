@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e70</id>
+  <name>strassenverkehrszaehlung</name>
+  <nativeName>zaehlstellen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>Strassenverkehrszählung</title>
+  <abstract>Zählstellen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>zaehlstellen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595499.33566287</minx>
+    <maxx>2644121.44756375</maxx>
+    <miny>1215391.83865712</miny>
+    <maxy>1260306.03799776</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.378897219187134</minx>
+    <maxx>8.02411174234041</maxx>
+    <miny>47.08806713586791</miny>
+    <maxy>47.49350239625193</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f9c</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

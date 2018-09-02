@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f08</id>
+  <name>wanderwege</name>
+  <nativeName>wanderweg</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Wanderwege</title>
+  <abstract>Wanderwege</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wanderweg</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592600.24419384</minx>
+    <maxx>2644653.13942969</maxx>
+    <miny>1213708.61674735</miny>
+    <maxy>1261019.68097085</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340413742298093</minx>
+    <maxx>8.031238468232848</maxx>
+    <miny>47.07289147194051</miny>
+    <maxy>47.49992921733902</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

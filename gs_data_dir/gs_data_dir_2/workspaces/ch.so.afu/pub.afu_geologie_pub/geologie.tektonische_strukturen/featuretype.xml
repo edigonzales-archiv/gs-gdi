@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ec4</id>
+  <name>geologie.tektonische_strukturen</name>
+  <nativeName>tekton</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Tektonische Strukturen (Geologie)</title>
+  <abstract>Tektonische Strukturen Geologische Karte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>tekton</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592593.89266966</minx>
+    <maxx>2642585.57221837</maxx>
+    <miny>1214003.32571967</miny>
+    <maxy>1260637.42804079</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340335869109107</minx>
+    <maxx>8.003763103053766</maxx>
+    <miny>47.07567829718224</miny>
+    <maxy>47.49649181955777</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

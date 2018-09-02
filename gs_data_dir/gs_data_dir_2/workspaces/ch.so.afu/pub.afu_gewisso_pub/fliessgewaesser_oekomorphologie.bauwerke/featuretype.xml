@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f12</id>
+  <name>fliessgewaesser_oekomorphologie.bauwerke</name>
+  <nativeName>oeko_bauwerke</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Bauwerke (Ökomorph. Fliessgewässer)</title>
+  <abstract>Wasserbauwerke (Ökomorph. Fliessgewässer)</abstract>
+  <keywords>
+    <string>oeko_bauwerke</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594796.24491123</minx>
+    <maxx>2644717.80171217</maxx>
+    <miny>1213863.71551556</miny>
+    <maxy>1260457.90892908</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.369565267265105</minx>
+    <maxx>8.032040265853073</maxx>
+    <miny>47.07428218227205</miny>
+    <maxy>47.49487074434954</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

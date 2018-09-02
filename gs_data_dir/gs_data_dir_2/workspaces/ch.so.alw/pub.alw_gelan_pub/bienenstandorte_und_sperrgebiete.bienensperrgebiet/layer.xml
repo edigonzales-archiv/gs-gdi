@@ -1,0 +1,15 @@
+<layer>
+  <name>bienenstandorte_und_sperrgebiete.bienensperrgebiet</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7d99</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-792f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d9a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

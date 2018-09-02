@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d6e</id>
+  <name>naturschutzobjekte.mjpnl_vereinbarungsflaechen</name>
+  <nativeName>flaechen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Vereinbarungsflächen Mehrjahresprogramm Natur und Landschaft</title>
+  <abstract>Vereinbarungsflächen Mehrjahresprogramm Natur und Landschaft
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>flaechen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594775.51840795</minx>
+    <maxx>2644605.74269865</maxx>
+    <miny>1214335.14313827</miny>
+    <maxy>1260713.31669689</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3692871759736445</minx>
+    <maxx>8.030578815086796</maxx>
+    <miny>47.078530080461775</miny>
+    <maxy>47.4971680236692</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

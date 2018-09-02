@@ -1,0 +1,15 @@
+<layer>
+  <name>gefahrenhinweiskarte_stfv.konsultationsbereich_durchgangsstrassen</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7e1f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7926</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e20</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

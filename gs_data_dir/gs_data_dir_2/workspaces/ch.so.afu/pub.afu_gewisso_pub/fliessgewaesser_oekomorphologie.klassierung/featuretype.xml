@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f10</id>
+  <name>fliessgewaesser_oekomorphologie.klassierung</name>
+  <nativeName>oeko_abschnitte</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Klassierung (Ökomorph. Fliessgewässer)</title>
+  <abstract>Klassierung der Fliessgewässer  (Ökomorph. Fliessgewässer)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>oeko_abschnitte</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2588877.00121643</minx>
+    <maxx>2645547.45369</maxx>
+    <miny>1212041.16546571</miny>
+    <maxy>1261744.23947052</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.290981474182249</minx>
+    <maxx>8.043180974326255</maxx>
+    <miny>47.05783240262152</miny>
+    <maxy>47.50644458029935</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

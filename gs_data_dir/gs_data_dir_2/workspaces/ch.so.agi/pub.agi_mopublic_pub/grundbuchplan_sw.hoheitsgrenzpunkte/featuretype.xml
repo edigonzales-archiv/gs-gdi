@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f02</id>
+  <name>grundbuchplan_sw.hoheitsgrenzpunkte</name>
+  <nativeName>mopublic_hoheitsgrenzpunkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Hoheitsgrenzpunkte (Grundbuchplan schwarz-weiss)</title>
+  <abstract>Hoheitsgrenzpunkte (Grundbuchplan schwarz-weiss)
+Bearbeitung</abstract>
+  <keywords>
+    <string>mopublic_hoheitsgrenzpunkt</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592560.719</minx>
+    <maxx>2644759.746</maxx>
+    <miny>1213703.19</miny>
+    <maxy>1261331.827</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339883903578359</minx>
+    <maxx>8.032684587563885</maxx>
+    <miny>47.07283547264396</miny>
+    <maxy>47.50273665255412</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7cce</id>
+  <name>schutzwald_hauptgefahrenpotentiale</name>
+  <nativeName>sw_funktion_ar</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd6</id>
+  </namespace>
+  <title>Wald - Schutzwald Naturgefahr</title>
+  <abstract>Hauptgefahrenpotentiale Schutzwald </abstract>
+  <keywords>
+    <string>features</string>
+    <string>sw_funktion_ar</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593766.87537694</minx>
+    <maxx>2644608.79499371</maxx>
+    <miny>1215842.57540816</miny>
+    <maxy>1259804.33777926</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.355914242067104</minx>
+    <maxx>8.030528398334454</maxx>
+    <miny>47.0920887520081</miny>
+    <maxy>47.488996051996786</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f99</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

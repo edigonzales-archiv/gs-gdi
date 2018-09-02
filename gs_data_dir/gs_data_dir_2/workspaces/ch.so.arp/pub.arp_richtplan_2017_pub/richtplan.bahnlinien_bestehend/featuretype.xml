@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f2c</id>
+  <name>richtplan.bahnlinien_bestehend</name>
+  <nativeName>bahnlinie_bestehend</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Bahnlinien bestehend (Richtplan)</title>
+  <abstract>Bahnlinien bestehend (Richtplan
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bahnlinie_bestehend</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2578236.47670626</minx>
+    <maxx>2655238.30153797</maxx>
+    <miny>1208566.01973926</miny>
+    <maxy>1272462.5235587</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.149219371541403</minx>
+    <maxx>8.173133475780542</maxx>
+    <miny>47.02583837074748</miny>
+    <maxy>47.60283909180555</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c98</id>
+  <name>erdwaerme.erdsonden_private_quellen</name>
+  <nativeName>private_quelle</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Erdsonden private Quellen</title>
+  <abstract>Erdsonden private Quellen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>private_quelle</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595013.71716721</minx>
+    <maxx>2644468.07745363</maxx>
+    <miny>1214583.49333244</miny>
+    <maxy>1260605.48832453</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.372449563334894</minx>
+    <maxx>8.028741193855614</maxx>
+    <miny>47.080773162058655</miny>
+    <maxy>47.496197398283</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

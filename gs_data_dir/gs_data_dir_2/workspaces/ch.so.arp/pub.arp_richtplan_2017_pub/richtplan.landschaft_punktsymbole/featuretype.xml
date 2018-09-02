@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ef4</id>
+  <name>richtplan.landschaft_punktsymbole</name>
+  <nativeName>punktlayer</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Landschaft Punktsymbole (Richtplan)</title>
+  <abstract>Landschaft Punktsymbole (Richtplan)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>punktlayer</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2580770.0</minx>
+    <maxx>2649360.0</maxx>
+    <miny>1214530.0</miny>
+    <maxy>1264280.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.183264405230721</minx>
+    <maxx>8.094064257331853</maxx>
+    <miny>47.07994583952494</miny>
+    <maxy>47.529249601678295</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

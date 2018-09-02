@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d7e</id>
+  <name>naturgefahrenhinweis.wassergefahren</name>
+  <nativeName>naturgefahren</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Wassergefahren (Naturgefahrenhinweiskarte)</title>
+  <abstract>Wassergefahren (Naturgefahrenhinweiskarte)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>naturgefahren</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592610.334</minx>
+    <maxx>2644720.89136499</maxx>
+    <miny>1213905.216</miny>
+    <maxy>1261090.541</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340546463937584</minx>
+    <maxx>8.032144715107535</maxx>
+    <miny>47.07465525846899</miny>
+    <maxy>47.50056648864622</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

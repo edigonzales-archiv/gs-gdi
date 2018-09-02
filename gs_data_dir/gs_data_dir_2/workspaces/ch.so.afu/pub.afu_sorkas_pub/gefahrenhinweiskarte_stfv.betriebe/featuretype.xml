@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7efc</id>
+  <name>gefahrenhinweiskarte_stfv.betriebe</name>
+  <nativeName>betriebe</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Störfallverordnung - Betriebe</title>
+  <abstract>Der Störfallverordnung unterstellte Betriebe (Gefahrenhinweiskarte Störfälle)&#xd;
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>betriebe</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596181.34313463</minx>
+    <maxx>2641240.64680326</maxx>
+    <miny>1224757.33382082</miny>
+    <maxy>1260237.5204001</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3879481923259736</minx>
+    <maxx>7.985878585188147</maxx>
+    <miny>47.172491750606135</miny>
+    <maxy>47.49288567487391</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

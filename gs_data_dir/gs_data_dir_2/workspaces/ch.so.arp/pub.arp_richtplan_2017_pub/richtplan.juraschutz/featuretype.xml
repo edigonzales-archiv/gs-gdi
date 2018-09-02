@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f3e</id>
+  <name>richtplan.juraschutz</name>
+  <nativeName>juraschutz</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Juraschutz (Richtplan)</title>
+  <abstract>Juraschutz (Richtplan)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>juraschutz</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592562.51548884</minx>
+    <maxx>2642749.05681574</maxx>
+    <miny>1213703.19035886</miny>
+    <maxy>1261317.54621431</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339907988457771</minx>
+    <maxx>8.005997790931056</maxx>
+    <miny>47.07296814292549</miny>
+    <maxy>47.50260873118145</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

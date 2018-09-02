@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7da4</id>
+  <name>kantonsstrassen.bezugspunkte</name>
+  <nativeName>bezugspunkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>Bezugspunkte (Kantonsstrassen)</title>
+  <abstract>Bezugspunkte (Kantonsstrassen)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bezugspunkt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595104.53495108</minx>
+    <maxx>2644757.04871711</maxx>
+    <miny>1214865.05990767</miny>
+    <maxy>1260692.45435183</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.373653823455574</minx>
+    <maxx>8.032584606519846</maxx>
+    <miny>47.08328632178719</miny>
+    <maxy>47.49697895069585</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f9e</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

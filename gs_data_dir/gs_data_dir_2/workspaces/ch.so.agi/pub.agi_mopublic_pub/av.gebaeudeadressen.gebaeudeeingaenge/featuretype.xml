@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e26</id>
+  <name>av.gebaeudeadressen.gebaeudeeingaenge</name>
+  <nativeName>mopublic_gebaeudeadresse</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Gebäudeeingänge</title>
+  <abstract>Gebäudeeingänge
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_gebaeudeadresse</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594316.303</minx>
+    <maxx>2644737.9</maxx>
+    <miny>1214337.809</miny>
+    <maxy>1261322.905</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.363184994240389</minx>
+    <maxx>8.032393757610695</maxx>
+    <miny>47.07854515516166</miny>
+    <maxy>47.502652149414665</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

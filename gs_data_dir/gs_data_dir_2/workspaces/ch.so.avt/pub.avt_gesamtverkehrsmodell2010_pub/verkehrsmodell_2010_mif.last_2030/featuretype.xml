@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d96</id>
+  <name>verkehrsmodell_2010_mif.last_2030</name>
+  <nativeName>auslastung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>Strassenauslastung 2030 (Verkehrsmodell MIF 2010+)</title>
+  <abstract>DTV Auslastung 2030</abstract>
+  <keywords>
+    <string>features</string>
+    <string>auslastung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593521.01391252</minx>
+    <maxx>2644757.39871679</maxx>
+    <miny>1213705.79650276</miny>
+    <maxy>1260692.50435077</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.352638819886895</minx>
+    <maxx>8.032589256143268</maxx>
+    <miny>47.07285907580714</miny>
+    <maxy>47.49698471801588</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ec6</id>
+  <name>bodeninformationen.bodenprofilstandorte</name>
+  <nativeName>bodenprofilstandort</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Bodenprofilstandorte</title>
+  <abstract>Bodenprofilstandorte
+</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bodenprofilstandort</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2598020.16813639</minx>
+    <maxx>2644635.70614317</maxx>
+    <miny>1213915.21257128</miny>
+    <maxy>1260886.53643243</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.412346494294531</minx>
+    <maxx>8.030993781061243</maxx>
+    <miny>47.07475091433137</miny>
+    <maxy>47.49872962121792</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

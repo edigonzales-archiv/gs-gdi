@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e4c</id>
+  <name>adagisd.flaeche_markierung</name>
+  <nativeName>polygongeometrien</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe4</id>
+  </namespace>
+  <title>Adagis D Flächenmarkierung</title>
+  <abstract>Adagis D Flächenmarkierung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>polygongeometrien</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594802.224124</minx>
+    <maxx>2644235.52949452</maxx>
+    <miny>1215073.747</miny>
+    <maxy>1259999.34552912</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.369650043613338</minx>
+    <maxx>8.025595129189893</maxx>
+    <miny>47.08519839897949</miny>
+    <maxy>47.49074680818425</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fd1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

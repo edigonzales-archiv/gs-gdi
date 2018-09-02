@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b68</id>
+  <name>naturreservate.teilgebiete</name>
+  <nativeName>naturreservate_teilgebiet</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Teilgebiete (Naturreservate)</title>
+  <abstract>Naturreservate - Teilgebiete
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>naturreservate_teilgebiet</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595764.10279753</minx>
+    <maxx>2644189.27594753</maxx>
+    <miny>1215038.193</miny>
+    <maxy>1259797.93092794</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.382415648801509</minx>
+    <maxx>8.024961446790774</maxx>
+    <miny>47.08488168634645</miny>
+    <maxy>47.4889312339869</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

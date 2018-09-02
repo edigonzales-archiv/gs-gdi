@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7dc2</id>
+  <name>bienenstandorte_und_sperrgebiete.bienenstandorte</name>
+  <nativeName>bienenstandorte</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fde</id>
+  </namespace>
+  <title>Bienenstandorte</title>
+  <abstract>Standorte von Bienenkolonien&#xd;
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bienenstandorte</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2585322.4726</minx>
+    <maxx>2643930.6938</maxx>
+    <miny>1212206.0118</miny>
+    <maxy>1262192.73484883</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.243786028459653</minx>
+    <maxx>8.021766450127178</maxx>
+    <miny>47.05942420262846</miny>
+    <maxy>47.51048061664101</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fae</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

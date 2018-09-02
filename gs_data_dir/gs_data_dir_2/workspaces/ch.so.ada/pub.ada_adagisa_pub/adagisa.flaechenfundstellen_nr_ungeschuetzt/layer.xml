@@ -1,0 +1,15 @@
+<layer>
+  <name>adagisa.flaechenfundstellen_nr_ungeschuetzt</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7e3b</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e3c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

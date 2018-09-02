@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7de2</id>
+  <name>leitungskataster.wasser.leitungsbeschriftungen</name>
+  <nativeName>wasser_leitung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Leitungsbeschriftungen Wasser (Leitungskataster)</title>
+  <abstract>Leitungsbeschriftungen Wasser (Leitungskataster)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_leitung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595330.13747611</minx>
+    <maxx>2632202.79402591</maxx>
+    <miny>1217020.75498518</miny>
+    <maxy>1260419.19689525</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.376650720411536</minx>
+    <maxx>7.865963578733286</maxx>
+    <miny>47.10340480857406</miny>
+    <maxy>47.49452812468718</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7eec</id>
+  <name>grundbuchplan_sw.ortsnamen</name>
+  <nativeName>mopublic_ortsname</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Ortsnamen (Grundbuchplan schwarz-weiss)</title>
+  <abstract>Ortsnamen (Grundbuchplan schwarz-weiss)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_ortsname</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595284.024</minx>
+    <maxx>2644756.847</maxx>
+    <miny>1214785.829</miny>
+    <maxy>1260334.015</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.376039690161538</minx>
+    <maxx>8.032545954018632</maxx>
+    <miny>47.08257367819199</miny>
+    <maxy>47.493754409996306</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,15 @@
+<layer>
+  <name>nutzungsplanung.grundnutzung.digi_zone</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7ed5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ed6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c0a</id>
+  <name>uplus_tank_in_betrieb</name>
+  <nativeName>tank</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>UPlus Tank in Betrieb</title>
+  <abstract>UPlus Tank in Betrieb</abstract>
+  <keywords>
+    <string>features</string>
+    <string>tank</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594357.65087</minx>
+    <maxx>2644722.312044</maxx>
+    <miny>1214624.118892</miny>
+    <maxy>1260425.323163</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.363745308302969</minx>
+    <maxx>8.032096849047145</maxx>
+    <miny>47.081121476441155</miny>
+    <maxy>47.49457925948565</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

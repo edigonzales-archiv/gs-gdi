@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7efa</id>
+  <name>gefahrenhinweiskarte_stfv.nationalstrassen</name>
+  <nativeName>natstr</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Störfallverordnung - Nationalstrassen</title>
+  <abstract>Der Störfallverordnung unterstellte Nationalstrassen  (Gefahrenhinweiskarte Störfälle)&#xd;
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>natstr</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596309.24634443</minx>
+    <maxx>2634130.9588329</maxx>
+    <miny>1222394.28010356</miny>
+    <maxy>1246008.60186321</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.389765475744628</minx>
+    <maxx>7.8904506931526015</maxx>
+    <miny>47.15164163409645</miny>
+    <maxy>47.36491434285852</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

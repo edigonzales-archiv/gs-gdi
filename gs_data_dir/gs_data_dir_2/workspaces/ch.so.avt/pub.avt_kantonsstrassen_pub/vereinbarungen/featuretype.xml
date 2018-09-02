@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d60</id>
+  <name>vereinbarungen</name>
+  <nativeName>vereinbarung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>AVT-Vereinbarungen</title>
+  <abstract>AVT-Vereinbarungen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>vereinbarung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597039.33528994</minx>
+    <maxx>2644530.70400905</maxx>
+    <miny>1225532.44967873</miny>
+    <maxy>1248233.16578026</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.399415421878065</minx>
+    <maxx>8.028339312924892</maxx>
+    <miny>47.17925037254299</miny>
+    <maxy>47.384920553853675</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f9e</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

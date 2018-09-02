@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d38</id>
+  <name>wald_uebersicht</name>
+  <nativeName>wald_uebersicht</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd6</id>
+  </namespace>
+  <title>Wald - Übersicht</title>
+  <abstract>Übersicht über den Wald des Kanton Solothurn</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wald_uebersicht</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592581.754</minx>
+    <maxx>2644734.4794197</maxx>
+    <miny>1213707.19758317</miny>
+    <maxy>1260816.804</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340171758911834</minx>
+    <maxx>8.032297580340398</maxx>
+    <miny>47.072873224674694</miny>
+    <maxy>47.498104565757</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f99</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

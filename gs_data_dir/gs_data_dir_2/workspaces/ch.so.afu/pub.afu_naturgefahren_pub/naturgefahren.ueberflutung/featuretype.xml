@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c48</id>
+  <name>naturgefahren.ueberflutung</name>
+  <nativeName>ueberflutung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Wassergefahren Überflutung (Naturgefahren)</title>
+  <abstract>Wassergefahren Überflutung (Naturgefahren)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ueberflutung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594835.267</minx>
+    <maxx>2644330.706</maxx>
+    <miny>1214165.248</miny>
+    <maxy>1260490.525</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.370082727518228</minx>
+    <maxx>8.026906828350356</maxx>
+    <miny>47.077020369993015</miny>
+    <maxy>47.49516423783167</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

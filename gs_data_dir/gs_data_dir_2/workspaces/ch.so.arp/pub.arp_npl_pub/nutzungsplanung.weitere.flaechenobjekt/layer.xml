@@ -1,0 +1,15 @@
+<layer>
+  <name>nutzungsplanung.weitere.flaechenobjekt</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7b81</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b82</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

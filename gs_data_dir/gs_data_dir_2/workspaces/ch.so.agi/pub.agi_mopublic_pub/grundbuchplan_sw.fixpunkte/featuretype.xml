@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f1c</id>
+  <name>grundbuchplan_sw.fixpunkte</name>
+  <nativeName>mopublic_fixpunkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Fixpunkte (Grundbuchplan schwarz-weiss)</title>
+  <abstract>Fixpunkte (Amtliche Vermessung) Grundbuchplan schwarz-weiss
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_fixpunkt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592572.967</minx>
+    <maxx>2644721.313</maxx>
+    <miny>1213771.155</miny>
+    <maxy>1261332.177</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340046459109827</minx>
+    <maxx>8.03217454957291</maxx>
+    <miny>47.07344939094481</miny>
+    <maxy>47.502739793531624</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d9c</id>
+  <name>grundwasserschutz.ausserhalb_kanton</name>
+  <nativeName>aww_gszoak</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Schutzzonen ausserhalb des Kantons</title>
+  <abstract>Schutzzonen ausserhalb des Kantons
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_gszoak</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2587552.28468211</minx>
+    <maxx>2637595.77568738</maxx>
+    <miny>1218521.70094427</miny>
+    <maxy>1261903.8253659</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.273393514939172</minx>
+    <maxx>7.937653581376349</maxx>
+    <miny>47.116621520362514</miny>
+    <maxy>47.50788221029515</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

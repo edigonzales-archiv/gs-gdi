@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f5a</id>
+  <name>aggloprogramme.landschaft_punkt</name>
+  <nativeName>agglomrtnsprgrmme_massnahme</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Landschaft Punkt (Aggloprogramme)</title>
+  <abstract>Landschaft (Punktgeometrien)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>agglomrtnsprgrmme_massnahme</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597119.44040349</minx>
+    <maxx>2646177.6718181</maxx>
+    <miny>1222596.7867306</miny>
+    <maxy>1259566.03121951</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.400401241119377</minx>
+    <maxx>8.051320047404005</maxx>
+    <miny>47.15273268437359</miny>
+    <maxy>47.4868496739661</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

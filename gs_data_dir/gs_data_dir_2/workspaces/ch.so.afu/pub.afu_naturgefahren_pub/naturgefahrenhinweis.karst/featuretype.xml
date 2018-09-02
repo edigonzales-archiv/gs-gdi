@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d36</id>
+  <name>naturgefahrenhinweis.karst</name>
+  <nativeName>doline</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Karst (Naturgefahrenhinweiskarte)</title>
+  <abstract>Karst Naturgefahrenhinweiskarte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>doline</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594618.485</minx>
+    <maxx>2642282.695</maxx>
+    <miny>1229716.104</miny>
+    <maxy>1258754.378</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.367227165080905</minx>
+    <maxx>7.999565358233978</maxx>
+    <miny>47.217027567078176</miny>
+    <maxy>47.47955163208446</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

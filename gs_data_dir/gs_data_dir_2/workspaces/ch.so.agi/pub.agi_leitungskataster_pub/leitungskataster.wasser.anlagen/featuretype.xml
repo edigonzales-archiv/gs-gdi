@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7dc6</id>
+  <name>leitungskataster.wasser.anlagen</name>
+  <nativeName>wasser_anlagen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Anlagen Wasser (Leitungskataster)</title>
+  <abstract>Anlagen Wasser (Leitungskataster)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_anlagen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2601226.12568642</minx>
+    <maxx>2631642.33432521</maxx>
+    <miny>1223605.422</miny>
+    <maxy>1260361.75558393</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.454798413208524</minx>
+    <maxx>7.858522164729562</maxx>
+    <miny>47.162658975594006</miny>
+    <maxy>47.49401198771587</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

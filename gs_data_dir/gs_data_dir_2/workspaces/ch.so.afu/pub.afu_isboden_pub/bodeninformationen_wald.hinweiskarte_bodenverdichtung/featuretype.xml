@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f78</id>
+  <name>bodeninformationen_wald.hinweiskarte_bodenverdichtung</name>
+  <nativeName>hinweiskarte_bodenverdichtung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Hinweiskarte Bodenverdichtung (Wald)</title>
+  <abstract>Hinweiskarte zur Bodenverdichtung im Wald
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>hinweiskarte_bodenverdichtung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592583.31417874</minx>
+    <maxx>2642083.66405468</maxx>
+    <miny>1215709.21919712</miny>
+    <maxy>1260809.46492803</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340192588049909</minx>
+    <maxx>7.997118882273096</maxx>
+    <miny>47.09105436528993</miny>
+    <maxy>47.49803921639841</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

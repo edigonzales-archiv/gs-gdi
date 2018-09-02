@@ -1,0 +1,15 @@
+<layer>
+  <name>grundbuchplan_sw.bodenbedeckung_projektiert</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7ef1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ef2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

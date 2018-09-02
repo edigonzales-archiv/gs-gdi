@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7db6</id>
+  <name>leitungskataster.abwasser.spezialbauwerke</name>
+  <nativeName>abwasser_bauwerk</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Spezialbauwerke Abwasser (Leitungskataster)</title>
+  <abstract>Spezialbauwerke Abwasser (Leitungskataster)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>abwasser_bauwerk</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595552.5960997</minx>
+    <maxx>2616633.81891731</maxx>
+    <miny>1217566.39753585</miny>
+    <maxy>1260353.63610038</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.379603512358772</minx>
+    <maxx>7.659357326777787</maxx>
+    <miny>47.108885646166215</miny>
+    <maxy>47.49393954575263</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

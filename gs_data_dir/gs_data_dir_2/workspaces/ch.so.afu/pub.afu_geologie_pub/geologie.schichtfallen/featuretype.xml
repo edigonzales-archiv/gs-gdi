@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7eb6</id>
+  <name>geologie.schichtfallen</name>
+  <nativeName>sfall</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Schichtfallen (Geologie)</title>
+  <abstract>Schichtfallen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>sfall</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592839.22011966</minx>
+    <maxx>2644515.44325537</maxx>
+    <miny>1213772.23416096</miny>
+    <maxy>1260546.38378583</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.34359307165083</minx>
+    <maxx>8.029363843720692</maxx>
+    <miny>47.07347294995442</miny>
+    <maxy>47.49567208232423</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

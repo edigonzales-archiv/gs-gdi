@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d50</id>
+  <name>av.grundstuecke.projektierte</name>
+  <nativeName>mopublic_grundstueck_proj</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>projektierte Liegenschaften (Grundstücke)</title>
+  <abstract>projektierte Liegenschaften (Grundstücke)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_grundstueck_proj</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595792.636</minx>
+    <maxx>2643102.902</maxx>
+    <miny>1215470.375</miny>
+    <maxy>1259960.023</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.382792699221923</minx>
+    <maxx>8.01056273111475</maxx>
+    <miny>47.088840550810716</miny>
+    <maxy>47.490389959921245</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

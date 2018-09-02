@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b78</id>
+  <name>altlasten.standorte_geschuetzt</name>
+  <nativeName>belastete_standorte_altlast4web</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Belastete Standorte (geschützt)</title>
+  <abstract>Belastete Standorte (geschützt)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>belastete_standorte_altlast4web</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594596.80433308</minx>
+    <maxx>2644755.0231567</maxx>
+    <miny>1214279.22784104</miny>
+    <maxy>1260346.17290674</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.366919958601986</minx>
+    <maxx>8.032522972654844</maxx>
+    <miny>47.07801707986438</miny>
+    <maxy>47.493866522161454</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fce</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

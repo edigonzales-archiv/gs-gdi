@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c8a</id>
+  <name>abwasser.richtungspfeile_siedlungsentwaesserung</name>
+  <nativeName>aww_seso</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Richtungspfeile Siedlungsentwässerung</title>
+  <abstract>Richtungspfeile Siedlungsentwässerung Abwasser
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_seso</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592484.64190583</minx>
+    <maxx>2644735.15634076</maxx>
+    <miny>1214859.7215512</miny>
+    <maxy>1260465.44707327</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.338888941822779</minx>
+    <maxx>8.032271314260809</maxx>
+    <miny>47.08323978249903</miny>
+    <maxy>47.49494463713707</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fcf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

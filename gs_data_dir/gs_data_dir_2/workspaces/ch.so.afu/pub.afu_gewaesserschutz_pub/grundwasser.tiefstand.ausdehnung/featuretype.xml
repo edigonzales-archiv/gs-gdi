@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b8e</id>
+  <name>grundwasser.tiefstand.ausdehnung</name>
+  <nativeName>aww_gstira</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>GW-Ausdehnung (TGW - Tiefstand)</title>
+  <abstract>Tiefstand Grundwasser Area (TGW)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_gstira</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595668.42927262</minx>
+    <maxx>2644745.70756399</maxx>
+    <miny>1220231.61782106</miny>
+    <maxy>1259868.49697357</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3811454533487835</minx>
+    <maxx>8.032351434512966</maxx>
+    <miny>47.13155733466238</miny>
+    <maxy>47.48956582522954</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

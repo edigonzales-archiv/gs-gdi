@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d4a</id>
+  <name>luftbelastung.stickstoffdioxid_2020</name>
+  <nativeName>luftbelastung_2010_2020</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Stickstoffdioxid NO2 2020 (Luftbelastung)</title>
+  <abstract>Stickstoffdioxid NO2 2020 (Luftbelastung)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>luftbelastung_2010_2020</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592560.71939494</minx>
+    <maxx>2644763.28780859</maxx>
+    <miny>1213703.19035886</miny>
+    <maxy>1261332.50442223</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339883897385218</minx>
+    <maxx>8.032731661573273</maxx>
+    <miny>47.07283523679258</miny>
+    <maxy>47.50274274414536</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

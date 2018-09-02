@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d86</id>
+  <name>av.einzelobjekte_flaechen</name>
+  <nativeName>mopublic_einzelobjekt_flaeche</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Einzelobjekte (Flächen)</title>
+  <abstract>Einzelobjekte (Flächen)
+</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_einzelobjekt_flaeche</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592642.368</minx>
+    <maxx>2644759.746</maxx>
+    <miny>1213721.897</miny>
+    <maxy>1261326.209</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340967682748116</minx>
+    <maxx>8.032684023506532</maxx>
+    <miny>47.07300373661472</miny>
+    <maxy>47.50268599835888</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ea6</id>
+  <name>gefahrenhinweiskarte_stfv.konsultationsbereich_eisenbahn</name>
+  <nativeName>avt_oev_netz_kb</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Konsultationsbereich Eisenbahn (gemäss StFV)</title>
+  <abstract>Konsultationsbereich Eisenbahn (gemäss StFV) (Gefahrenhinweiskarte Störfälle)&#xd;
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>avt_oev_netz_kb</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595459.41870622</minx>
+    <maxx>2644704.39141915</maxx>
+    <miny>1222348.01914313</miny>
+    <maxy>1248591.90091658</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.378488667417077</minx>
+    <maxx>8.030675165363206</maxx>
+    <miny>47.15059624340659</miny>
+    <maxy>47.38814427849479</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

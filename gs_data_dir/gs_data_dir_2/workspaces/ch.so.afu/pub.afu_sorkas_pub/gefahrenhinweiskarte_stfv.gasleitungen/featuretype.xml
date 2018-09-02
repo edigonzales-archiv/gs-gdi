@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7eae</id>
+  <name>gefahrenhinweiskarte_stfv.gasleitungen</name>
+  <nativeName>gasleitungen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Störfallverordnung - Gasleitungen</title>
+  <abstract>Der Störfallverordnung unterstellte Gasleitungen (Gefahrenhinweiskarte Störfälle)&#xd;
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gasleitungen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594772.84247986</minx>
+    <maxx>2642915.58366843</maxx>
+    <miny>1214017.06583377</miny>
+    <maxy>1260180.13707979</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.369258011485823</minx>
+    <maxx>8.008098434540782</maxx>
+    <miny>47.0757806105242</miny>
+    <maxy>47.49237389215069</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

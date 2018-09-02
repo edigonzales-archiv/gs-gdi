@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7db8</id>
+  <name>leitungskataster.abwasser.schaechte</name>
+  <nativeName>abwasser_schacht</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Schächte Abwasser (Leitungskataster)</title>
+  <abstract>Schächte Abwasser (Leitungskataster)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>abwasser_schacht</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595256.43425347</minx>
+    <maxx>2617064.80927279</maxx>
+    <miny>1217031.67936506</miny>
+    <maxy>1260391.82448568</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3756729416172755</minx>
+    <maxx>7.6650781145758256</maxx>
+    <miny>47.104065003488095</miny>
+    <maxy>47.49428312939113</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

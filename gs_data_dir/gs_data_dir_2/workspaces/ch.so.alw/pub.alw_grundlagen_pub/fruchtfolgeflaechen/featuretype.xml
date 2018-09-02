@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ddc</id>
+  <name>fruchtfolgeflaechen</name>
+  <nativeName>fruchtfolgeflaechen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fde</id>
+  </namespace>
+  <title>Fruchtfolgeflächen</title>
+  <abstract>Fruchtfolgeflächen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>fruchtfolgeflaechen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594312.41557117</minx>
+    <maxx>2644710.93809133</maxx>
+    <miny>1213768.32518275</miny>
+    <maxy>1261272.16761944</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.363134055178124</minx>
+    <maxx>8.032030837964186</maxx>
+    <miny>47.0734246371949</miny>
+    <maxy>47.50219585422721</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fad</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

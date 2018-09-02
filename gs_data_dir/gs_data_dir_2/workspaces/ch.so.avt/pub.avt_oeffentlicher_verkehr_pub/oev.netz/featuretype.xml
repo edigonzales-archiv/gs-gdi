@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e1e</id>
+  <name>oev.netz</name>
+  <nativeName>netz</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>ÖV-Netz</title>
+  <abstract>ÖV-Netz des Kantons Solothurn</abstract>
+  <keywords>
+    <string>features</string>
+    <string>netz</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2581291.05585001</minx>
+    <maxx>2655238.30153797</maxx>
+    <miny>1199796.94783811</miny>
+    <maxy>1268010.34458017</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.190025818070537</minx>
+    <maxx>8.172579994502202</maxx>
+    <miny>46.94696294200296</miny>
+    <maxy>47.56280286759195</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f9d</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

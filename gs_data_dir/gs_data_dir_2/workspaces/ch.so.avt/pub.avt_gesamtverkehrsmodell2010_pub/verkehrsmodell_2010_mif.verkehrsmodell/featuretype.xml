@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b94</id>
+  <name>verkehrsmodell_2010_mif.verkehrsmodell</name>
+  <nativeName>gesamtverkehrsmodell</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd8</id>
+  </namespace>
+  <title>Verkehrsmodell 2010 / 2020 / 2030 (Verkehrsmodell MIF 2010+)</title>
+  <abstract>Verkehrsmodell 2010 / 2020 / 2030 (Verkehrsmodell 2010+)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gesamtverkehrsmodell</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592663.35425846</minx>
+    <maxx>2644757.39871679</maxx>
+    <miny>1213705.79650276</miny>
+    <maxy>1261329.22564358</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.341246172126119</minx>
+    <maxx>8.032653173846152</maxx>
+    <miny>47.07285907580714</miny>
+    <maxy>47.502713096808186</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

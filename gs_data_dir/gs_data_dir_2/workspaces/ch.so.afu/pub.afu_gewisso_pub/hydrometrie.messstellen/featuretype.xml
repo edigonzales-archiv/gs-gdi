@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b7c</id>
+  <name>hydrometrie.messstellen</name>
+  <nativeName>messstellen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Messstellen Hydrometrie (geschützt)</title>
+  <abstract>Messstellen Hydrometrie (Gewisso)
+Gewässerinformationssystem</abstract>
+  <keywords>
+    <string>features</string>
+    <string>messstellen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597360.343324</minx>
+    <maxx>2644188.70313911</maxx>
+    <miny>1220745.32145769</miny>
+    <maxy>1256825.47166375</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.403614358589006</minx>
+    <maxx>8.024659521319899</maxx>
+    <miny>47.13621528039957</miny>
+    <maxy>47.46220219597575</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7db0</id>
+  <name>av_gb_flaechendifferenzen</name>
+  <nativeName>differenzen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Flächendifferenzen (AV-GB)</title>
+  <abstract>Flächendifferenzen (AV-GB-Abgleich)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>differenzen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592560.719</minx>
+    <maxx>2644759.746</maxx>
+    <miny>1213703.19</miny>
+    <maxy>1261330.177</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339883931430576</minx>
+    <maxx>8.032684421900795</maxx>
+    <miny>47.07283547264396</miny>
+    <maxy>47.50272181263969</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fba</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

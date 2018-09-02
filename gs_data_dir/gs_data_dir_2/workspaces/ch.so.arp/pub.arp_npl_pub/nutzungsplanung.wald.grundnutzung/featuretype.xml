@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7b60</id>
+  <name>nutzungsplanung.wald.grundnutzung</name>
+  <nativeName>nutzungsplanung_grundnutzung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Wald - Grundnutzung </title>
+  <abstract>Wald Grundnutzung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>nutzungsplanung_grundnutzung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2629743.763</minx>
+    <maxx>2635562.542</maxx>
+    <miny>1240078.29</miny>
+    <maxy>1250814.161</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.8319810327960315</minx>
+    <maxx>7.909783094985551</maxx>
+    <miny>47.31062444579979</miny>
+    <maxy>47.40747250227113</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

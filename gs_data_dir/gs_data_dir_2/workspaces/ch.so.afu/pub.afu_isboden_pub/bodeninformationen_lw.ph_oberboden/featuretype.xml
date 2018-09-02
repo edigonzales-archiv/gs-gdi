@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f8c</id>
+  <name>bodeninformationen_lw.ph_oberboden</name>
+  <nativeName>bodeneinheit_lw</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>ph im Oberboden (Landwirtschaft)</title>
+  <abstract>PH Wert im Oberboden in der Landwirtschaft
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bodeneinheit_lw</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597956.82829924</minx>
+    <maxx>2644712.10560333</maxx>
+    <miny>1213768.7664726</miny>
+    <maxy>1261309.17150329</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.411503869561383</minx>
+    <maxx>8.032050043982494</maxx>
+    <miny>47.073428527745186</miny>
+    <maxy>47.50253055500738</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

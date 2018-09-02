@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d78</id>
+  <name>drainagenplaene_uebersicht</name>
+  <nativeName>drainagen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fde</id>
+  </namespace>
+  <title>Drainagenpläne übersicht</title>
+  <abstract>Übersicht über die Drainagenpläne und den Dateinamen der Raster-files</abstract>
+  <keywords>
+    <string>features</string>
+    <string>drainagen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594583.92660605</minx>
+    <maxx>2644727.65484176</maxx>
+    <miny>1213599.47052715</miny>
+    <maxy>1261777.17435434</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.366731419021554</minx>
+    <maxx>8.03230336679143</maxx>
+    <miny>47.07190471165558</miny>
+    <maxy>47.50673686459446</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fad</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

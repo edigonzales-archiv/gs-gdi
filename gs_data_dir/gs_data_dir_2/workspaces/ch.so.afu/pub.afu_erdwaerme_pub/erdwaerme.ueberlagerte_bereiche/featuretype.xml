@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c90</id>
+  <name>erdwaerme.ueberlagerte_bereiche</name>
+  <nativeName>ueberlagerter_ews_bereich</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Überlagerte EWS-Bereiche</title>
+  <abstract>Überlagerte EWS-Bereiche</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ueberlagerter_ews_bereich</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592564.57333416</minx>
+    <maxx>2644774.47808924</maxx>
+    <miny>1213711.71884037</miny>
+    <maxy>1257029.66361664</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340007590750412</minx>
+    <maxx>8.032448335916213</maxx>
+    <miny>47.07291119248728</miny>
+    <maxy>47.46404321546895</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

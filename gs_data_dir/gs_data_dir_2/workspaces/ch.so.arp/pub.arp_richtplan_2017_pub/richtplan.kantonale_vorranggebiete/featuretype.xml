@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f38</id>
+  <name>richtplan.kantonale_vorranggebiete</name>
+  <nativeName>kant_vorranggebiete</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Kantonale Vorranggebiete Natur und Landschaft (Richtplan)</title>
+  <abstract>Kantonale Vorranggebiete Natur und Landschaft (Richtplan)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>kant_vorranggebiete</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593593.1330959</minx>
+    <maxx>2644610.121</maxx>
+    <miny>1215815.40036614</miny>
+    <maxy>1260613.23584625</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.353597071569545</minx>
+    <maxx>8.030626904344054</maxx>
+    <miny>47.0918442322127</miny>
+    <maxy>47.496271676018154</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

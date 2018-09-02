@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e04</id>
+  <name>grundbuchplan_f.rohrleitungen</name>
+  <nativeName>mopublic_rohrleitung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Rohrleitungen (Grundbuchplan farbig)</title>
+  <abstract>Rohrleitungen (Grundbuchplan farbig)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_rohrleitung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594772.842</minx>
+    <maxx>2642915.583</maxx>
+    <miny>1214017.066</miny>
+    <maxy>1260180.137</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.369258005119074</minx>
+    <maxx>8.008098425663578</maxx>
+    <miny>47.075780612062644</miny>
+    <maxy>47.49237389143516</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

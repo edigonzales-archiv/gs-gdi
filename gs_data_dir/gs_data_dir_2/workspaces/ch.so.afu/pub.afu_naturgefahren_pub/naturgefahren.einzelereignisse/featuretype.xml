@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7d82</id>
+  <name>naturgefahren.einzelereignisse</name>
+  <nativeName>naturgefahren_ereignis</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Einzelereignisse (Naturgefahren)</title>
+  <abstract>Einzelereignisse (Naturgefahren)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>naturgefahren_ereignis</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594965.0</minx>
+    <maxx>2644720.0</maxx>
+    <miny>1214115.0</miny>
+    <maxy>1261275.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.371795360730562</minx>
+    <maxx>8.032151388246067</maxx>
+    <miny>47.07654226306395</miny>
+    <maxy>47.50221891075518</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

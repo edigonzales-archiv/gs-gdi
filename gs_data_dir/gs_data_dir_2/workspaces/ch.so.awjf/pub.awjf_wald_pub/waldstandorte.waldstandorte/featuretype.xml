@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7cd8</id>
+  <name>waldstandorte.waldstandorte</name>
+  <nativeName>waldge</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fd6</id>
+  </namespace>
+  <title>Wald - Standorte</title>
+  <abstract>Natürliche Waldstandorte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>waldge</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592583.31429312</minx>
+    <maxx>2644736.64144999</maxx>
+    <miny>1213709.13165789</miny>
+    <maxy>1260815.53396285</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340192487447988</minx>
+    <maxx>8.03232614433538</maxx>
+    <miny>47.07289047525267</miny>
+    <maxy>47.49809314012999</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7f99</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

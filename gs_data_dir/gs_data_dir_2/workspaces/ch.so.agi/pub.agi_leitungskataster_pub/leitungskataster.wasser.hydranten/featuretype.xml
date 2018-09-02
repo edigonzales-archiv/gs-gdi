@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7de0</id>
+  <name>leitungskataster.wasser.hydranten</name>
+  <nativeName>wasser_hydrant</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Hydranten Wasser (Leitungskataster)</title>
+  <abstract>Hydranten Wasser (Leitungskataster)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_hydrant</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595344.04547601</minx>
+    <maxx>2632067.67325505</maxx>
+    <miny>1217080.89895533</miny>
+    <maxy>1260418.10289518</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.376835297456479</minx>
+    <maxx>7.864170438382045</maxx>
+    <miny>47.10395233736687</miny>
+    <maxy>47.494518308590735</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c30</id>
+  <name>drainagen_vector</name>
+  <nativeName>drainagen_vector</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fde</id>
+  </namespace>
+  <title>Drainagenpläne vektorisiert</title>
+  <abstract>Die aus den eingescannten Drainagenplänen vektorisierten Drainagen. 
+Bearbeitung</abstract>
+  <keywords>
+    <string>drainagen_vector</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595798.7268336</minx>
+    <maxx>2644572.70648659</maxx>
+    <miny>1220355.11574456</miny>
+    <maxy>1248061.38226114</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3829875158825535</minx>
+    <maxx>8.02887842771387</maxx>
+    <miny>47.13267981167649</miny>
+    <maxy>47.38337119729928</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fad</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

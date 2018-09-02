@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c84</id>
+  <name>baugesuche.laufnummer</name>
+  <nativeName>bauprojekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>AFU Bauprojekte Laufnummer</title>
+  <abstract>AFU Bauprojekte Laufnummer
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bauprojekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2605.531</minx>
+    <maxx>2644490.0</maxx>
+    <miny>0.0</miny>
+    <maxy>1260675.619</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-25.086337687904717</minx>
+    <maxx>8.029039105911785</maxx>
+    <miny>32.132372981554774</miny>
+    <maxy>47.49533411006304</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fcd</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

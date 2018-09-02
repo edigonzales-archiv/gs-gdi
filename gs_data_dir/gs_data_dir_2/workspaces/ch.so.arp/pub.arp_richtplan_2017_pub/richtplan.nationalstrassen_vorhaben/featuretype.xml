@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f30</id>
+  <name>richtplan.nationalstrassen_vorhaben</name>
+  <nativeName>nationalstrasse_vorhaben</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Nationalstrassen Vorhaben (Richtplan)</title>
+  <abstract>Nationalstrassen Vorhaben (Richtplan)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>nationalstrasse_vorhaben</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2612272.72837917</minx>
+    <maxx>2627832.72310368</maxx>
+    <miny>1228837.34215752</miny>
+    <maxy>1240191.49745313</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.600625601614978</minx>
+    <maxx>7.806715276342351</maxx>
+    <miny>47.20988913362324</miny>
+    <maxy>47.31248522784467</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

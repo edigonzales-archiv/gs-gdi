@@ -1,0 +1,15 @@
+<layer>
+  <name>adagisa.gemeindegrenzen_archaeologie</name>
+  <id>LayerInfoImpl--620433ac:1659b442076:-7e63</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--620433ac:1659b442076:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e64</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

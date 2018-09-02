@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f32</id>
+  <name>richtplan.nationalstrassen_bestehend</name>
+  <nativeName>strassen_bestehend</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Nationalstrassen bestehend (Richtplan)</title>
+  <abstract>Nationalstrassen bestehend (Richtplan)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>strassen_bestehend</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2580547.61542392</minx>
+    <maxx>2670650.89171884</maxx>
+    <miny>1193967.19365069</miny>
+    <maxy>1275190.19719061</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.1798313309483985</minx>
+    <maxx>8.378494247248167</maxx>
+    <miny>46.893066408494136</miny>
+    <maxy>47.62736872500645</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

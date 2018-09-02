@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c1a</id>
+  <name>vsb.geogene_bodenbelastung</name>
+  <nativeName>flaeche</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Geogene Bodenbelastung (VSB)</title>
+  <abstract>Geogene Bodenbelastung (VSB)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>flaeche</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594386.87645388</minx>
+    <maxx>2644762.07800663</maxx>
+    <miny>1214378.23828206</miny>
+    <maxy>1261290.1770582</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.364122096923603</minx>
+    <maxx>8.032711355445052</maxx>
+    <miny>47.07890717241069</miny>
+    <maxy>47.50235754174067</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

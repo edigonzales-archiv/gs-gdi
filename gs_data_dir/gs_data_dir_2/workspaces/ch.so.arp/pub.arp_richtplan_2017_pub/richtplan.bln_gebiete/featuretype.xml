@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7ebe</id>
+  <name>richtplan.bln_gebiete</name>
+  <nativeName>bln</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>BLN-Gebiete (Richtplan)</title>
+  <abstract>Bundesinventar der Landschaften und Naturdenkmäler von nationaler Bedeutung
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bln</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596546.98566896</minx>
+    <maxx>2653758.01858239</maxx>
+    <miny>1220555.29394835</miny>
+    <maxy>1262725.91012106</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.39278056840489</minx>
+    <maxx>8.15227410451691</maxx>
+    <miny>47.13379843367214</miny>
+    <maxy>47.51526645738546</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

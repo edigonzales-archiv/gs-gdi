@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7eba</id>
+  <name>bodeninformationen.bodentypen_wald</name>
+  <nativeName>bodeneinheit_wald</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Bodentypen (Wald)</title>
+  <abstract>Bodentypen Wald
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bodeneinheit_wald</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597913.10844936</minx>
+    <maxx>2644727.9095943</maxx>
+    <miny>1213703.24230065</miny>
+    <maxy>1259797.51787195</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.410930934747811</minx>
+    <maxx>8.032108165096163</maxx>
+    <miny>47.072838091244066</miny>
+    <maxy>47.48893473823168</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

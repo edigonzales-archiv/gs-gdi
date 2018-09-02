@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e4e</id>
+  <name>adagisd.punktgeometrien</name>
+  <nativeName>punktgeometrien</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe4</id>
+  </namespace>
+  <title>Adagis D Punktgeometrien</title>
+  <abstract>Adagis D Punktgeometrien</abstract>
+  <keywords>
+    <string>features</string>
+    <string>punktgeometrien</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595706.42898671</minx>
+    <maxx>2644225.16954491</maxx>
+    <miny>1214642.01988417</miny>
+    <maxy>1260154.51901419</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.381646874564943</minx>
+    <maxx>8.025473052171332</maxx>
+    <miny>47.081315837567374</miny>
+    <maxy>47.49213859948893</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fd1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

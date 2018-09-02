@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c7e</id>
+  <name>nutzungsplanung.wald.baulinie</name>
+  <nativeName>nutzungsplanung_erschliessung_linienobjekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fda</id>
+  </namespace>
+  <title>Wald - Baulinie (Nutzungsplanung)</title>
+  <abstract>Wald - Baulinie (Nutzungsplanung)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>nutzungsplanung_erschliessung_linienobjekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2630107.76751227</minx>
+    <maxx>2634079.31038249</maxx>
+    <miny>1240466.66869116</miny>
+    <maxy>1249548.59269571</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.836820866322491</minx>
+    <maxx>7.8900362250588145</maxx>
+    <miny>47.314195824623326</miny>
+    <maxy>47.39607337821494</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fa5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

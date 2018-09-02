@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f5e</id>
+  <name>geologie.pleistozaen</name>
+  <nativeName>pleist</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Pleistozän (Geologie)</title>
+  <abstract>Pleistozän Schichten Geologische Karte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>pleist</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593110.70852277</minx>
+    <maxx>2644766.06087379</maxx>
+    <miny>1213683.07445644</miny>
+    <maxy>1260690.82921183</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.347193660499677</minx>
+    <maxx>8.032704037490284</maxx>
+    <miny>47.0726541129523</miny>
+    <maxy>47.49697059382574</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

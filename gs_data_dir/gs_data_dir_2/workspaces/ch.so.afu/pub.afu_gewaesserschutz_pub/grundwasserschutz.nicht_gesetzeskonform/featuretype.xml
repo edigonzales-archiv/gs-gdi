@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7da0</id>
+  <name>grundwasserschutz.nicht_gesetzeskonform</name>
+  <nativeName>aww_gszoar</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Nicht gesetzeskonforme Schutzzonen</title>
+  <abstract>Nicht gesetzeskonforme Schutzzonen
+Bearbeitung</abstract>
+  <keywords>
+    <string>aww_gszoar</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593384.95599279</minx>
+    <maxx>2643637.6</maxx>
+    <miny>1217035.73195125</miny>
+    <maxy>1259555.72232548</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.350850264245157</minx>
+    <maxx>8.01761793332848</maxx>
+    <miny>47.10288544657451</miny>
+    <maxy>47.486761429909315</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

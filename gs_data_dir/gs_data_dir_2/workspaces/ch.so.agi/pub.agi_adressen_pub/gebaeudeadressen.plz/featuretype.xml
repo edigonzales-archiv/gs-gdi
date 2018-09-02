@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e54</id>
+  <name>gebaeudeadressen.plz</name>
+  <nativeName>postleitzahlkreise</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Postleitzahlen</title>
+  <abstract>PLZ
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>postleitzahlkreise</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2485410.236231</minx>
+    <maxx>2833841.74863298</maxx>
+    <miny>1075269.66162348</miny>
+    <maxy>1295934.4287086</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>5.908956156732148</minx>
+    <maxx>10.558914364220886</maxx>
+    <miny>45.78874614040298</miny>
+    <maxy>47.8139298573947</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fbb</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,5 @@
+<exceptionTranslation>
+  <id>-620433ac:1659b442076:-7fe9</id>
+  <name>exception</name>
+  <className>org.geoserver.security.filter.GeoServerExceptionTranslationFilter</className>
+</exceptionTranslation>

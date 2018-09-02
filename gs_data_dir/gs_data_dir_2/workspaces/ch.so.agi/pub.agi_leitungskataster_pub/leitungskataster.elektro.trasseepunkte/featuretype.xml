@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7db4</id>
+  <name>leitungskataster.elektro.trasseepunkte</name>
+  <nativeName>elektrizitaet_trassepunkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe0</id>
+  </namespace>
+  <title>Trasseepunkte Elektro (Leitungskataster)</title>
+  <abstract>Trasseepunkte Elektro (Leitungskataster)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>elektrizitaet_trassepunkt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595325.54941864</minx>
+    <maxx>2597201.95120635</maxx>
+    <miny>1216850.26628674</miny>
+    <maxy>1218842.14414018</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.377030099522248</minx>
+    <maxx>7.4017694498348225</maxx>
+    <miny>47.102634372244445</miny>
+    <maxy>47.12056188098997</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fb1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7c8c</id>
+  <name>erdwaerme.erdsonde_zone</name>
+  <nativeName>ews_zone</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Erdsonden EWS-Zone</title>
+  <abstract>Erdsonden EWS-Zone</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ews_zone</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592300.17483449</minx>
+    <maxx>2644814.29777153</maxx>
+    <miny>1213599.25564162</miny>
+    <maxy>1261317.54621431</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.336426083963684</minx>
+    <maxx>8.033407149292293</maxx>
+    <miny>47.071896929113244</miny>
+    <maxy>47.50260855591719</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

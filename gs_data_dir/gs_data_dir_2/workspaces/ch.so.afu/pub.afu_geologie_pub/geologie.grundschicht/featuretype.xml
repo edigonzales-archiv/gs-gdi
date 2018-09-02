@@ -1,0 +1,39 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7f64</id>
+  <name>geologie.grundschicht</name>
+  <nativeName>grunds</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Grundschicht (Geologie)</title>
+  <abstract>Schichten Grundschicht Geologische Karte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>grunds</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592300.1745847</minx>
+    <maxx>2644765.14484464</maxx>
+    <miny>1213677.02363007</miny>
+    <maxy>1261366.90562071</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.336425218555516</minx>
+    <maxx>8.032759762073727</maxx>
+    <miny>47.072599749382476</miny>
+    <maxy>47.503052501018516</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

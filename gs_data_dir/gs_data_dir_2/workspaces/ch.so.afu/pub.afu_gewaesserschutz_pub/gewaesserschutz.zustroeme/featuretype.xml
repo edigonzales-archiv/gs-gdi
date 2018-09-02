@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--620433ac:1659b442076:-7e98</id>
+  <name>gewaesserschutz.zustroeme</name>
+  <nativeName>aww_gszustr</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--620433ac:1659b442076:-7fe2</id>
+  </namespace>
+  <title>Zuströmbereiche (Gewässerschutz)</title>
+  <abstract>Zuströmbereiche (Gewässerschutz)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_gszustr</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2615505.4556359</minx>
+    <maxx>2634131.4618643</maxx>
+    <miny>1225210.5063869</miny>
+    <maxy>1243853.92946275</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.643172724726967</minx>
+    <maxx>7.8902933816099035</maxx>
+    <miny>47.17697251032515</miny>
+    <maxy>47.345358662794</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--620433ac:1659b442076:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
