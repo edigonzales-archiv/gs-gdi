@@ -1,0 +1,37 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--3124dc5e:165a051dd1e:-7ffc</id>
+  <name>bienenstandorte_und_sperrgebiete</name>
+  <mode>NAMED</mode>
+  <title>Bienenstandorte und -sperrgebiete (Karte)</title>
+  <abstractTxt>Ich bin der Abstract.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--2af7a5ef:1659fe6c71d:-7fdd</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7d97</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7dbf</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-792f</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-792d</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>2585322.4726</minx>
+    <maxx>2643930.6938</maxx>
+    <miny>1212206.0118</miny>
+    <maxy>1262192.73484883</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layerGroup>

@@ -2,6 +2,15 @@
 <userRegistry xmlns="http://www.geoserver.org/security/users" version="1.0">
 <users>
 <user enabled="true" name="admin" password="crypt1:FbmmFzEHJeXOI+9t8NSBze5w5f3zKeV2"/>
+<user enabled="true" name="doris" password="crypt1:LI8zAm2v7CbHWHU7tCrEKg=="/>
+<user enabled="true" name="lorenz" password="crypt1:xLHad+kpRl9Ya88r5mJSTA=="/>
 </users>
-<groups/>
+<groups>
+<group enabled="true" name="bjdafu">
+<member username="doris"/>
+</group>
+<group enabled="true" name="vwdalw">
+<member username="lorenz"/>
+</group>
+</groups>
 </userRegistry>

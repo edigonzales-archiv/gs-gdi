@@ -1,0 +1,81 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--3124dc5e:165a051dd1e:-7ffb</id>
+  <name>gefahrenhinweiskarte_stfv</name>
+  <mode>OPAQUE_CONTAINER</mode>
+  <title>Störfallverordnung</title>
+  <abstractTxt>Fubar</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe1</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7f1d</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7e1d</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7ea3</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7e29</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7e1f</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7f21</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7f1b</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7e21</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7eab</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7f1f</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7927</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7926</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7925</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7924</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7923</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-792c</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-792b</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7929</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7928</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--620433ac:1659b442076:-7922</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>2594769.36636596</minx>
+    <maxx>2644757.39871679</maxx>
+    <miny>1213949.06743595</miny>
+    <maxy>1260742.79913351</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </bounds>
+</layerGroup>

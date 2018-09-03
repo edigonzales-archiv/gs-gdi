@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7b71</id>
+  <id>LayerGroupInfoImpl--3124dc5e:165a051dd1e:-7ffc</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>ch.so.awjf:biotopbaeume</name>
+  <name>ch.so.alw:bienenstandorte_und_sperrgebiete</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -21,13 +21,6 @@
   </metaWidthHeight>
   <expireCache>0</expireCache>
   <expireClients>0</expireClients>
-  <parameterFilters>
-    <styleParameterFilter>
-      <key>STYLES</key>
-      <defaultValue></defaultValue>
-      <availableStyles class="sorted-set"/>
-      <defaultStyle>ch.so.awjf:ch.so.awjf.biotopbaeume</defaultStyle>
-    </styleParameterFilter>
-  </parameterFilters>
+  <parameterFilters/>
   <gutter>0</gutter>
 </GeoServerTileLayer>

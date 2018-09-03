@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd6</id>
   </namespace>
   <title>Biotopbäume</title>
-  <abstract>Biotopbäume
+  <abstract>Biotopbäume&#xd;
 Bearbeitung</abstract>
   <keywords>
     <string>biotopbaeume_biotopbaum</string>
@@ -28,8 +28,11 @@ Bearbeitung</abstract>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
   <advertised>true</advertised>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
     <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f99</id>
   </store>

@@ -81,6 +81,7 @@ TODO: sinnvolles leeres data_dir?
 ```
 docker run -it --rm --name geoserver -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
 docker run -it --rm --name geoserver -p 8080:8080 edigonzales/geoserver
+
 ```
 
 TODO: Ablauf erstmalig?
@@ -93,9 +94,21 @@ Fubar
 docker build -t edigonzales/solr .
 ```
 
-
 docker run --rm --name my_solr -d -p 8983:8983 -t edigonzales/docker-solr -cloud
 docker exec -it my_solr bash
+
+### PostgreSQL-Pub-DB
+```
+docker build -t edigonzales/postgres-pub .
+docker run -it --rm --name postgres -p 5432:5432 -v /Users/stefan/tmp/pgdata:/var/lib/postgresql/data:cached edigonzales/postgres-pub
+```
+
+Rollen anlegen (einmalig) und Pub-DB restoren:
+
+
+
+
+
 
 
 
