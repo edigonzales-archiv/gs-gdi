@@ -25,6 +25,8 @@ ORDER BY
 sql.eachRow(stmt) { row ->
     println row["aname"]
     def qmlFile = new File(row["aname"] + ".qml")
-    qmlFile << row["qgs_style"]
+    qmlFile.newWriter().withWriter {
+      qmlFile << row["qgs_style"]
+    }
 }
 sql.close()

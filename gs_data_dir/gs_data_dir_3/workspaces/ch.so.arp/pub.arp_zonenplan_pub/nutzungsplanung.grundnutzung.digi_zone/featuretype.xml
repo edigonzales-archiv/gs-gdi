@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7efc</id>
+  <name>nutzungsplanung.grundnutzung.digi_zone</name>
+  <nativeName>digitalisierter_zonenplan</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>provisorisch digitalisierte Grundnutzung</title>
+  <abstract>provisorisch digitalisierte Grundnutzung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>digitalisierter_zonenplan</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595290.2983766</minx>
+    <maxx>2644758.29069407</maxx>
+    <miny>1214803.48264615</miny>
+    <maxy>1260411.92782029</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.37612211571504</minx>
+    <maxx>8.032572930919367</maxx>
+    <miny>47.08273236976101</miny>
+    <maxy>47.49445512229455</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f9f</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

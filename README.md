@@ -25,6 +25,8 @@ scp -v bjsvwzie@geoapp.verw.rootso.org:/opt/workspace/dbdump/pub_geodb.rootso.or
 ### Restore Pub-DB
 
 ```
+dropdb pub
+createdb pub
 sudo -u postgres pg_restore --role=postgres --exit-on-error -d pub /path/to/pub_geodb.rootso.org.dmp
 sudo -u postgres pg_restore --role=postgres --exit-on-error --clean -C -d pub /path/to/pub_geodb.rootso.org.dmp
 ```

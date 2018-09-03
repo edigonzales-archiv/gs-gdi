@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b5a</id>
+  <name>bodeninformationen.wald.verdichtungsempfindlichkeit</name>
+  <nativeName>bodeneinheit_gesamt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Boden - Verdichtungsempfindlichkeit (Wald)</title>
+  <abstract>Verdichtungsempfindlichkeit Waldböden
+</abstract>
+  <keywords>
+    <string>bodeneinheit_gesamt</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597913.10844936</minx>
+    <maxx>2644727.9095943</maxx>
+    <miny>1213703.24230065</miny>
+    <maxy>1261309.17150329</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.410923599745029</minx>
+    <maxx>8.032259789779097</maxx>
+    <miny>47.072838091244066</miny>
+    <maxy>47.5025304126703</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,15 @@
+<layer>
+  <name>grundbuchplan_sw.gemeindegrenzen</name>
+  <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7f0f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2af7a5ef:1659fe6c71d:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f10</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f50</id>
+  <name>richtplan.bahnlinien_vorhaben</name>
+  <nativeName>bahnlinie_vorhaben</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Bahnlinien Vorhaben (Richtplan)</title>
+  <abstract>Bahnlinien Vorhaben (Richtplan)
+</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bahnlinie_vorhaben</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2602094.75498105</minx>
+    <maxx>2644666.78352689</maxx>
+    <miny>1207547.08547773</miny>
+    <maxy>1248500.75258597</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.466182298831385</minx>
+    <maxx>8.030168023938774</maxx>
+    <miny>47.017469062769905</miny>
+    <maxy>47.38733117693811</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

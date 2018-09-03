@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7eaa</id>
+  <name>richtplan.historische_verkehrswege</name>
+  <nativeName>linienobjekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Historische Verkehrswege (Richtplan)</title>
+  <abstract>Historische Verkehrswege (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>linienobjekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593515.33453549</minx>
+    <maxx>2644749.4039554</maxx>
+    <miny>1213722.19435917</miny>
+    <maxy>1260813.07660048</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.352561672252122</minx>
+    <maxx>8.032495263668668</maxx>
+    <miny>47.073007109275764</miny>
+    <maxy>47.49806915147861</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

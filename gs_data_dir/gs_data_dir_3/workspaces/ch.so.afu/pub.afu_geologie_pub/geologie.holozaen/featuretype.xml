@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f84</id>
+  <name>geologie.holozaen</name>
+  <nativeName>holoz</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Holozän (Geologie)</title>
+  <abstract>Holozän Schichten Geologische Karte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>holoz</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592549.52096954</minx>
+    <maxx>2644764.33283573</maxx>
+    <miny>1213729.38463781</miny>
+    <maxy>1261369.60865208</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339734639142949</minx>
+    <maxx>8.032749256653252</maxx>
+    <miny>47.07307077609039</miny>
+    <maxy>47.50307647189526</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

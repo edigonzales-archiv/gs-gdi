@@ -9,7 +9,7 @@
           <se:Name>Single symbol</se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#81d5b1</se:SvgParameter>
+              <se:SvgParameter name="fill">#66bbda</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
               <se:SvgParameter name="stroke">#000001</se:SvgParameter>

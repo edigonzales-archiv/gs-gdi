@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7eee</id>
+  <name>oev_gueteklasse</name>
+  <nativeName>oevgueteklasse</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>ÖV-Güteklassen</title>
+  <abstract>ÖV-Güteklassen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>oevgueteklasse</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594954.43620527</minx>
+    <maxx>2644760.45374601</maxx>
+    <miny>1214745.77425415</miny>
+    <maxy>1260642.03058467</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.371662433346108</minx>
+    <maxx>8.032624730734423</maxx>
+    <miny>47.0822131547604</miny>
+    <maxy>47.49652605918773</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c44</id>
+  <name>schadendienst.schadenfaelle</name>
+  <nativeName>schadenfall</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Schadendienst - Schadenfälle</title>
+  <abstract>Schadenfälle</abstract>
+  <keywords>
+    <string>features</string>
+    <string>schadenfall</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593950.0</minx>
+    <maxx>2.6600875E7</maxx>
+    <miny>1213733.0</miny>
+    <maxy>1260380.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-172.9516424506306</minx>
+    <maxx>161.95615002367828</maxx>
+    <miny>-47.070671659208045</miny>
+    <maxy>47.49414854897737</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

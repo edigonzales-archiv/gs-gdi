@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d2c</id>
+  <name>sirenenstandorte</name>
+  <nativeName>sirenen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fdc</id>
+  </namespace>
+  <title>Sirenenstandorte</title>
+  <abstract>Sirenenstandorte
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>sirenen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595900.0</minx>
+    <maxx>2644251.0</maxx>
+    <miny>1215070.0</miny>
+    <maxy>1259791.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.384218941455317</minx>
+    <maxx>8.025779733727834</maxx>
+    <miny>47.08516366346683</miny>
+    <maxy>47.48886817871092</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e22</id>
+  <name>gefahrenhinweiskarte_stfv.eisenbahn</name>
+  <nativeName>avt_oev_netz</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Störfallverordnung - Eisenbahn</title>
+  <abstract>Der Störfallverordnung unterstelltes Bahnnetz (Gefahrenhinweiskarte Störfälle)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>avt_oev_netz</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595526.77002539</minx>
+    <maxx>2644667.89551357</maxx>
+    <miny>1226006.92870497</miny>
+    <maxy>1250165.73938807</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.379364651947537</minx>
+    <maxx>8.030348896449855</maxx>
+    <miny>47.18350882081718</miny>
+    <maxy>47.40229942335078</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

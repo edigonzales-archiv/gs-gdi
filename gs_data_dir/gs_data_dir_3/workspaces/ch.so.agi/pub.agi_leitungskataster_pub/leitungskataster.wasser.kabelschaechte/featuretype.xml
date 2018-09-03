@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7dc6</id>
+  <name>leitungskataster.wasser.kabelschaechte</name>
+  <nativeName>wasser_kabelpunkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Kabelschächte Wasser (Leitungskataster)</title>
+  <abstract>Kabelschächte Wasser (Leitungskataster)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_kabelpunkt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2601179.95987997</minx>
+    <maxx>2616598.14855726</maxx>
+    <miny>1227637.43313191</miny>
+    <maxy>1259098.15046625</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.454199475513532</minx>
+    <maxx>7.658837382357287</maxx>
+    <miny>47.19947308443602</miny>
+    <maxy>47.48264728914819</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

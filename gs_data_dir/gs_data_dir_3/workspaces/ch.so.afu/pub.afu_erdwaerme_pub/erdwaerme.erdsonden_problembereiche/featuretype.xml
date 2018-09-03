@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c96</id>
+  <name>erdwaerme.erdsonden_problembereiche</name>
+  <nativeName>problembereich</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Erdsonden Problembereiche</title>
+  <abstract>Erdsonden Problembereiche</abstract>
+  <keywords>
+    <string>features</string>
+    <string>problembereich</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595681.64427873</minx>
+    <maxx>2618156.84973125</maxx>
+    <miny>1222006.74818724</miny>
+    <maxy>1229138.18771693</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.381622303554937</minx>
+    <maxx>7.67830697735225</maxx>
+    <miny>47.148785864897796</miny>
+    <maxy>47.2131783097376</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

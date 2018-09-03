@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f18</id>
+  <name>grundbuchplan_sw.bodenbedeckung_projektiert</name>
+  <nativeName>mopublic_bodenbedeckung_proj</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Projektierte Bodenbedeckung (Grundbuchplan schwarz-weiss)</title>
+  <abstract>Projektierte Bodenbedeckung (Grundbuchplan schwarz-weiss)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_bodenbedeckung_proj</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595577.708</minx>
+    <maxx>2644058.798</maxx>
+    <miny>1215467.581</miny>
+    <maxy>1260445.292</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3799358293768735</minx>
+    <maxx>8.023294173684537</maxx>
+    <miny>47.08875258092579</miny>
+    <maxy>47.4947545374206</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fae</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -212,6 +212,7 @@ sql.eachRow(stmt) { row ->
     def title = row["title"]
     def description = row["description"]
 
+    // not working? -> make a put request afterwards
     //def enabled = true
     def enabled = false
     if (description.contains("Bearbeitung")) {
@@ -231,8 +232,9 @@ sql.eachRow(stmt) { row ->
     }
     println writer
 
+    def result = null
     try {
-        def result = HttpBuilder.configure {
+        result = HttpBuilder.configure {
             request.uri = 'http://localhost:8080'
             request.contentType = "application/xml"
             request.auth.basic 'admin', 'geoserver'
@@ -240,7 +242,28 @@ sql.eachRow(stmt) { row ->
             request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/datastores/'+datastore+'/featuretypes'
             //println request.uri.path
             request.body = writer.toString()
+            println request.body
         }
+
+        writer = new StringWriter()
+        builder = new groovy.xml.MarkupBuilder(writer)        
+        builder.featureType {
+            builder.'enabled'(enabled) 
+        }
+        println writer
+
+        result = HttpBuilder.configure {
+            request.uri = 'http://localhost:8080'
+            request.contentType = "application/xml"
+            request.auth.basic 'admin', 'geoserver'
+        }.put {
+            request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/datastores/'+datastore+'/featuretypes/'+name+'.xml'
+            println request.uri.path
+            request.body = writer.toString()
+            println request.body
+        }
+
+
     } catch (groovyx.net.http.HttpException e) {
         e.printStackTrace()
         println e.getMessage()
@@ -283,7 +306,7 @@ sql.eachRow(stmt) { row ->
         // - Mit dem 'identischen' Befehl mit der Library funktioniert es nicht.
         //   Unterschied ist aber eben, dass die Datei nicht hochgeladen wird, sondern der Text der Datei.
         //   Dateiupload geht aber nur (?) via Multipart.
-        process = [ 'bash', '-c', "curl -v -u admin:geoserver -X POST -H \"Content-Type: text/xml\" -d \"<style><name>${styleName}</name><filename>gemeindegrenzen.sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>\" http://localhost:8080/geoserver/rest/styles" ].execute()
+        process = [ 'bash', '-c', "curl -v -u admin:geoserver -X POST -H \"Content-Type: text/xml\" -d \"<style><name>${styleName}</name><filename>"+name+".sld</filename><languageVersion><version>1.1.0</version></languageVersion></style>\" http://localhost:8080/geoserver/rest/styles" ].execute()
         process.waitFor()
         println process.err.text
         println process.text
@@ -291,40 +314,38 @@ sql.eachRow(stmt) { row ->
         def sldFile = new File("../qml2sld/"+name+".sld")
         def sldFileName = sldFile.getCanonicalPath()
         //def sldFileName = name+".sld"
-        print sldFileName
+        println sldFileName
         process = [ 'bash', '-c', "curl -v -u admin:geoserver -X PUT -H \"Content-Type: application/vnd.ogc.se+xml\" -d @${sldFileName} http://localhost:8080/geoserver/rest/styles/${styleName}?raw=true" ].execute()
         process.waitFor()
         println process.err.text
         println process.text
 
-        /*
-        result = HttpBuilder.configure {
-            request.uri = 'http://localhost:8080'
-            request.contentType = "text/xml"
-            request.auth.basic 'admin', 'geoserver'
-        }.post {
-            request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/styles'
-            //request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
-            request.body = writer.toString()
-        }
+//         /*
+//         result = HttpBuilder.configure {
+//             request.uri = 'http://localhost:8080'
+//             request.contentType = "text/xml"
+//             request.auth.basic 'admin', 'geoserver'
+//         }.post {
+//             request.uri.path = '/geoserver/rest/workspaces/'+workspace+'/styles'
+//             //request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
+//             request.body = writer.toString()
+//         }
  
-        String fileContents = new File('../qml2sld/'+name+'.sld').text
-        result =  HttpBuilder.configure {
-            request.uri = 'http://localhost:8080'
-            request.contentType = "application/vnd.ogc.se+xml"
-            request.auth.basic 'admin', 'geoserver'
-        }.put {
-            request.uri.path = '/geoserver/rest/styles/'+styleName+'?raw=true'
-            request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
-            request.body = fileContents
-        }
-       */
+//         String fileContents = new File('../qml2sld/'+name+'.sld').text
+//         result =  HttpBuilder.configure {
+//             request.uri = 'http://localhost:8080'
+//             request.contentType = "application/vnd.ogc.se+xml"
+//             request.auth.basic 'admin', 'geoserver'
+//         }.put {
+//             request.uri.path = '/geoserver/rest/styles/'+styleName+'?raw=true'
+//             request.encoder("application/vnd.ogc.se+xml", NativeHandlers.Encoders.&xml)
+//             request.body = fileContents
+//         }
+//        */
     } catch (Exception e) {
         e.printStackTrace()
         println e.getMessage()
     } 
-
-
 }
 sql.close()
 
@@ -335,15 +356,45 @@ sql.close()
 /*
 curl -v -u admin:geoserver -X POST "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes" -H "Content-type: text/xml" -d  "<featureType><name>FUBARhoheitsgrenzen_gemeindegrenze</name><nativeName>hoheitsgrenzen_gemeindegrenze</nativeName></featureType>" 
 
+
+curl -v -u admin:geoserver -X POST "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes" -H "Content-type: text/xml" -d  "<featureType><name>FUBARhoheitsgrenzen_gemeindegrenze</name><nativeName>hoheitsgrenzen_gemeindegrenze</nativeName><enabled>false</enabled></featureType>" 
+
+curl -v -u admin:geoserver -X PUT "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes/FUBARhoheitsgrenzen_gemeindegrenze" -H "Content-type: text/xml" -d "<featureType><enabled>false</enabled></featureType>"
+
+curl -v -u admin:geoserver -X PUT "http://localhost:8080//geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_mopublic_pub/featuretypes/av.rohrleitungen.xml" -H "Content-type: text/xml" -d "<featureType><enabled>false</enabled></featureType>"
+
+
+
+
+
+<featureType>
+  <name>gemeindegrenzen</name>
+  <nativeName>hoheitsgrenzen_gemeindegrenze</nativeName>
+  <title>Gemeindegrenzen</title>
+  <abstract>AV Gemeindegrenzen</abstract>
+  <enabled>false</enabled>
+</featureType>
+<featureType>
+  <name>gemeindegrenzen</name>
+  <nativeName>hoheitsgrenzen_gemeindegrenze</nativeName>
+  <title>Gemeindegrenzen</title>
+  <abstract>AV Gemeindegrenzen</abstract>
+  <enabled>false</enabled>
+</featureType>
+
 curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes/hoheitsgrenzen_gemeindegrenze" -H "Content-type: text/xml" 
 
 curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgruretypes/hoheitsgrenzen_kantonsgrenze.xml"
 
+curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzsteine_pub/featuretypes/gemeindegrenzen.xml"
 
 curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/styles.xml"
 curl -v -u admin:geoserver -X POST "http://localhost:8080/geoserver/rest/styles.xml"
-*/
 
+curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes.xml"
+
+curl -v -u admin:geoserver -X GET "http://localhost:8080/geoserver/rest/workspaces/ch.so.agi/datastores/pub.agi_hoheitsgrenzen_pub/featuretypes/gemeindegrenzen.xml"
+*/
 
 
 

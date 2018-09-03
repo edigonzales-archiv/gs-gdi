@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f4a</id>
+  <name>richtplan.uebertragungsleitungen_aek</name>
+  <nativeName>uebertragungsleitung_aek</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Übertragungsleitungen AEK (Richtplan)</title>
+  <abstract>Übertragungsleitungen AEK (Richtplan)</abstract>
+  <keywords>
+    <string>uebertragungsleitung_aek</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2610342.32742643</minx>
+    <maxx>2613415.92783987</maxx>
+    <miny>1224885.84942237</miny>
+    <maxy>1231272.99442004</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.575054476895072</minx>
+    <maxx>7.615787900624469</maxx>
+    <miny>47.17479536514852</miny>
+    <maxy>47.23230056327666</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

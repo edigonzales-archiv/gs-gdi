@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e54</id>
+  <name>av.gebaeudeadressen.benannte_gebiete</name>
+  <nativeName>benanntes_gebiet</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Benannte Gebiete (amtliche Vermessung)</title>
+  <abstract>Benannte Gebiete</abstract>
+  <keywords>
+    <string>features</string>
+    <string>benanntes_gebiet</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594331.125</minx>
+    <maxx>2643157.79</maxx>
+    <miny>1214303.862</miny>
+    <maxy>1261330.177</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3633816250649105</minx>
+    <maxx>8.01142362885615</maxx>
+    <miny>47.07834454139117</miny>
+    <maxy>47.50271851650301</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fba</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f94</id>
+  <name>baugrundklassen</name>
+  <nativeName>baugrundklasse</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Baugrundklassen</title>
+  <abstract>Baugrundklassen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>baugrundklasse</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592561.73243274</minx>
+    <maxx>2644763.28780859</maxx>
+    <miny>1213703.36120648</miny>
+    <maxy>1261332.50442223</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3398973429184995</minx>
+    <maxx>8.032731661573273</maxx>
+    <miny>47.072836773516755</miny>
+    <maxy>47.502742742617826</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fcb</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

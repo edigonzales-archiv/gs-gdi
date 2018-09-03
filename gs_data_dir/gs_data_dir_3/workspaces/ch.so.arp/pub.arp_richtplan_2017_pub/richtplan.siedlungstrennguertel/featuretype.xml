@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f6a</id>
+  <name>richtplan.siedlungstrennguertel</name>
+  <nativeName>siedlungstrennguertel</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Siedlungstrenngürtel (Richtplan)</title>
+  <abstract>Siedlungstrenngürtel (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>siedlungstrennguertel</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2599218.2960157</minx>
+    <maxx>2639822.36209695</maxx>
+    <miny>1223406.571002</miny>
+    <maxy>1259789.48959852</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.428249564731419</minx>
+    <maxx>7.967018764207313</maxx>
+    <miny>47.16042905799818</miny>
+    <maxy>47.488865527517326</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

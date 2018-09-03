@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7de2</id>
+  <name>av.grundstuecke.rechtskraeftig</name>
+  <nativeName>mopublic_grundstueck</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Grundstücke</title>
+  <abstract>rechtskräftige Grundstücke</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_grundstueck</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592560.719</minx>
+    <maxx>2644759.746</maxx>
+    <miny>1213703.19</miny>
+    <maxy>1261330.177</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339883931430576</minx>
+    <maxx>8.032684421900795</maxx>
+    <miny>47.07283547264396</miny>
+    <maxy>47.50272181263969</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fae</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

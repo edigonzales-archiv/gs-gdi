@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f4c</id>
+  <name>richtplan.uebertragungsleitungen_sbb</name>
+  <nativeName>uebertragungsleitung_sbb</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Übertragungsleitungen SBB (Richtplan)</title>
+  <abstract>Übertragungsleitungen SBB (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>uebertragungsleitung_sbb</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2556127.92448187</minx>
+    <maxx>2682842.36853886</maxx>
+    <miny>1163512.33589772</miny>
+    <maxy>1269690.776934</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>6.855513560051831</minx>
+    <maxx>8.539632216822039</maxx>
+    <miny>46.617730965825515</miny>
+    <maxy>47.577913971483675</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

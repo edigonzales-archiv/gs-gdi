@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e1e</id>
+  <name>gefahrenhinweiskarte_stfv.konsultationsbereich_durchgangsstrassen</name>
+  <nativeName>durchgangsstrassen_kb</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Konsultationsbereich Durchgangsstrasse (gemäss StFV)</title>
+  <abstract>Konsultationsbereich Durchgangsstrasse (gemäss StFV) (Gefahrenhinweiskarte Störfälle)</abstract>
+  <keywords>
+    <string>durchgangsstrassen_kb</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597690.67860235</minx>
+    <maxx>2635609.1257996</maxx>
+    <miny>1224761.70342075</miny>
+    <maxy>1244778.76804755</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.408059651217113</minx>
+    <maxx>7.909920573876317</maxx>
+    <miny>47.172857893786244</miny>
+    <maxy>47.3538534368379</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

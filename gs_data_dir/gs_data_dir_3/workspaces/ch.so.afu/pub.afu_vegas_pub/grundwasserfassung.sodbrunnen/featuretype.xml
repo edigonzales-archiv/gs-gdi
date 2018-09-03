@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e8e</id>
+  <name>grundwasserfassung.sodbrunnen</name>
+  <nativeName>objekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Sodbrunnen (GW-Fassung)</title>
+  <abstract>Sodbrunnen (GW-Fassung)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>objekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2579580.32997924</minx>
+    <maxx>2648400.74153804</maxx>
+    <miny>1210850.04719469</miny>
+    <maxy>1272620.55407323</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.167081813746188</minx>
+    <maxx>8.082234829984547</maxx>
+    <miny>47.04691656613486</miny>
+    <maxy>47.6042608836168</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7df0</id>
+  <name>grundbuchplan_f.gelaendenamen</name>
+  <nativeName>mopublic_gelaendename</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Geländenamen (Grundbuchplan farbig)</title>
+  <abstract>Geländenamen (Grundbuchplan farbig)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_gelaendename</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594654.29</minx>
+    <maxx>2641270.665</maxx>
+    <miny>1217059.422</miny>
+    <maxy>1259003.057</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.367699154225449</minx>
+    <maxx>7.986162708898469</maxx>
+    <miny>47.10325013901408</miny>
+    <maxy>47.48178875096627</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fae</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

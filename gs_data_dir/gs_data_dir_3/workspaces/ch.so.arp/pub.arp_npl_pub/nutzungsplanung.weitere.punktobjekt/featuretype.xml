@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b8e</id>
+  <name>nutzungsplanung.weitere.punktobjekt</name>
+  <nativeName>nutzungsplanung_ueberlagernd_punkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>weitere punktbezogene Festlegungen</title>
+  <abstract>weitere punktbezogene Festlegungen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>nutzungsplanung_ueberlagernd_punkt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2630690.62127224</minx>
+    <maxx>2634064.23784374</maxx>
+    <miny>1241687.92169195</miny>
+    <maxy>1249311.54020142</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.844612806946749</minx>
+    <maxx>7.889818547980984</maxx>
+    <miny>47.32518086600363</miny>
+    <maxy>47.393914448784905</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

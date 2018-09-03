@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f5c</id>
+  <name>richtplan.witischutzzone</name>
+  <nativeName>witischutzzone</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Kantonale Landwirtschafts- und Schutzzone Witi Grenchen-Solothurn (Richtplan)</title>
+  <abstract>Kantonale Landwirtschafts- und Schutzzone Witi Grenchen-Solothurn (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>witischutzzone</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595689.19932653</minx>
+    <maxx>2606137.28558551</maxx>
+    <miny>1223174.11035397</miny>
+    <maxy>1228579.1710505</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.381727480395335</minx>
+    <maxx>7.519635108326667</maxx>
+    <miny>47.15950556741999</miny>
+    <maxy>47.20814991949321</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

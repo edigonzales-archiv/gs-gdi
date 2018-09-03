@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7ec8</id>
+  <name>bodeninformationen.lw.erosionsgefahr</name>
+  <nativeName>bodenerosion</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Boden - Erosionsgefahr (Landwirtschaft)</title>
+  <abstract>Erosionsgefahr Landwirtschaft
+</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bodenerosion</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594300.345</minx>
+    <maxx>2644730.708</maxx>
+    <miny>1213790.216</miny>
+    <maxy>1261340.547</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.362972963219752</minx>
+    <maxx>8.032300077479231</maxx>
+    <miny>47.07362020534055</miny>
+    <maxy>47.502810877827265</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

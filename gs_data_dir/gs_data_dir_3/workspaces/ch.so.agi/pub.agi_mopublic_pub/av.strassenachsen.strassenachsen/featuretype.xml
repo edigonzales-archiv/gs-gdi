@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f90</id>
+  <name>av.strassenachsen.strassenachsen</name>
+  <nativeName>mopublic_strassenachse</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Strassenachsen</title>
+  <abstract>Strassenachsen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>mopublic_strassenachse</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592663.354</minx>
+    <maxx>2644757.399</maxx>
+    <miny>1213705.797</miny>
+    <maxy>1261329.226</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.341246168689778</minx>
+    <maxx>8.0326531776406</maxx>
+    <miny>47.072859080260514</miny>
+    <maxy>47.50271310001413</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fae</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d16</id>
+  <name>waldstandorte.minimaler_laubholzanteil</name>
+  <nativeName>waldge</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd6</id>
+  </namespace>
+  <title>Wald - Standorte min. Laubholzanteil</title>
+  <abstract>Minimaler Laubholzanteil der Wälder des Kanton Solothurn </abstract>
+  <keywords>
+    <string>features</string>
+    <string>waldge</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592583.31429312</minx>
+    <maxx>2644736.64144999</maxx>
+    <miny>1213709.13165789</miny>
+    <maxy>1260815.53396285</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340192487447988</minx>
+    <maxx>8.03232614433538</maxx>
+    <miny>47.07289047525267</miny>
+    <maxy>47.49809314012999</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f97</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

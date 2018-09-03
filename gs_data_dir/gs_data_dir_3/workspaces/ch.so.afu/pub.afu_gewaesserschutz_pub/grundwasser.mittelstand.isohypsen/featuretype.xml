@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b8a</id>
+  <name>grundwasser.mittelstand.isohypsen</name>
+  <nativeName>aww_gsmiso</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>GW-Isohypsen (MGW - Mittelstand)</title>
+  <abstract>Mittelstand Grundwasser Linie (MGW)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_gsmiso</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595722.50193053</minx>
+    <maxx>2644638.03304515</maxx>
+    <miny>1222232.19915537</miny>
+    <maxy>1251619.69961592</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.381943439530606</minx>
+    <maxx>8.030098384836151</maxx>
+    <miny>47.149558971279276</miny>
+    <maxy>47.41537568385772</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

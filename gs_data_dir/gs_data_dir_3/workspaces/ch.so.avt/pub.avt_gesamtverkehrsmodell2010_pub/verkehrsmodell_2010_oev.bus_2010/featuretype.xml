@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e76</id>
+  <name>verkehrsmodell_2010_oev.bus_2010</name>
+  <nativeName>gesamtverkehrsmodell_oev_2010</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd8</id>
+  </namespace>
+  <title>Streckennetz Bus 2010 (Verkehrsmodell öV 2010+)</title>
+  <abstract>Streckennetz Bus 2010 (Verkehrsmodell öV 2010+)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gesamtverkehrsmodell_oev_2010</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2561746.77699385</minx>
+    <maxx>2683188.89590129</maxx>
+    <miny>1178202.86232801</miny>
+    <maxy>1272325.55197642</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>6.929964217429068</minx>
+    <maxx>8.54473068081435</maxx>
+    <miny>46.749823830254584</miny>
+    <maxy>47.601608791399734</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f9e</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

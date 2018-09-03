@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7cae</id>
+  <name>erschliessung_ausserhalb_bauzonen</name>
+  <nativeName>wasserversorgung</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fde</id>
+  </namespace>
+  <title>Erschliessungen ausserhalb Bauzonen</title>
+  <abstract>Erschliessungen ausserhalb Bauzonen (Projekt der SGV, AfU, ALW und LMK). </abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasserversorgung</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594750.35377162</minx>
+    <maxx>2644150.69850918</maxx>
+    <miny>1215400.22968726</miny>
+    <maxy>1261300.54630571</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.368946190768364</minx>
+    <maxx>8.024598358853162</maxx>
+    <miny>47.08814066311798</miny>
+    <maxy>47.502449941588225</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fab</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

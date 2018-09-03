@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b76</id>
+  <name>forstreviere.forstkreis</name>
+  <nativeName>forstreviere_forstkreis</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd6</id>
+  </namespace>
+  <title>Forstkreis</title>
+  <abstract>Forstkreis
+Bearbeitung</abstract>
+  <keywords>
+    <string>forstreviere_forstkreis</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592560.72422969</minx>
+    <maxx>2644759.7406363</maxx>
+    <miny>1213703.19483008</miny>
+    <maxy>1261330.17585574</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3398840008608515</minx>
+    <maxx>8.032684350600245</maxx>
+    <miny>47.07283551645116</miny>
+    <maxy>47.50272180234209</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f98</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

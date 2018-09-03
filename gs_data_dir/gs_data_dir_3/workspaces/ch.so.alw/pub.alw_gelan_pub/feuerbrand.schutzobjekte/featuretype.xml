@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d5a</id>
+  <name>feuerbrand.schutzobjekte</name>
+  <nativeName>feuerbrand_schutzobjekte</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fde</id>
+  </namespace>
+  <title>Feuerbrand - Schutzobjekte</title>
+  <abstract>Feuerbrand Schutzobjekte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>feuerbrand_schutzobjekte</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597574.57653184</minx>
+    <maxx>2612409.47305568</maxx>
+    <miny>1214810.97298551</miny>
+    <maxy>1232955.45650831</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.40658886113358</minx>
+    <maxx>7.6025435909561745</maxx>
+    <miny>47.0841931522425</miny>
+    <maxy>47.24751352645339</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fac</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

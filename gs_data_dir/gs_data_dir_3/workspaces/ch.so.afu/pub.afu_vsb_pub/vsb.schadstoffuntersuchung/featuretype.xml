@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c3e</id>
+  <name>vsb.schadstoffuntersuchung</name>
+  <nativeName>nabodat</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Schadstoffuntersuchung (VSB)</title>
+  <abstract>Schadstoffuntersuchung (VSB)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>nabodat</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596285.34471209</minx>
+    <maxx>2643871.69278751</maxx>
+    <miny>1215209.24162416</miny>
+    <maxy>1259980.50086202</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.38933048457792</minx>
+    <maxx>8.020765606825522</maxx>
+    <miny>47.08644130748748</miny>
+    <maxy>47.49057310473636</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbb</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

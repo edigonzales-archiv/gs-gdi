@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7dc8</id>
+  <name>leitungskataster.wasser.rohrleitungsteile</name>
+  <nativeName>wasser_rohrleitungsteil</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Rohrleitungsteile Wasser (Leitungskataster)</title>
+  <abstract>Rohrleitungsteile Wasser (Leitungskataster)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_rohrleitungsteil</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595920.48131621</minx>
+    <maxx>2632072.56739133</maxx>
+    <miny>1217031.19921707</miny>
+    <maxy>1259283.56381546</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.38449544083594</minx>
+    <maxx>7.86415385313188</maxx>
+    <miny>47.10350506299994</miny>
+    <maxy>47.48431315025657</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

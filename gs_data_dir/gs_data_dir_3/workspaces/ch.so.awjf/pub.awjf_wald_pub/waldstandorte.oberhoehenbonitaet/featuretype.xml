@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d14</id>
+  <name>waldstandorte.oberhoehenbonitaet</name>
+  <nativeName>oberhoehenbonitaet</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd6</id>
+  </namespace>
+  <title>Wald - Standorte Oberhöhenbonität</title>
+  <abstract>Oberhöhenbonität (IAP)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>oberhoehenbonitaet</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592582.75403619</minx>
+    <maxx>2644736.5961525</maxx>
+    <miny>1213708.83718591</miny>
+    <maxy>1260822.40010945</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.340184936553282</minx>
+    <maxx>8.032326232108076</maxx>
+    <miny>47.07288782961955</miny>
+    <maxy>47.49815489444561</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f97</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f80</id>
+  <name>aggloprogramme.uebersicht</name>
+  <nativeName>agglomrtnsprgrmme_agglomerationsprogramm</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Agglomerationsprogramme-Übersicht</title>
+  <abstract>Übersicht über die Agglomerationsprogramme</abstract>
+  <keywords>
+    <string>features</string>
+    <string>agglomrtnsprgrmme_agglomerationsprogramm</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2600906.71655593</minx>
+    <maxx>2653240.78571541</maxx>
+    <miny>1221851.99767257</miny>
+    <maxy>1259863.88657086</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.450582713398996</minx>
+    <maxx>8.14506619412214</maxx>
+    <miny>47.14550337949359</miny>
+    <maxy>47.48953467602624</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa8</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

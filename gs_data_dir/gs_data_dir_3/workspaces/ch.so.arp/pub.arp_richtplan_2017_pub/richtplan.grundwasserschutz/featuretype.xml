@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7eb2</id>
+  <name>richtplan.grundwasserschutz</name>
+  <nativeName>gwsz</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Grundwasserschutzzonen und -areale (Richtplan)</title>
+  <abstract>Grundwasserschutzzonen und -areale (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gwsz</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593384.95599279</minx>
+    <maxx>2643641.62343622</maxx>
+    <miny>1217035.73195125</miny>
+    <maxy>1259555.72232548</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.350850264245157</minx>
+    <maxx>8.017671315461437</maxx>
+    <miny>47.102885181655566</miny>
+    <maxy>47.48676142818678</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

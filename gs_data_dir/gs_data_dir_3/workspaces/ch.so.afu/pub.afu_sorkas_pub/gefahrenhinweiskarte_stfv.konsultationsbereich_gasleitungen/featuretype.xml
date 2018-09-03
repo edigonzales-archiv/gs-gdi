@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e2a</id>
+  <name>gefahrenhinweiskarte_stfv.konsultationsbereich_gasleitungen</name>
+  <nativeName>gasleitungen_kb</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Konsultationsbereich Gasleitung (gemäss StFV)</title>
+  <abstract>Konsultationsbereich Gasleitung (gemäss StFV) (Gefahrenhinweiskarte Störfälle)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gasleitungen_kb</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594769.36636596</minx>
+    <maxx>2642969.57062782</maxx>
+    <miny>1213949.06743595</miny>
+    <maxy>1260742.79913351</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.369205180271574</minx>
+    <maxx>8.008869012930436</maxx>
+    <miny>47.075165487795445</miny>
+    <maxy>47.497434399129794</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

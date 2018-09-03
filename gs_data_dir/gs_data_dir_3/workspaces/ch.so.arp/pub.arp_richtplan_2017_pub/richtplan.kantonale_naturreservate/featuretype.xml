@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f60</id>
+  <name>richtplan.kantonale_naturreservate</name>
+  <nativeName>natgebiete</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Kantonale Naturreservate (Richtplan)</title>
+  <abstract>Kantonale Naturreservate (inkl. Geotope)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>natgebiete</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595764.10279753</minx>
+    <maxx>2644189.27594753</maxx>
+    <miny>1215038.193</miny>
+    <maxy>1259797.93092794</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.382415648801509</minx>
+    <maxx>8.024961446790774</maxx>
+    <miny>47.08488168634645</miny>
+    <maxy>47.4889312339869</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

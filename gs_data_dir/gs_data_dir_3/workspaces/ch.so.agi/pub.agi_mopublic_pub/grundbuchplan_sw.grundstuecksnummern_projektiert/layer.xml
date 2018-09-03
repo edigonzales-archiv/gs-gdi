@@ -1,0 +1,15 @@
+<layer>
+  <name>grundbuchplan_sw.grundstuecksnummern_projektiert</name>
+  <id>LayerInfoImpl--2af7a5ef:1659fe6c71d:-7e11</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2af7a5ef:1659fe6c71d:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e12</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

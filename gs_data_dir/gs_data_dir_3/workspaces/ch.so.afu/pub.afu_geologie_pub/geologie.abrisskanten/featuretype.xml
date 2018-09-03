@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7ef4</id>
+  <name>geologie.abrisskanten</name>
+  <nativeName>abrkt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Abrisskanten (Geologie)</title>
+  <abstract>Abrisskanten Geologische Karte</abstract>
+  <keywords>
+    <string>features</string>
+    <string>abrkt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595001.69335316</minx>
+    <maxx>2641274.09040377</maxx>
+    <miny>1213810.78453982</miny>
+    <maxy>1254059.78265482</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.372364485946105</minx>
+    <maxx>7.9857512927383585</maxx>
+    <miny>47.0740293618935</miny>
+    <maxy>47.437327755734984</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

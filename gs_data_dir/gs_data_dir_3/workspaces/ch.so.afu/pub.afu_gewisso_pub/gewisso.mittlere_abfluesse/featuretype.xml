@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c82</id>
+  <name>gewisso.mittlere_abfluesse</name>
+  <nativeName>gwn_25_l_mq</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Mittlere Abflüsse (MO) (Gewässerinformationssystem)</title>
+  <abstract>Mittlere Abflüsse (MO) (Gewisso)
+Gewässerinformationssystem
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gwn_25_l_mq</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592506.05053498</minx>
+    <maxx>2644049.01332168</maxx>
+    <miny>1214179.0461787</miny>
+    <maxy>1260221.49347144</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339177192448506</minx>
+    <maxx>8.023142228187817</maxx>
+    <miny>47.077163253602706</miny>
+    <maxy>47.49275069668598</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

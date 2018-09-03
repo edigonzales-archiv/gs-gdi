@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f4e</id>
+  <name>richtplan.uebertragungsleitungen_swissgrid</name>
+  <nativeName>uebertragungsleitung_swissgrid</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Übertragungsleitungen swissgrid (Richtplan)</title>
+  <abstract>Übertragungsleitungen swissgrid (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>uebertragungsleitung_swissgrid</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2590000.23733105</minx>
+    <maxx>2648000.74156908</maxx>
+    <miny>1210000.08425408</miny>
+    <maxy>1263000.50216601</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.30586218464334</minx>
+    <maxx>8.075877817715972</maxx>
+    <miny>47.03930044866074</miny>
+    <maxy>47.51774543845133</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

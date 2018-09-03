@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d04</id>
+  <name>ekat2010_pm10_industrie_gewerbe</name>
+  <nativeName>industrie_gewerbe</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>PM10 Industrie und Gewerbe (EKAT 2010)</title>
+  <abstract>PM10 Industrie und Gewerbe (EKAT 2010)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>industrie_gewerbe</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592500.0</minx>
+    <maxx>2644800.0</maxx>
+    <miny>1213700.0</miny>
+    <maxy>1261400.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339076851324021</minx>
+    <maxx>8.033225679408355</maxx>
+    <miny>47.07280406118942</miny>
+    <maxy>47.503349870664785</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

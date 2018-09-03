@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f5a</id>
+  <name>richtplan.naturpark</name>
+  <nativeName>naturpark</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Regionaler Naturpark von nationaler Bedeutung (Richtplan)</title>
+  <abstract>Regionaler Naturpark von nationaler Bedeutung (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>naturpark</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2598302.13539415</minx>
+    <maxx>2659967.41633904</maxx>
+    <miny>1232426.2609661</miny>
+    <maxy>1270716.31954872</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.41604944682322</minx>
+    <maxx>8.235777384793973</maxx>
+    <miny>47.24003582478598</miny>
+    <maxy>47.58713715566845</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

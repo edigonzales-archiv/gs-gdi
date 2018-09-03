@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7de6</id>
+  <name>lidar_2014.hoehenkurven_10m</name>
+  <nativeName>hoehenkurven_10m_vereinfacht</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Höhenkurven 10m (LiDAR 2014)</title>
+  <abstract>Höhenkurven 10m vereinfacht (LiDAR 2014)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>hoehenkurven_10m_vereinfacht</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592270.87133322</minx>
+    <maxx>2644995.71319341</maxx>
+    <miny>1213405.87496751</miny>
+    <maxy>1261555.27611277</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.33603298670301</minx>
+    <maxx>8.035838837673532</maxx>
+    <miny>47.070145241563786</miny>
+    <maxy>47.504746662502534</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

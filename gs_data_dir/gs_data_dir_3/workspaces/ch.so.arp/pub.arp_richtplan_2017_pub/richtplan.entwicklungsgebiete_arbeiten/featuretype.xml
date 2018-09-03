@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f68</id>
+  <name>richtplan.entwicklungsgebiete_arbeiten</name>
+  <nativeName>entwicklungsgebiete_arbeiten</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Entwicklungsgebiete Arbeiten (Richtplan)</title>
+  <abstract>Entwicklungsgebiete Arbeiten (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>entwicklungsgebiete_arbeiten</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597439.1009877</minx>
+    <maxx>2642509.01121263</maxx>
+    <miny>1223932.68454754</miny>
+    <maxy>1259403.87784466</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.404643629469635</minx>
+    <maxx>8.00262955733414</maxx>
+    <miny>47.164994179660596</miny>
+    <maxy>47.485392636086345</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

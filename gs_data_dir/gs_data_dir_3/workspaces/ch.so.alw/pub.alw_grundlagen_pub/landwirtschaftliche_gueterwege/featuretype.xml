@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7dbe</id>
+  <name>landwirtschaftliche_gueterwege</name>
+  <nativeName>landwirtschaftliche_gueterwege</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fde</id>
+  </namespace>
+  <title>Landwirtschaftliche Güterwege</title>
+  <abstract>Landwirtschaftliche Güterwege (ehem. Bergwege)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>landwirtschaftliche_gueterwege</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592703.4057863</minx>
+    <maxx>2642222.56510986</maxx>
+    <miny>1227492.76013516</miny>
+    <maxy>1257599.01524355</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.341839486479134</minx>
+    <maxx>7.998658374509043</maxx>
+    <miny>47.19703364803154</miny>
+    <maxy>47.469164451447334</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fab</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

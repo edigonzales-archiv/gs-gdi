@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7ee2</id>
+  <name>richtplan.wildtierkorridor</name>
+  <nativeName>wildtierkorridor</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Wildtierkorridor (Richtplan)</title>
+  <abstract>Wildtierkorridor (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wildtierkorridor</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2599044.56464877</minx>
+    <maxx>2644594.25770028</maxx>
+    <miny>1215013.7438726</miny>
+    <maxy>1258278.73568811</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.425947804471037</minx>
+    <maxx>8.030183025340303</maxx>
+    <miny>47.08463465720978</miny>
+    <maxy>47.47527763252535</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

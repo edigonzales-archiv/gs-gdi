@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e60</id>
+  <name>adagisa.schutz_olten_solothurn</name>
+  <nativeName>schutz_olten_solothurn</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe4</id>
+  </namespace>
+  <title>Schutzzonen Innenstadt</title>
+  <abstract>Schutzzonen Innenstadt (Olten, Solothurn)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>schutz_olten_solothurn</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2607066.04361485</minx>
+    <maxx>2635262.89332785</maxx>
+    <miny>1227921.43592242</miny>
+    <maxy>1244803.09996651</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.531883850835315</minx>
+    <maxx>7.905340118358945</maxx>
+    <miny>47.20129684482123</miny>
+    <maxy>47.35403946796299</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fd2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e20</id>
+  <name>gefahrenhinweiskarte_stfv.konsultationsbereich_nationalstrassen</name>
+  <nativeName>natstr_kb</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Konsultationsbereich Nationalstrasse (gemäss StFV)</title>
+  <abstract>Konsultationsbereich Nationalstrasse (gemäss StFV) (Gefahrenhinweiskarte Störfälle)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>natstr_kb</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2611289.87027373</minx>
+    <maxx>2640662.76181196</maxx>
+    <miny>1222339.00295596</miny>
+    <maxy>1244840.13734814</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.5874902120013505</minx>
+    <maxx>7.976810363957112</maxx>
+    <miny>47.15077565398436</miny>
+    <maxy>47.35431419921531</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

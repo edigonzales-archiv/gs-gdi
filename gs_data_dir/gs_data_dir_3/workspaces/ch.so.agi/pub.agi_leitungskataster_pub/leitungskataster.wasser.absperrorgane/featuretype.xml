@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7ddc</id>
+  <name>leitungskataster.wasser.absperrorgane</name>
+  <nativeName>wasser_absperrorgan</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Absperrorgane Wasser (Leitungskataster)</title>
+  <abstract>Absperrorgane Wasser (Leitungskataster)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_absperrorgan</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595334.22145982</minx>
+    <maxx>2632071.91337347</maxx>
+    <miny>1217030.12030369</miny>
+    <maxy>1260360.16353539</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.376705545113258</minx>
+    <maxx>7.864222540694675</maxx>
+    <miny>47.1034953900523</miny>
+    <maxy>47.49399722280648</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b48</id>
+  <name>nutzungsplanung.sondernutzungsplaene.baugk</name>
+  <nativeName>nutzungsplanung_ueberlagernd_flaeche</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Sondernutzungspläne (BauGK - Dataservice)</title>
+  <abstract>Konfig für BauGK Dataservice. Verwendet ch.so.arp.nutzungsplanung.sondernutzungsplaene.qml
+Fragen: Oliver
+</abstract>
+  <keywords>
+    <string>features</string>
+    <string>nutzungsplanung_ueberlagernd_flaeche</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2629743.763</minx>
+    <maxx>2635562.542</maxx>
+    <miny>1240078.29</miny>
+    <maxy>1250814.161</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.8319810327960315</minx>
+    <maxx>7.909783094985551</maxx>
+    <miny>47.31062444579979</miny>
+    <maxy>47.40747250227113</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa3</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

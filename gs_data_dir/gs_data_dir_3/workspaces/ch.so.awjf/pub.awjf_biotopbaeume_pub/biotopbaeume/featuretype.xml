@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b72</id>
+  <name>biotopbaeume</name>
+  <nativeName>biotopbaeume_biotopbaum</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd6</id>
+  </namespace>
+  <title>Biotopbäume</title>
+  <abstract>Biotopbäume
+Bearbeitung</abstract>
+  <keywords>
+    <string>biotopbaeume_biotopbaum</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594869.28409686</minx>
+    <maxx>2640735.16162663</maxx>
+    <miny>1214274.45370367</miny>
+    <maxy>1260728.754</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.370531370198674</minx>
+    <maxx>7.979215960081434</maxx>
+    <miny>47.07823326845683</miny>
+    <maxy>47.497309216459726</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f99</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

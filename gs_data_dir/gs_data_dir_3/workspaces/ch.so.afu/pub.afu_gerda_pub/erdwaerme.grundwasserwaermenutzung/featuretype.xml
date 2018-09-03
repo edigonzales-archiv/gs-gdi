@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d8a</id>
+  <name>erdwaerme.grundwasserwaermenutzung</name>
+  <nativeName>gew_bew_ad</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Erdwärme- und Grundwasserwärmenutzung inkl. Voranfragen</title>
+  <abstract>Erdwärme- und Grundwasserwärmenutzung inkl. Voranfragen</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gew_bew_ad</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594857.0</minx>
+    <maxx>2644708.0</maxx>
+    <miny>1214827.0</miny>
+    <maxy>1259998.0</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.370376908163377</minx>
+    <maxx>8.031864094253033</maxx>
+    <miny>47.082947294202725</miny>
+    <maxy>47.490734132821856</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

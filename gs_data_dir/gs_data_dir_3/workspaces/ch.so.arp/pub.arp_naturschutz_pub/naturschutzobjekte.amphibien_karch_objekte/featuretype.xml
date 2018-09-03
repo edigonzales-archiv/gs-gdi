@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d74</id>
+  <name>naturschutzobjekte.amphibien_karch_objekte</name>
+  <nativeName>karch_objekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>KARCH-Objekte Amphibien</title>
+  <abstract>Amphibien der Koordinationsstelle für Amphibien- &amp; Reptilienschutz in der Schweiz (karch)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>karch_objekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594650.34032483</minx>
+    <maxx>2644575.70676075</maxx>
+    <miny>1214800.25245234</miny>
+    <maxy>1259725.51666285</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.367637955666347</minx>
+    <maxx>8.030081495974551</maxx>
+    <miny>47.082715616137556</miny>
+    <maxy>47.48828432329901</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

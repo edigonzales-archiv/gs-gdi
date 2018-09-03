@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7be2</id>
+  <name>ekat2005_n2o_verkehr</name>
+  <nativeName>verkehr</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>N2O Verkehr (EKAT 2005)</title>
+  <abstract>N2O Verkehr (EKAT 2005)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>verkehr</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592500.3276621</minx>
+    <maxx>2644800.70954845</maxx>
+    <miny>1213700.19076992</miny>
+    <maxy>1261400.54809327</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.339081190938799</minx>
+    <maxx>8.033235151545325</maxx>
+    <miny>47.07280572917122</miny>
+    <maxy>47.50335479947155</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fca</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

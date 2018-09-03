@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c7c</id>
+  <name>ekat2010_betriebe_industrie_gewerbe</name>
+  <nativeName>uplus</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Betriebe Industrie/Gewerbe (EKAT 2010)</title>
+  <abstract>Betriebe Industrie/Gewerbe (EKAT 2010)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>uplus</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>598319.0</minx>
+    <maxx>2644295.70145975</maxx>
+    <miny>224907.0</miny>
+    <maxy>1260307.52226324</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-18.185698402076856</minx>
+    <maxx>8.026424145260451</maxx>
+    <miny>35.6730361944572</miny>
+    <maxy>47.49203668207968</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

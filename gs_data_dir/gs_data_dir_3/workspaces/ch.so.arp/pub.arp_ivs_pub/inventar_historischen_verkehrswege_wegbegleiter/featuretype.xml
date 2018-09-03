@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7eb0</id>
+  <name>inventar_historischen_verkehrswege_wegbegleiter</name>
+  <nativeName>punktobjekt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Inventar der historischen Verkehrswege - Wegbegleiter</title>
+  <abstract>Inventar der historischen Verkehrswege - Wegbegleiter</abstract>
+  <keywords>
+    <string>features</string>
+    <string>punktobjekt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594391.61721431</minx>
+    <maxx>2644456.88823364</maxx>
+    <miny>1214547.88885708</miny>
+    <maxy>1260718.69016896</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.364192313115466</minx>
+    <maxx>8.028603997587158</maxx>
+    <miny>47.08045366101793</miny>
+    <maxy>47.49721784005468</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

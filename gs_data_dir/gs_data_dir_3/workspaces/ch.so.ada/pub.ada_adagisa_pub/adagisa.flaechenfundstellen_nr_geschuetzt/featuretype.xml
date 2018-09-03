@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e3e</id>
+  <name>adagisa.flaechenfundstellen_nr_geschuetzt</name>
+  <nativeName>flaechenfundstellen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe4</id>
+  </namespace>
+  <title>Flächenfundstellen Nummer geschützt</title>
+  <abstract>Flächenfundstellen Nummer geschützt
+Bearbeitung</abstract>
+  <keywords>
+    <string>flaechenfundstellen</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595662.41668857</minx>
+    <maxx>2644540.14956482</maxx>
+    <miny>1213884.14963195</miny>
+    <maxy>1260726.32452271</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3810571723367575</minx>
+    <maxx>8.029709669606556</maxx>
+    <miny>47.07447793777419</miny>
+    <maxy>47.497281277302704</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fd2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

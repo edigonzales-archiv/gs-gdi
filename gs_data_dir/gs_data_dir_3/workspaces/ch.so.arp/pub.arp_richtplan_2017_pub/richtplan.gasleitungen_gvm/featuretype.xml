@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f48</id>
+  <name>richtplan.gasleitungen_gvm</name>
+  <nativeName>gasleitung_gvm</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Gasleitungen GVM (Richtplan)</title>
+  <abstract>Gasleitungen GVM (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>gasleitung_gvm</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>1999999.5</minx>
+    <maxx>2645786.51220939</maxx>
+    <miny>999998.5</miny>
+    <maxy>1261037.56974361</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-0.497194017581096</minx>
+    <maxx>8.046281330216203</maxx>
+    <miny>44.89020363649855</miny>
+    <maxy>47.4985004139177</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d62</id>
+  <name>neophyten.prioritaere_arten</name>
+  <nativeName>neophyten</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fde</id>
+  </namespace>
+  <title>Neophyten - Prioritäre Arten</title>
+  <abstract>Neophytenfundorte der prioritären Arten.</abstract>
+  <keywords>
+    <string>features</string>
+    <string>neophyten</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593608.34451958</minx>
+    <maxx>2644681.70841652</maxx>
+    <miny>1215000.28390743</miny>
+    <maxy>1260686.52908128</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3537978761074765</minx>
+    <maxx>8.031584223424812</maxx>
+    <miny>47.08450770100332</miny>
+    <maxy>47.4969307922433</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7faa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7dbc</id>
+  <name>leitungskataster.abwasser.schachtbeschriftungen</name>
+  <nativeName>abwasser_bauwerk_text</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Schachtbeschriftungen Abwasser (Leitungskataster)</title>
+  <abstract>Schachtbeschriftungen Abwasser (Leitungskataster)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>abwasser_bauwerk_text</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595256.43425347</minx>
+    <maxx>2617064.80927279</maxx>
+    <miny>1217168.96454711</miny>
+    <maxy>1260352.57709011</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.375673366253039</minx>
+    <maxx>7.665076616638579</maxx>
+    <miny>47.105299864603055</miny>
+    <maxy>47.49393014168719</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

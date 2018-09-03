@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e4e</id>
+  <name>grundbuchplan_sw.bodenbedeckung_symbol</name>
+  <nativeName>bodenbedeckung_boflaechesymbol</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Bodenbedeckung Symbol (Grundbuchplan schwarz-weiss)</title>
+  <abstract>Bodenbedeckung Symbol (Grundbuchplan schwarz-weiss)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bodenbedeckung_boflaechesymbol</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594659.314</minx>
+    <maxx>2644705.646</maxx>
+    <miny>1213769.575</miny>
+    <maxy>1260485.429</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.367747786132986</minx>
+    <maxx>8.031881721066929</maxx>
+    <miny>47.0734362357388</miny>
+    <maxy>47.49511878519974</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

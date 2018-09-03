@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d72</id>
+  <name>naturschutzobjekte.amphibienstandorte</name>
+  <nativeName>amphibienstandort</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Amphibienstandorte</title>
+  <abstract>Amphibienstandorte
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>amphibienstandort</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595772.31680418</minx>
+    <maxx>2642619.67466015</maxx>
+    <miny>1223206.45478945</miny>
+    <maxy>1246055.18627011</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.382657067625854</minx>
+    <maxx>8.002825445259836</maxx>
+    <miny>47.15845495583263</miny>
+    <maxy>47.365328894378536</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

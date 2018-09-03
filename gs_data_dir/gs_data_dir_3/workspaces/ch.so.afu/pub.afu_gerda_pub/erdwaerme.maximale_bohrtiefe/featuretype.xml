@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c92</id>
+  <name>erdwaerme.maximale_bohrtiefe</name>
+  <nativeName>ews_max_tiefe</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Maximale Bohrtiefe gemäss Nagra</title>
+  <abstract>Maximale Bohrtiefe gemäss Nagra</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ews_max_tiefe</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2634744.42516792</minx>
+    <maxx>2650192.54706615</maxx>
+    <miny>1241409.79986605</miny>
+    <maxy>1248417.12495428</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.898215470373919</minx>
+    <maxx>8.103335733033557</maxx>
+    <miny>47.321650084229326</miny>
+    <maxy>47.38566893732884</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc6</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

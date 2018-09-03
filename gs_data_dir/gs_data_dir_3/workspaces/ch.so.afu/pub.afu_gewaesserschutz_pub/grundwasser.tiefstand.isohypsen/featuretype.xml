@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7b8c</id>
+  <name>grundwasser.tiefstand.isohypsen</name>
+  <nativeName>aww_gstiso</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>GW-Isohypsen (TGW - Tiefstand)</title>
+  <abstract>Tiefstand Grundwasser Linie (TGW)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>aww_gstiso</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595751.21220331</minx>
+    <maxx>2615921.50998277</maxx>
+    <miny>1222052.37385417</miny>
+    <maxy>1231510.26573969</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.382517845541206</minx>
+    <maxx>7.64888305844022</maxx>
+    <miny>47.14925362482611</miny>
+    <maxy>47.23451422012066</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

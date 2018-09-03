@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d34</id>
+  <name>waldplan.waldfunktion</name>
+  <nativeName>wap_bst</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fd6</id>
+  </namespace>
+  <title>Wald - Funktion</title>
+  <abstract>Wald Funktion</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wap_bst</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594829.60227297</minx>
+    <maxx>2644734.4794197</maxx>
+    <miny>1213703.19035886</miny>
+    <maxy>1255060.0952005</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.370071457185531</minx>
+    <maxx>8.031720587844545</maxx>
+    <miny>47.0728371808673</miny>
+    <maxy>47.44632275288019</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7f97</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

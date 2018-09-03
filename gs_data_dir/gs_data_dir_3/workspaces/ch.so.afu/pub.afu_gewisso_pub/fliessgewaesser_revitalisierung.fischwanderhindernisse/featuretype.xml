@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f30</id>
+  <name>fliessgewaesser_revitalisierung.fischwanderhindernisse</name>
+  <nativeName>san_fischw_nicht_wk</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Fischwanderhindernisse (Revitalisierung Fliessgewässer)</title>
+  <abstract>Fischwanderhindernisse</abstract>
+  <keywords>
+    <string>features</string>
+    <string>san_fischw_nicht_wk</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597869.41604011</minx>
+    <maxx>2644039.7007766</maxx>
+    <miny>1221921.34860262</miny>
+    <maxy>1253027.48134845</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.41038464447218</minx>
+    <maxx>8.022309136779567</maxx>
+    <miny>47.14680307011154</miny>
+    <maxy>47.428044748184604</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

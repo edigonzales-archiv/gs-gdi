@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d70</id>
+  <name>naturschutzobjekte.flachmoore</name>
+  <nativeName>flachmoor</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Flachmoore regionaler Bedeutung</title>
+  <abstract>Flachmoore  regionaler Bedeutung
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>flachmoor</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595690.70060897</minx>
+    <maxx>2640596.50079673</maxx>
+    <miny>1223648.16863805</miny>
+    <maxy>1246125.10590533</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3815759258483675</minx>
+    <maxx>7.976049771596177</maxx>
+    <miny>47.16255511591015</miny>
+    <maxy>47.365959804993174</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

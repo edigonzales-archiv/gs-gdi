@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c3c</id>
+  <name>vsb.bodenbelastungsgebiet</name>
+  <nativeName>bodenbelastungsgebiet</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Bodenbelastungsgebiet (VSB)</title>
+  <abstract>Bodenbelastungsgebiet (VSB)
+Bearbeitung</abstract>
+  <keywords>
+    <string>features</string>
+    <string>bodenbelastungsgebiet</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2595533.86770732</minx>
+    <maxx>2643921.50826116</maxx>
+    <miny>1223506.99633648</miny>
+    <maxy>1259863.88657086</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.379359974077224</minx>
+    <maxx>8.021415112279442</maxx>
+    <miny>47.161073109313385</miny>
+    <maxy>47.48952574589222</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fbb</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

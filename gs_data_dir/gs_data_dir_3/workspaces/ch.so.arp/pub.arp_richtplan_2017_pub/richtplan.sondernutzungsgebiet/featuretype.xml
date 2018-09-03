@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f66</id>
+  <name>richtplan.sondernutzungsgebiet</name>
+  <nativeName>sondernutzungsgebiet</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fda</id>
+  </namespace>
+  <title>Sondernutzungsgebiet (Richtplan)</title>
+  <abstract>Sondernutzungsgebiet (Richtplan)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>sondernutzungsgebiet</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2597769.704</minx>
+    <maxx>2641134.87739163</maxx>
+    <miny>1219484.7753536</miny>
+    <maxy>1249004.97681809</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.409083819630407</minx>
+    <maxx>7.9834411477013685</maxx>
+    <miny>47.12507381882918</miny>
+    <maxy>47.391865354134694</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fa1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

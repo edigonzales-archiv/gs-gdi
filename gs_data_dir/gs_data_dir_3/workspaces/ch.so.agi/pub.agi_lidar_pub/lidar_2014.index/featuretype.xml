@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e82</id>
+  <name>lidar_2014.index</name>
+  <nativeName>lidarprodukte_lidarprodukt</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>LiDAR 2014 Datenbezug</title>
+  <abstract>Einteilung LiDAR 2014 für Datenbezug</abstract>
+  <keywords>
+    <string>features</string>
+    <string>lidarprodukte_lidarprodukt</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592000.31591494</minx>
+    <maxx>2645000.72125423</maxx>
+    <miny>1213000.16378427</miny>
+    <maxy>1262000.55707193</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.332433829750901</minx>
+    <maxx>8.035950260791386</maxx>
+    <miny>47.06649564633973</miny>
+    <maxy>47.50875176242394</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7faf</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e38</id>
+  <name>adagisa.punktfundstellen_nr_ungeschuetzt</name>
+  <nativeName>punktfundstellen</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe4</id>
+  </namespace>
+  <title>Punktfundstellen Nummer ungeschützt</title>
+  <abstract>Punktfundstellen Nummer ungeschützt</abstract>
+  <keywords>
+    <string>features</string>
+    <string>punktfundstellen</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594000.34527774</minx>
+    <maxx>2644750.7075666</maxx>
+    <miny>1214675.23650841</miny>
+    <maxy>1260699.20871764</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.358999962628965</minx>
+    <maxx>8.032501135344095</maxx>
+    <miny>47.081579347584494</miny>
+    <maxy>47.497043690554946</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fd2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7e28</id>
+  <name>grundbuchplan_f.grundstuecksnummern</name>
+  <nativeName>liegenschaften_grundstueckpos</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Grundstücksnummern (Grundbuchplan farbig)</title>
+  <abstract>Grundstücksnummern (Grundbuchplan farbig)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>liegenschaften_grundstueckpos</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2592780.856</minx>
+    <maxx>2644743.88</maxx>
+    <miny>1213845.918</miny>
+    <maxy>1261314.645</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.342805950877867</minx>
+    <maxx>8.032472293523767</maxx>
+    <miny>47.07412033971163</miny>
+    <maxy>47.502581767816636</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb5</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

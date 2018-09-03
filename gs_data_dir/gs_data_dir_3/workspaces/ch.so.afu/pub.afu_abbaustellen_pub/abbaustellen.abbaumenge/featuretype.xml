@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7d28</id>
+  <name>abbaustellen.abbaumenge</name>
+  <nativeName>abbau_menge</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Abbaumenge (geschützt)</title>
+  <abstract>Abbaumenge </abstract>
+  <keywords>
+    <string>features</string>
+    <string>abbau_menge</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2593911.34070624</minx>
+    <maxx>2642522.97236019</maxx>
+    <miny>1214570.67426418</miny>
+    <maxy>1257295.24258922</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.35786586798901</minx>
+    <maxx>8.002613875220629</maxx>
+    <miny>47.08078545605151</miny>
+    <maxy>47.4664300522648</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fd0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -93,9 +93,19 @@ for row in rows:
      # print field.name(), field.typeName()
 
 
-    vlayer.loadNamedStyle(name+".qml")
+    retStr = vlayer.loadNamedStyle(name+".qml")
+    print retStr
     #vlayer.saveNamedStyle(name+"-fubar.qml")
     vlayer.saveSldStyle(name+".sld")
+
+    # with open(name+".qml", 'r') as myfile:
+    #   data = myfile.read()
+    #   print data
+
+    # with open(name+".sld", 'r') as myfile:
+    #   data = myfile.read()
+    #   print data
+
 
 #print QgsMapLayerRegistry.instance().mapLayers()
 qgs.exitQgis()

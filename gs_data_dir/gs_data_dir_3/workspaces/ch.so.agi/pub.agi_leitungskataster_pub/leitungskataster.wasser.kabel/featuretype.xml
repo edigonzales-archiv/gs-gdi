@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7dc2</id>
+  <name>leitungskataster.wasser.kabel</name>
+  <nativeName>wasser_kabel</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe0</id>
+  </namespace>
+  <title>Kabel Wasser (Leitungskataster)</title>
+  <abstract>Kabel Wasser (Leitungskataster)</abstract>
+  <keywords>
+    <string>features</string>
+    <string>wasser_kabel</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2596693.36690451</minx>
+    <maxx>2616604.94965048</maxx>
+    <miny>1217345.08550864</miny>
+    <maxy>1259101.05043884</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.394751397036058</minx>
+    <maxx>7.65892772274351</maxx>
+    <miny>47.10689569828752</miny>
+    <maxy>47.482674300742055</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fb0</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

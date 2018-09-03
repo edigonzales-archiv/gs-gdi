@@ -1,0 +1,40 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7f3a</id>
+  <name>fliessgewaesser_oekomorphologie.abstuerze</name>
+  <nativeName>oeko_abstuerze</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Abstürze (Ökomorph. Fliessgewässer)</title>
+  <abstract>Abstürze (Ökomorph. Fliessgewässer)</abstract>
+  <keywords>
+    <string>oeko_abstuerze</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2594956.19386711</minx>
+    <maxx>2644639.60193457</maxx>
+    <miny>1213869.45785171</miny>
+    <maxy>1260485.14592401</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>7.3716875625172635</minx>
+    <maxx>8.031005297926695</maxx>
+    <miny>47.074339101893564</miny>
+    <maxy>47.49511514326121</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

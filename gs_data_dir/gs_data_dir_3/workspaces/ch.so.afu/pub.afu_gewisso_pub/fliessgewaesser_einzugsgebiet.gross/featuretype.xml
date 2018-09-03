@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--2af7a5ef:1659fe6c71d:-7c66</id>
+  <name>fliessgewaesser_einzugsgebiet.gross</name>
+  <nativeName>ezg_kt_so_1000</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--2af7a5ef:1659fe6c71d:-7fe2</id>
+  </namespace>
+  <title>Grosses Einzugsgebiet (Einzugsgebiet Fliessgewässer)</title>
+  <abstract>Einzugsgebiet gross (1000) (Gewisso)
+Gewässerinformationssystem</abstract>
+  <keywords>
+    <string>features</string>
+    <string>ezg_kt_so_1000</string>
+  </keywords>
+  <srs>EPSG:2056</srs>
+  <nativeBoundingBox>
+    <minx>2558273.01131747</minx>
+    <maxx>2674861.30113578</maxx>
+    <miny>1176669.846523</miny>
+    <maxy>1303398.84404557</maxy>
+    <crs class="projected">EPSG:2056</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>6.880829903505807</minx>
+    <maxx>8.43928469955974</maxx>
+    <miny>46.73702197179023</miny>
+    <maxy>47.88104989379243</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>false</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--2af7a5ef:1659fe6c71d:-7fc4</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
