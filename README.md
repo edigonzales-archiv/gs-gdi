@@ -103,9 +103,13 @@ docker build -t edigonzales/postgres-pub .
 docker run -it --rm --name postgres -p 5432:5432 -v /Users/stefan/tmp/pgdata:/var/lib/postgresql/data:cached edigonzales/postgres-pub
 ```
 
-Rollen anlegen (einmalig) und Pub-DB restoren:
+Pub-DB restoren:
 
+Dump in das lokale Verzeichnis `/Users/stefan/tmp/pgdata` kopieren.
 
+```
+docker exec postgres sh -c "sudu -u postgres pg_restore --role=postgres --exit-on-error -d pub /var/lib/postgresql/data/pub_geodb.rootso.org.dmp"
+```
 
 
 
