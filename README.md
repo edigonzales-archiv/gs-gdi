@@ -112,8 +112,48 @@ docker exec postgres sh -c "sudu -u postgres pg_restore --role=postgres --exit-o
 ```
 
 
+## Use cases
+
+### JSON-Attribut
+
+```
+CREATE TABLE arp_npl_pub.t_nutzungsplanung_grundnutzung
+AS
+SELECT
+  t_id, typ_bezeichnung, typ_verbindlichkeit, typ_kt, typ_code_kommunal,
+  json_strip_nulls(dok_id::json)::text AS dokumente_txt,
+  json_strip_nulls(dok_id::json) AS dokumente_json, geometrie
+FROM
+  arp_npl_pub.nutzungsplanung_grundnutzung
+;
+```
+
+FeatureType in GeoServer anlegen. Freemarker Templates sind im `usecases/json/`-Verzeichnis.
 
 
+```
+        <se:TextSymbolizer> 
+            <se:Label> 
+              <ogc:Function name="strSubstring"> 
+                <ogc:PropertyName>typ_code_kommunal</ogc:PropertyName> 
+                <ogc:Literal>0</ogc:Literal> 
+                <ogc:Literal>4</ogc:Literal> 
+              </ogc:Function> 
+            </se:Label> 
+            <se:Font> 
+              <se:SvgParameter name="font-family">Cadastra</se:SvgParameter> 
+              <se:SvgParameter name="font-style">Normal</se:SvgParameter> 
+              <se:SvgParameter name="font-size">14</se:SvgParameter> 
+            </se:Font> 
+            <se:Fill> 
+              <se:SvgParameter name="fill">#000000</se:SvgParameter> 
+            </se:Fill> 
+          </se:TextSymbolizer> 
+
+```
+
+#### Probleme
+* Freemarker hat mit Json-Attributen Probleme, die null sind. -> Workaround `json_strip_nulls`-Funktion in PostgreSQL.
 
 
 ## Offene Fragen
