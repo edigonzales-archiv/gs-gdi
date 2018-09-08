@@ -1,4 +1,4 @@
 <logging>
-  <level>DEFAULT_LOGGING.properties</level>
+  <level>GEOTOOLS_DEVELOPER_LOGGING.properties</level>
   <stdOutLogging>false</stdOutLogging>
 </logging>

@@ -18,13 +18,13 @@
     <entry key="Loose bbox">true</entry>
     <entry key="Estimated extends">true</entry>
     <entry key="fetch size">1000</entry>
-    <entry key="Expose primary keys">flase</entry>
+    <entry key="Expose primary keys">false</entry>
     <entry key="validate connections">true</entry>
-    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="Support on the fly geometry simplification">false</entry>
     <entry key="Connection timeout">20</entry>
     <entry key="create database">false</entry>
     <entry key="port">5432</entry>
-    <entry key="passwd">crypt1:4WMCzGc0abAilon54mWidw==</entry>
+    <entry key="passwd">crypt1:nfsA050pufX4jXnuDHP/UA==</entry>
     <entry key="min connections">1</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="namespace">http://arp.so.ch</entry>

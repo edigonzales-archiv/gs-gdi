@@ -1,0 +1,15 @@
+<layer>
+  <name>t_nutzungsplanung_grundnutzung</name>
+  <id>LayerInfoImpl-25e71004:165ae96c813:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-25e71004:165ae96c813:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-25e71004:165ae96c813:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
