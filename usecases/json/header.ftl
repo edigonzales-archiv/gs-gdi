@@ -9,54 +9,71 @@ like td, tr, and so on.
     <title>GeoServer GetFeatureInfo output</title>
   </head>
   <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,500,700');
+        body {
+                padding:1em;
+        }
         table.featureInfo, table.featureInfo td, table.featureInfo th {
-                font-family: Helvetica, Arial, sans-serif, sans;
+                font-family: 'Barlow Semi Condensed', Zurich, Univers, Helvetica, Arial, sans-serif, sans;
                 border:1px solid #ddd;
                 border-collapse:collapse;
-                margin:0;
+                margin-left: auto;
+                margin-right: auto;
                 padding:0;
-                font-size: 90%;
-                padding:.2em .1em;
+                width: 700px;
+                font-size: 100%;
+                font-weight: 300;
+                /*font-size: 13px;*/
+                /*padding:.2em .1em;*/
         }
-
         table.featureInfo a:link  {
                 color: #4C8FBA;
                 text-decoration: none;                
         }
-
         table.featureInfo a:visited {
                 color: #4C8FBA;
                 text-decoration: none;
         }
-
         table.featureInfo a:hover {
                 color: #4C8FBA;
                 text-decoration: none;
         }
-
         table.featureInfo a:active {
                 color: #4C8FBA;
                 text-decoration: none;
         }
-
         table.featureInfo th{
-            padding:.2em .2em;
-                text-transform:uppercase;
-                font-weight:bold;
+                padding:.2em .2em;
+                /*text-transform:uppercase;*/
+                font-weight:700;
                 background:#eee;
         }
         table.featureInfo td{
                 background:#fff;
+                padding: 0.5em;
         }
         table.featureInfo tr.odd td{
                 background:#eee;
         }
         table.featureInfo caption{
                 text-align:left;
-                font-size:100%;
-                font-weight:bold;
-                text-transform:uppercase;
+                font-size:120%;
+                font-weight:700;
+                /*text-transform:uppercase;*/
                 padding:.2em .2em;
+        }
+        table.documents, table.documents td, table.documents tr {
+                padding:.1em;
+                border:0px solid #ddd;
+                vertical-align:top;
+        }
+        hr {
+                display: block;
+                height: 1px;
+                border: 0;
+                border-top: 1px solid #ccc;
+                margin: 1em 0;
+                padding: 0;
         }
   </style>
   <body>
