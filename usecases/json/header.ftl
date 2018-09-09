@@ -15,7 +15,7 @@ like td, tr, and so on.
         }
         table.featureInfo, table.featureInfo td, table.featureInfo th {
                 font-family: 'Barlow Semi Condensed', Zurich, Univers, Helvetica, Arial, sans-serif, sans;
-                border:1px solid #ddd;
+                border:0px solid #ddd;
                 border-collapse:collapse;
                 margin-left: auto;
                 margin-right: auto;
@@ -51,6 +51,7 @@ like td, tr, and so on.
         table.featureInfo td{
                 background:#fff;
                 padding: 0.5em;
+                vertical-align: top;
         }
         table.featureInfo tr.odd td{
                 background:#eee;
