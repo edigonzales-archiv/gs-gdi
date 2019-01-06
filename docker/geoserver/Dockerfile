@@ -2,7 +2,7 @@ FROM tomcat:8-jre8
 
 MAINTAINER Stefan Ziegler <stefan.ziegler.de@gmail.com>
 
-ENV GEOSERVER_VERSION 2.13.2
+ENV GEOSERVER_VERSION 2.14.0
 ENV GEOSERVER_DATA_DIR /var/local/geoserver
 ENV GEOSERVER_INSTALL_DIR /usr/local/geoserver
 

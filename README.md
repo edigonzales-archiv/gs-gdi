@@ -80,6 +80,7 @@ docker build -t edigonzales/geoserver .
 TODO: sinnvolles leeres data_dir?
 ```
 docker run -it --rm --name geoserver -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir:/var/local/geoserver edigonzales/geoserver
+docker run -it --rm --name geoserver -p 8080:8080 -v /Users/stefan/tmp/gs_data_dir_raster:/var/local/geoserver edigonzales/geoserver
 docker run -it --rm --name geoserver -p 8080:8080 edigonzales/geoserver
 
 ```
