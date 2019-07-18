@@ -17,6 +17,7 @@ Vagrant-Maschine mit:
 ### Copy Dumps
 ```
 scp -v bjsvwzie@geoapp.verw.rootso.org:/opt/workspace/dbdump/soconfig_geodb.rootso.org.dmp .
+scp -v bjsvwzie@geoapp.verw.rootso.org:/opt/workspace/dbdump/globals_geodb.rootso.org.dmp .
 scp -v bjsvwzie@geoapp.verw.rootso.org:/opt/workspace/dbdump/pub_geodb.rootso.org.dmp .
 ```
 
